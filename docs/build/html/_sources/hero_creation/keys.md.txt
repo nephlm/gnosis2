@@ -51,3 +51,10 @@ brave may be Boons or Secrets, but they are not Keys.
 Unless an ideal represents a path that forces the Hero
 to take action, it is unlikely to qualify as a Key of the
 Ideal/Belief.
+
+```{toctree}
+:maxdepth: 2
+:hidden: true
+:caption: Contents:
+keys_list.md
+```
