@@ -3,10 +3,10 @@
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Currencies" href="../currency.html" /><link rel="prev" title="Quests" href="../world_creation/quests.html" />
+<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Attributes" href="attributes.html" /><link rel="prev" title="Intial World Creation" href="../world_creation/initial_creation.html" />
 
     <!-- Generated with Sphinx 8.1.3 and Furo 2024.08.06 -->
-        <title>Hero Creation - Gnosis</title>
+        <title>Making a Hero - Gnosis</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=a746c00c" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=354aac6f" />
     <link rel="stylesheet" type="text/css" href="../_static/tabs.css?v=4c969af8" />
@@ -179,7 +179,7 @@
           <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
         </button>
       </div>
-      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
         <div class="visually-hidden">Toggle table of contents sidebar</div>
         <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
       </label>
@@ -206,12 +206,30 @@
 <li class="toctree-l2"><a class="reference internal" href="../world_creation/demiurge.html">The Demiurge and Logos</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../world_creation/facts.html">Creating Facts</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../world_creation/quests.html">Quests</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../world_creation/initial_creation.html">Intial World Creation</a></li>
 </ul>
 </li>
-<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Hero Creation</a></li>
+<li class="toctree-l1 current has-children current-page"><a class="current reference internal" href="#">Making a Hero</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle navigation of Making a Hero</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="attributes.html">Attributes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="keys.html">Keys</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="boons/boons.html">Boons</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle navigation of Boons</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="boons/talents.html">Talents</a></li>
+<li class="toctree-l3"><a class="reference internal" href="boons/gear.html">Gear</a></li>
+<li class="toctree-l3"><a class="reference internal" href="boons/network.html">Network</a></li>
+<li class="toctree-l3"><a class="reference internal" href="boons/location.html">Locations</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="secrets.html">Secrets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="starting_resources.html">Starting Resources</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="../currency.html">Currencies</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../play.html">Resolution</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../downtime.html">Downtime Activities</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../play/play.html">Play</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle navigation of Play</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../play/resolution.html">Challenges</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../play/props.html">Props</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../play/downtime.html">Downtime Activities</a></li>
+</ul>
+</li>
 </ul>
 
 </div>
@@ -246,14 +264,110 @@
               <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
             </button>
           </div>
-          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
             <div class="visually-hidden">Toggle table of contents sidebar</div>
             <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
           </label>
         </div>
         <article role="main" id="furo-main-content">
-          <section id="hero-creation">
-<h1>Hero Creation<a class="headerlink" href="#hero-creation" title="Link to this heading">¶</a></h1>
+          <section id="making-a-hero">
+<h1>Making a Hero<a class="headerlink" href="#making-a-hero" title="Link to this heading">¶</a></h1>
+<p>In addition to the demiurge which exist outside of
+creation, each player also has a Hero. The Hero is
+connected to the demiurge, though since creation isn’t
+even aware of the existence of the demiurges, the Hero
+certainly isn’t either.</p>
+<p>It is the player’s responsibility to advocate for the
+success of the hero. Although we call the Hero a hero,
+depending on the campaign he may be more or less
+heroic to downright unpleasant.</p>
+<section id="questions">
+<h2>Questions<a class="headerlink" href="#questions" title="Link to this heading">¶</a></h2>
+<p>Each player must answer the following 6 questions
+for his hero. These questions will be used to give
+a sense of who the hero is and determine his starting
+bonuses. The starting bonuses have mechanical effects,
+the answers to these questions otherwise only have
+narrative effects, but that can be significant in itself.</p>
+<section id="whats-on-the-surface">
+<h3>What’s on the Surface?<a class="headerlink" href="#whats-on-the-surface" title="Link to this heading">¶</a></h3>
+<p>What does the Hero look like, what does he appear be.
+What assumptions do people make by looking at him?
+Who would be cast to play him in a movie?</p>
+</section>
+<section id="what-is-the-heros-vice">
+<h3>What is the Hero’s Vice?<a class="headerlink" href="#what-is-the-heros-vice" title="Link to this heading">¶</a></h3>
+<p>What is the Hero’s weakness that drives him to make
+poor decisions? Everyone has a blind spot that they
+may or may not be aware of. What is your Hero’s
+blind spot. A good vice drives the Hero forward into a
+brick wall with great verve and enthusiasm. Try to
+avoid your tactical mind to create meaningless vices,
+it’ll make your Hero less fun and thus give you less
+spotlight time.</p>
+</section>
+<section id="how-is-your-hero-a-badass">
+<h3>How is Your Hero a Badass?<a class="headerlink" href="#how-is-your-hero-a-badass" title="Link to this heading">¶</a></h3>
+<p>What is it about the Hero the defies explanation. Does
+he just keep coming no matter what kind of beating
+he took or does he have a simply uncanny situational
+awareness? What is it about the Hero that defines, not
+in what situation he is a badass, but how, in that
+situation, he is a badass.</p>
+<p>Many people are good in a fight or debate, what we
+want to know is how your Hero is good. What do the
+Hero’s opponents ascribe their frustration to?</p>
+</section>
+<section id="what-does-your-hero-need-to-accomplish">
+<h3>What Does Your Hero Need to Accomplish?<a class="headerlink" href="#what-does-your-hero-need-to-accomplish" title="Link to this heading">¶</a></h3>
+<p>What is your Hero’s goal? What is he driven to do?
+Again interesting goals make fun Heroes. This can be
+a long term goal or short term goal. If it is short term,
+make sure it leads to the next goal or your Hero may
+lose the spotlight.</p>
+</section>
+<section id="what-holds-your-hero-here">
+<h3>What Holds Your Hero Here?<a class="headerlink" href="#what-holds-your-hero-here" title="Link to this heading">¶</a></h3>
+<p>What is it about this place that makes it home. Why
+can’t your Hero leave, no matter what trouble comes?
+What ties of honor, family, duty or hatred ensure that
+your Hero still has something to do here. For
+campaigns of global (universal/interdimensional)
+scope this question may not apply, for others, <code class="docutils literal notranslate"><span class="pre">here</span></code>
+might be large indeed.</p>
+</section>
+<section id="what-just-happened">
+<h3>What Just Happened?<a class="headerlink" href="#what-just-happened" title="Link to this heading">¶</a></h3>
+<p>Something just happened to knock over your Hero’s
+comfortable ant hill, what was it? This should be
+something that the Hero doesn’t have the luxury of
+ignoring. It doesn’t have to be explained or something
+that is tied deeply into the Hero it just has to be
+something to start the game off with a kick.</p>
+</section>
+</section>
+<section id="bonuses">
+<h2>Bonuses<a class="headerlink" href="#bonuses" title="Link to this heading">¶</a></h2>
+<p>Each Hero receives a free Key, Secret and Quest Card
+(See Below). Those should be based on the answers to
+the above questions.
+Favor</p>
+<p>Each hero is connected to the demiurge in ways that
+are beyond explaining. Although the Hero is unaware
+of the demiurge, the Demiurge is aware of the Hero
+and grants the Hero Favor and gains status as the
+Hero advances to completion of his story.</p>
+<p>Each Hero begins with 2 points of Favor. The Hero
+gains more Favor by exploring the creation of the
+demiurges, fulfilling a Demiurge’s boasts and by being
+true to the Hero’s nature (hitting his Keys).</p>
+<p>Favor can be used to put a Hero into a scene, use a
+Boon the Hero doesn’t have, activate Props and power
+Secrets. Keys, Boons, Props and Secrets will be
+explained below.</p>
+<div class="toctree-wrapper compound">
+</div>
+</section>
 </section>
 
         </article>
@@ -261,23 +375,23 @@
       <footer>
         
         <div class="related-pages">
-          <a class="next-page" href="../currency.html">
+          <a class="next-page" href="attributes.html">
               <div class="page-info">
                 <div class="context">
                   <span>Next</span>
                 </div>
-                <div class="title">Currencies</div>
+                <div class="title">Attributes</div>
               </div>
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
             </a>
-          <a class="prev-page" href="../world_creation/quests.html">
+          <a class="prev-page" href="../world_creation/initial_creation.html">
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
               <div class="page-info">
                 <div class="context">
                   <span>Previous</span>
                 </div>
                 
-                <div class="title">Quests</div>
+                <div class="title">Intial World Creation</div>
                 
               </div>
             </a>
@@ -299,8 +413,36 @@
         
       </footer>
     </div>
-    <aside class="toc-drawer no-toc">
+    <aside class="toc-drawer">
       
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Making a Hero</a><ul>
+<li><a class="reference internal" href="#questions">Questions</a><ul>
+<li><a class="reference internal" href="#whats-on-the-surface">What’s on the Surface?</a></li>
+<li><a class="reference internal" href="#what-is-the-heros-vice">What is the Hero’s Vice?</a></li>
+<li><a class="reference internal" href="#how-is-your-hero-a-badass">How is Your Hero a Badass?</a></li>
+<li><a class="reference internal" href="#what-does-your-hero-need-to-accomplish">What Does Your Hero Need to Accomplish?</a></li>
+<li><a class="reference internal" href="#what-holds-your-hero-here">What Holds Your Hero Here?</a></li>
+<li><a class="reference internal" href="#what-just-happened">What Just Happened?</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#bonuses">Bonuses</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
       
       
     </aside>

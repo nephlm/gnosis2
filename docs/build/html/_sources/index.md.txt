@@ -47,7 +47,6 @@ introduction.md
 world_creation/world_creation.md
 hero_creation/character_creation.md
 currency.md
-play.md
-downtime.md
+play/play.md
 ```
 
