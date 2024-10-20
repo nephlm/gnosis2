@@ -24,3 +24,26 @@ exclude_patterns = []
 
 html_theme = "furo"
 html_static_path = ["_static"]
+
+html_title = "Gnosis"
+
+# html_theme_options = {
+#     "light_logo": "light_logo.png",
+#     "dark_logo": "dark_logo.png",
+# }
+
+myst_heading_anchors = 3
+myst_enable_extensions = [
+    # "amsmath",
+    "colon_fence",
+    "deflist",
+    # "dollarmath",
+    "fieldlist",
+    "html_admonition",
+    "html_image",
+    # "linkify",
+    "replacements",
+    "smartquotes",
+    "substitution",
+    "tasklist",
+]
