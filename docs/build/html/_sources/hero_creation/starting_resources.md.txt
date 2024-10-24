@@ -39,3 +39,32 @@ maximum Logos. They can never exceed this.
 
 Each player also starts the campaign with one free
 Quest Card (see Quest Cards above).
+
+
+
+
+---
+
+
+# Bonuses
+
+Each Hero receives a free Key, Secret and Quest Card
+(See Below). Those should be based on the answers to
+the above questions.
+Favor
+
+Each hero is connected to the demiurge in ways that
+are beyond explaining. Although the Hero is unaware
+of the demiurge, the Demiurge is aware of the Hero
+and grants the Hero Favor and gains status as the
+Hero advances to completion of his story.
+
+Each Hero begins with 2 points of Favor. The Hero
+gains more Favor by exploring the creation of the
+demiurges, fulfilling a Demiurge’s boasts and by being
+true to the Hero’s nature (hitting his Keys).
+
+Favor can be used to put a Hero into a scene, use a
+Boon the Hero doesn’t have, activate Props and power
+Secrets. Keys, Boons, Props and Secrets will be
+explained below.

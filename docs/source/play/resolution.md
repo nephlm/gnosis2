@@ -1,5 +1,23 @@
 # Resolution
 
+## Dice
+
+* d4/d6/d8 -> d8/d10/d12
+* Advantage/double advantage/triple advantage terminology
+  * +A/2xA/3xA
+  
+* 3 pain dice: 16.5 (16) - trivial - equiv to no boons
+* 4 pain dice: 20 - (20) very easy
+* 5 pain dice: 21.5 (22) - easy - equiv to single advantage in all pools
+* 6 pain dice: 22.8 (23) - moderate
+* 7 pain dice: 23.9 (24) - challenging - equiv to double advantage in all pools
+* 8 pain dice: 24.8 (25) - hard
+* 9 pain dice: 25.4 (26) - very hard - equiv to triple advantage in all pools
+* 10 pain dice: 25.9 (26) - epic
+* 11 pain dice: 26.4 (26) - Legendary
+* 12 pain dice: 26.8 (27) - Mythic
+
+
 Eventually a scene will lead to a place where the GM
 and the player disagree about what happens (i.e. GM:
 “The Ogre breaks you into little bits and jumps on

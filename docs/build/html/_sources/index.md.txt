@@ -1,6 +1,6 @@
 # Gnosis 
 
-```{image} _static/cover.png
+```{image} _static/cover.jpg
 ```
 
 ## The Story, the Demiurge and the Hero
@@ -48,5 +48,6 @@ world_creation/world_creation.md
 hero_creation/character_creation.md
 currency.md
 play/play.md
+changelog.md
 ```
 
