@@ -47,3 +47,9 @@ myst_enable_extensions = [
     "substitution",
     "tasklist",
 ]
+myst_substitutions = {
+'advantage': ("{abbr}`advantage (Each tier of advantage adds a die of the same size " +
+        "as the attribute and only the highest one for each attribute is kept.)`"),
+'boon': "{abbr}`boon (A boon)`",
+'Trouble': 'Trouble'
+}
