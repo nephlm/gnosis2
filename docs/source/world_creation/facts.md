@@ -1,15 +1,40 @@
-# Creating Facts
+# Setting Facts
 
-In Gnosis the world is built and metaphysics established
-by spending [Logos](demiurge.md) to establish a fact.
+Before we move on to the next stage of setting 
+creation, let's take a moment to discuss 
+Setting Facts.
 
-* A player or the GM may spend a Logos
-to establish a fact in the campaign at any time. 
-* New facts
-may not contradict existing facts, though they may
-narrow or clarify existing facts. 
-* All facts have a price, a balancing fact.
-* The fact is associated with the player.
+A setting is largely defined by its setting facts. 
+For something to be a *True Fact* about a setting
+someone must write it down in whatever your group
+chooses to use as a {abbr}`setting bible (
+There many ways to keep a setting bible: Index cards, 
+text file, online services, etc.  Use whatever works for your group.
+What matters is it is a place where facts can be written down.)`.  
+
+```{admonition} Fact Parts
+A fact is made up of three parts:
+
+:**Fact**: The fact being established in the setting.
+:**Price**: A counterbalancing fact in the setting that balances fact that
+is being established.
+:**Player**: The player who created the fact.  The player is important because they get rewarded the first few
+times the fact comes up in play.  
+```
+
+
+## Logos
+
+A setting fact has a Price, and a cost.  The Price is the 
+permanent countering fact, while the cost is the 
+[Logos](demiurge.md) that a 
+player must spend to make the fact **True**.
+
+A player may spend {{Logos}} at any time to establish a 
+fact as true.  Until a player spends Logos on a fact it
+isn't actually true within the setting.  This doesn't mean 
+that it's false, just that the truth of the fact is undefined.
+
 
 Narratively, it is the demiurges that establish the facts
 in creation, and demiurges are imperfect, and thus, so are 
@@ -22,34 +47,17 @@ balances the created fact.  If the fact gave powers to vampires,
 the price will strengthen, or create the Templars that 
 hunt them. 
 
-## Limits
-
-A fact can't remove something that has already been established 
-previous fact or fiction.  A character can't spend a Logos
-and remove the mage's guild that had been established earlier, but 
-they may create a new ally or enemy of the guild.
-
-
 
 
 
 
 ## Breadth of Facts
 
-When a fact whisks a noun into existence, it is often
-done implicitly, with the first quality. The fact,
-“Mages cast spells”, implicitly creates mages if they did
-not already exist. It is possible to explicitly create
-mages, “Mages exist.”, but it isn’t necessary or even
-desirable.
+```{admonition} Some sample facts:
 
-Facts should be limited to a single distinct quality or
-description about a single group or entity. The exact
-breadth of facts the players around the table are
-comfortable with will become clear early on in the
-game.
+```{hlist} 
+:columns: 2
 
-```{sidebar} Some sample facts:
 
 * Aliens interfered with human evolution in
 ancient times.
@@ -63,41 +71,44 @@ supernaturals.
 * Common citizens fear mages.
 ```
 
+
+Setting facts are best if they are narrowly defined, 
+so there is a limit on how broad a fact may be.
+
+
+
+Facts should be limited to a single distinct quality or
+description about a single group or entity. The exact
+breadth of facts the players around the table are
+comfortable with will become clear early on in the
+game.
+
+When a fact whisks a noun into existence, it is often
+done implicitly, with the first quality. The fact,
+“*Mages cast spells*”, implicitly creates mages and the 
+existence of magic. It is possible to explicitly create
+mages, “*Mages exist.*”, but it isn’t necessary or even
+desirable.
+
+
+
+
 Generally, facts shouldn’t have conjunctions. Look
-very closely at facts containing 'and', 'yet', 'or', 'so',
-'but', 'for' or 'nor'. Are they really a single fact, or
+very closely at facts containing *and*, *yet*, *or*, *so*,
+*but*, *for* or *nor*. Are they really a single fact, or
 should they really be considered two or more facts
 costing additional Logos and incurring additional
 prices?
 
-Campaign Facts come in two broad categories:
-Metaphysics and Setting. 
+
+A fact can't remove something that has already been established 
+previous fact or fiction.  A character can't spend a Logos
+and remove the mage's guild that had been established earlier, but 
+they may create a new ally or enemy of the guild.
 
 
-### Metaphysics
 
-Metaphysics are facts
-that allow vampires to exist and sorcerers to cast spells
-and necromancers to raise the dead. Until someone
-spends a point of Logos to establish these facts, they
-aren’t true (or more precisely, they are undefined).
 
-Metaphysics aren’t just about magic, the breadth and
-reach of technology in a science fiction campaign are
-also defined by Metaphysics.
-
-### Setting
-
-Setting facts introduce organizations, kingdoms and
-relationships into the game world. They can be used to
-establish the existence of the thieves’ guild, a wizard’s
-council, a royal dynasty, etc. 
-
-Generally Logos doesn’t
-have to be spent to make a person exist, but the GM
-or the players can give that person specific qualities by
-spending Logos, as long as it doesn't change established 
-facts or narrative. 
 
 
 ```{image} ../_static/templar.jpg
@@ -105,10 +116,7 @@ facts or narrative.
 :align: left
 ```
 
-No one has to spend
-Logos for an arch wizard to exist, however, someone
-had to spend Logos to establish an organization that
-can have an arch wizard.
+
 
 
 
@@ -122,15 +130,17 @@ Logos to reorder creation, creation becomes
 unbalanced. Unintended facts are introduced into
 creation in order to stabilize it.
 
-Creating an Order of Paladins
-dedicated to Law and Order may have a price of the
-existence of an organized crime syndicate or corruption
-in the leadership of the paladins.
-
-The prices always work counter to the interests to the
+The Prices always work counter to the interests to the
 entity that benefited from the original fact. Prices can
 be organizations that work at cross purposes, 
 a related weakness or vulnerability.
+
+Creating an Order of Paladins
+dedicated to Law and Order may have a price of the
+existence of an organized crime syndicate or corruption
+in the leadership of the paladins.  Generally it 
+will be something the bolsters Chaos and Corruption.
+
 
 The demiurge of a vampire hero spends
 Logos, to establish that vampires are tough as nails. 
@@ -140,8 +150,23 @@ dedicated to killing all vampires’, ‘vampires must suck
 blood nightly’, ‘vampires can’t function in sunlight’ or
 ‘vampires are vulnerable to silver’ is added to creation.
 
-```{admonition} Balancing Scopes
-:class: seealso
+```{admonition} Example Prices
+
+:The police are corrupt: There is a robust community of vigilantes.
+
+:Fallen Angels can craft Relics from collected souls: The ethics 
+and morality of the souls influence how the Relics behave. 
+
+:The Mages Guild is benevolent:  They are opposed by 
+freelance marges out for personal power.
+
+```
+
+The price should never invalidate the fact.  It should either 
+be orthogonal to the fact and a **Yes, and...** sort of response
+ the fact that adds complexity to it. 
+
+### Balancing Scopes
 
 One thing to watch for is to ensure that the scopes of the 
 fact and the price are matched.  It is fine to have large vague 
@@ -149,12 +174,11 @@ facts, but if so they should be matched with equally large
 prices.  
 
 A fact creating all the vampire's traditional weaknesses, 
-must also give have a equally broad price, encompassing 
+must also give have an equally broad price, encompassing 
 many powers, maybe all the traditional vampire powers.
 
 What are traditional powers and weaknesses are left for
 the individual table to decide. 
-```
 
 ### Setting The Price
 
@@ -168,8 +192,8 @@ final arbiter of the price.
 * If the demiurge that creates
 the fact is controlled by the GM, the player with a
 demiurge with the most Logos gets to decide on the
-first price. 
-    * The responsibility move clockwise around
+first price for the session. 
+    * The responsibility moves clockwise around
 the table for the remainder of the session.
 
 The demiurge spending the Logos, can refuse to pay the 
@@ -213,4 +237,11 @@ some fact has been established, though in fact it has not.
 
 The GM can either clarify that it has not been established, 
 and thus someone could create a counter-fact, or write it 
-down with the list of facts and move on.  
+down with the list of facts and move on. 
+
+It's usually not necessary to establish that gravity exists 
+in most campaigns, and most GMs would take it as an assumed 
+fact along with causality and all the usual laws of physics, 
+unless someone tried to pay Logos and establish that it 
+doesn't.
+

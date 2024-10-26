@@ -1,5 +1,7 @@
 # Changes
 
+* Complete rework of [](world_creation/world_creation.md) and [](world_creation/facts.md)
+* Rewrote [](introduction.md), complete rework.
 * Revised [](hero_creation/attributes.md), Revised, formatting.
 * Revised [](hero_creation/character_creation.md), high concept/trouble, core questions.
 * Revised [](world_creation/facts.md), less words, formatting, clarity.
