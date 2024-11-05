@@ -1,0 +1,754 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="../">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Boons" href="boons/boons.html" /><link rel="prev" title="Paths" href="paths.html" />
+
+    <!-- Generated with Sphinx 8.1.3 and Furo 2024.08.06 -->
+        <title>Sample Paths - Gnosis</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=354aac6f" />
+    <link rel="stylesheet" type="text/css" href="../_static/tabs.css?v=4c969af8" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?v=302659d7" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=020e0b46" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-with-moon" viewBox="0 0 24 24">
+    <title>Auto light/dark, in light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path style="opacity: 50%" d="M 5.411 14.504 C 5.471 14.504 5.532 14.504 5.591 14.504 C 3.639 16.319 4.383 19.569 6.931 20.352 C 7.693 20.586 8.512 20.551 9.25 20.252 C 8.023 23.207 4.056 23.725 2.11 21.184 C 0.166 18.642 1.702 14.949 4.874 14.536 C 5.051 14.512 5.231 14.5 5.411 14.5 L 5.411 14.504 Z"/>
+      <line x1="14.5" y1="3.25" x2="14.5" y2="1.25"/>
+      <line x1="14.5" y1="15.85" x2="14.5" y2="17.85"/>
+      <line x1="10.044" y1="5.094" x2="8.63" y2="3.68"/>
+      <line x1="19" y1="14.05" x2="20.414" y2="15.464"/>
+      <line x1="8.2" y1="9.55" x2="6.2" y2="9.55"/>
+      <line x1="20.8" y1="9.55" x2="22.8" y2="9.55"/>
+      <line x1="10.044" y1="14.006" x2="8.63" y2="15.42"/>
+      <line x1="19" y1="5.05" x2="20.414" y2="3.636"/>
+      <circle cx="14.5" cy="9.55" r="3.6"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon-with-sun" viewBox="0 0 24 24">
+    <title>Auto light/dark, in dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path d="M 8.282 7.007 C 8.385 7.007 8.494 7.007 8.595 7.007 C 5.18 10.184 6.481 15.869 10.942 17.24 C 12.275 17.648 13.706 17.589 15 17.066 C 12.851 22.236 5.91 23.143 2.505 18.696 C -0.897 14.249 1.791 7.786 7.342 7.063 C 7.652 7.021 7.965 7 8.282 7 L 8.282 7.007 Z"/>
+      <line style="opacity: 50%" x1="18" y1="3.705" x2="18" y2="2.5"/>
+      <line style="opacity: 50%" x1="18" y1="11.295" x2="18" y2="12.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="4.816" x2="14.464" y2="3.964"/>
+      <line style="opacity: 50%" x1="20.711" y1="10.212" x2="21.563" y2="11.063"/>
+      <line style="opacity: 50%" x1="14.205" y1="7.5" x2="13.001" y2="7.5"/>
+      <line style="opacity: 50%" x1="21.795" y1="7.5" x2="23" y2="7.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="10.184" x2="14.464" y2="11.036"/>
+      <line style="opacity: 50%" x1="20.711" y1="4.789" x2="21.563" y2="3.937"/>
+      <circle style="opacity: 50%" cx="18" cy="7.5" r="2.169"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-pencil" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-pencil-code">
+      <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+      <path d="M13.5 6.5l4 4" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+  <symbol id="svg-eye" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-eye-code">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path
+        d="M11.11 17.958c-3.209 -.307 -5.91 -2.293 -8.11 -5.958c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6c-.21 .352 -.427 .688 -.647 1.008" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+<a class="skip-to-content muted-link" href="#furo-main-content">Skip to content</a>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../index.html"><div class="brand">Gnosis</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+          <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../index.html">
+  
+  
+  <span class="sidebar-brand-text">Gnosis</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../introduction.html">Introduction</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../world_creation/world_creation.html">Creation</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of Creation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../world_creation/facts.html">Setting Facts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../world_creation/initial_creation.html">Initial World Creation</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current has-children"><a class="reference internal" href="character_creation.html">Making a Hero</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle navigation of Making a Hero</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="attributes.html">Attributes</a></li>
+<li class="toctree-l2 current has-children"><a class="reference internal" href="paths.html">Paths</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle navigation of Paths</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
+<li class="toctree-l3 current current-page"><a class="current reference internal" href="#">Sample Paths</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="boons/boons.html">Boons</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle navigation of Boons</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="boons/talents.html">Talents</a></li>
+<li class="toctree-l3"><a class="reference internal" href="boons/gear.html">Gear</a></li>
+<li class="toctree-l3"><a class="reference internal" href="boons/network.html">Network</a></li>
+<li class="toctree-l3"><a class="reference internal" href="boons/location.html">Locations</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="secrets.html">Secrets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="starting_resources.html">Starting Resources</a></li>
+<li class="toctree-l2"><a class="reference internal" href="starting_resources.html#bonuses">Bonuses</a></li>
+<li class="toctree-l2"><a class="reference internal" href="questions.html">Questions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="quests.html">Quests</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../currency.html">Currencies</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../play/play.html">Play</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><div class="visually-hidden">Toggle navigation of Play</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../play/scenes.html">Scenes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../play/resolution.html">Resolution</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../play/conflict.html">Conflict</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../play/props.html">Props</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../play/downtime.html">Downtime Activities</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../changelog.html">Changes</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          <div class="view-this-page">
+  <a class="muted-link" href="../_sources/hero_creation/path_list.md.txt" title="View this page">
+    <svg><use href="#svg-eye"></use></svg>
+    <span class="visually-hidden">View this page</span>
+  </a>
+</div>
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+              <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main" id="furo-main-content">
+          <section id="sample-paths">
+<h1>Sample Paths<a class="headerlink" href="#sample-paths" title="Link to this heading">¶</a></h1>
+<p>The listed items for Walking, Completing and Stepping Off
+the Path are only examples.</p>
+<section class="small" id="path-of-the-artist">
+<h2>Path of the Artist<a class="headerlink" href="#path-of-the-artist" title="Link to this heading">¶</a></h2>
+<p>The Hero is committed to pursuing their art, finding
+meaning and purpose in that art.</p>
+<ul class="simple">
+<li><p>Walking the Path: The Hero takes on risk or
+difficulty in pursuit of their art.</p></li>
+<li><p>Stepping off the Path: Compromise the art for profit or
+convenience.</p></li>
+<li><p>Completing the Path: Complete their masterpiece.</p></li>
+</ul>
+</section>
+<section class="small" id="path-of-the-collector">
+<h2>Path of the Collector<a class="headerlink" href="#path-of-the-collector" title="Link to this heading">¶</a></h2>
+<p>There is something the Hero is trying to collect, and they
+are willing to go to great lengths to do so.</p>
+<ul class="simple">
+<li><p>Walking the Path: The Hero puts theself at risk or expend great
+resources to acquire the object.</p></li>
+<li><p>Stepping off the Path: Give up or give away one of the
+objects in Hero’s collection or pass by a chance to add it to the
+Hero’s collection.</p></li>
+<li><p>Completing the Path: Acquire the complete collection.</p></li>
+</ul>
+</section>
+<section class="small" id="path-of-the-commander">
+<h2>Path of the Commander<a class="headerlink" href="#path-of-the-commander" title="Link to this heading">¶</a></h2>
+<a class="reference internal image-reference" href="../_images/commander.jpg"><img alt="../_images/commander.jpg" class="align-right" src="../_images/commander.jpg" style="width: 300px;" />
+</a>
+<p>The Hero commands troops or followers
+of some kind and is dedicated to their safety.</p>
+<p>See also: <a class="reference internal" href="#path-of-the-master"><span class="std std-ref">Path of the Master</span></a></p>
+<ul class="simple">
+<li><p>Walking the Path: The Hero supports or protects
+their troops in the face of risk or
+difficulty.</p></li>
+<li><p>Stepping off the Path: Betray their command.</p></li>
+<li><p>Completing the Path: Retire after a successful operation.</p></li>
+</ul>
+</section>
+<section class="small" id="path-of-conscience">
+<h2>Path of Conscience<a class="headerlink" href="#path-of-conscience" title="Link to this heading">¶</a></h2>
+<p>The Hero believes it is his duty to protect
+the less fortunate.</p>
+<ul class="simple">
+<li><p>Walking the Path: Defend someone who is in danger
+and can’t help themselves or take someone who can’t help
+themselves and change their lives so they can.</p></li>
+<li><p>Stepping off the Path: Ignore a request for help.</p></li>
+</ul>
+</section>
+<section class="small" id="path-of-the-curious">
+<h2>Path of the Curious<a class="headerlink" href="#path-of-the-curious" title="Link to this heading">¶</a></h2>
+<p>The Hero obsessed with solving life’s
+mysteries, he must find out what’s under
+every rock.</p>
+<ul class="simple">
+<li><p>Walking the Path: Follow a lead at personal risk.</p></li>
+<li><p>Stepping off the Path: Ignore a mystery.</p></li>
+</ul>
+</section>
+<section class="small" id="path-of-the-disciple">
+<h2>Path of the Disciple<a class="headerlink" href="#path-of-the-disciple" title="Link to this heading">¶</a></h2>
+<p>The Hero is a student attempting to live
+up to the beliefs and reputation of his master.</p>
+<ul class="simple">
+<li><p>Walking the Path: The Hero follows his master’s
+beliefs, even in face of serious cost or danger.</p></li>
+<li><p>Stepping off the Path: Act against the Hero’s master’s beliefs.</p></li>
+<li><p>Completing the Path: Become the master and take their own disciples.</p></li>
+</ul>
+</section>
+<section class="small" id="path-of-faith">
+<h2>Path of Faith<a class="headerlink" href="#path-of-faith" title="Link to this heading">¶</a></h2>
+<p>The Hero is a pious believer and defender
+of their faith.</p>
+<ul class="simple">
+<li><p>Walking the Path: Convert someone to the Hero’s faith,
+defend the faith in the face of consequences.</p></li>
+<li><p>Stepping off the Path: Renounce the faith.</p></li>
+</ul>
+</section>
+<section class="small" id="path-of-the-foolhardy-hero">
+<h2>Path of the Foolhardy Hero<a class="headerlink" href="#path-of-the-foolhardy-hero" title="Link to this heading">¶</a></h2>
+<p>The Hero believes he is a knight errant
+whose duty it is to perform quests for those in
+need.</p>
+<ul class="simple">
+<li><p>Walking the Path: Accept/complete a quest/side mission,
+taken harm by a danger the Hero encountered pursuing the quest.</p></li>
+<li><p>Stepping off the Path: Refuse a quest.</p></li>
+<li><p>Completing the Path: Complete a quest the Hero was given and
+choosing a different life for the future.</p></li>
+</ul>
+<a class="reference internal image-reference" href="../_images/guardian.jpg"><img alt="../_images/guardian.jpg" class="align-left" src="../_images/guardian.jpg" style="width: 300px;" />
+</a>
+</section>
+<section class="small" id="path-of-the-guardian">
+<h2>Path of the Guardian<a class="headerlink" href="#path-of-the-guardian" title="Link to this heading">¶</a></h2>
+<p>There is someone important to the Hero
+whom the Hero is sworn to defend
+and whose wellbeing the Hero
+puts above their own safety.</p>
+<p>See also: <a class="reference internal" href="#path-of-love"><span class="std std-ref">Path of Love</span></a></p>
+<ul class="simple">
+<li><p>Walking the Path: Make a decision to
+safeguard the person instead of another
+course of action or the Hero puts themselves
+at risk to ensure the safety of the person.</p></li>
+<li><p>Stepping off the Path: Choose not to protect the person.</p></li>
+<li><p>Completing the Path: The person
+(or someone who can) releases the Hero from
+their duty.</p></li>
+</ul>
+</section>
+<section class="small" id="path-of-greed">
+<h2>Path of Greed<a class="headerlink" href="#path-of-greed" title="Link to this heading">¶</a></h2>
+<p>The Hero judges themselves and others
+by wealth and material possessions.</p>
+<ul class="simple">
+<li><p>Walking the Path: The Hero puts themselves at risk
+to increase their wealth or material possessions.</p></li>
+<li><p>Stepping off the Path: The Hero gives away their wealth or
+pass by an opportunity to increase their wealth.</p></li>
+<li><p>Complete the Path: After a large acquisition, decide
+it is enough.</p></li>
+</ul>
+</section>
+<section class="small" id="path-of-the-ideal-belief">
+<h2>Path of the Ideal/Belief<a class="headerlink" href="#path-of-the-ideal-belief" title="Link to this heading">¶</a></h2>
+<p>The Hero is dedicated to an ideal or belief
+such that his everyday life is consumed by its
+pursuit.</p>
+<p>The ideal Must be a concrete, specific belief that drives
+the Hero to action.  This is the blueprint that <a class="reference internal" href="#path-of-faith"><span class="std std-ref">Path of Faith</span></a>,
+<a class="reference internal" href="#path-of-the-artist"><span class="std std-ref">Path of the Artist</span></a> and many other paths are built from.  Look
+to those specific ideals to see what might make a good ideal.</p>
+<ul class="simple">
+<li><p>Walking the Path: The Hero makes a choice based
+on the Ideal/Belief in the face of consequences.</p></li>
+<li><p>Stepping off the Path: Give up the Ideal/Belief.</p></li>
+<li><p>Complete the path: Achieve a great victory for the
+Ideal and choose to put it aside.</p></li>
+</ul>
+</section>
+<section class="small" id="path-of-the-impostor">
+<h2>Path of the Impostor<a class="headerlink" href="#path-of-the-impostor" title="Link to this heading">¶</a></h2>
+<p>The Hero is pretending to be someone they are not.  This is a
+specific thing, not a generic con man.</p>
+<ul class="simple">
+<li><p>Walking the Path: The Hero convinces others of the lie in the
+face of serious skepticism.</p></li>
+<li><p>Stepping off the Path: The Hero reveals their true identity.</p></li>
+<li><p>Complete the Path: Become that which the Hero pretends to be.</p></li>
+</ul>
+</section>
+<section class="small" id="path-of-love">
+<h2>Path of Love<a class="headerlink" href="#path-of-love" title="Link to this heading">¶</a></h2>
+<p>There is someone the Hero Loves and for
+whom they will sacrifice themselves.
+When a Hero chooses this
+Path they must select that individual.</p>
+<p>Note: This person might be a spouse or other
+romantic partner or a platonic relationship
+such a child or parent.</p>
+<ul class="simple">
+<li><p>Walking the Path: Make a decision influenced by the
+words or actions of the Hero’s loved one,
+defend their loved one in the face of risk or consequences.</p></li>
+<li><p>Stepping off the Path: Sever the relationship.</p></li>
+</ul>
+</section>
+<section class="small" id="path-of-the-manipulator">
+<h2>Path of the Manipulator<a class="headerlink" href="#path-of-the-manipulator" title="Link to this heading">¶</a></h2>
+<p>The Hero is an aspiring power behind the throne
+(for various sizes of throne), and puppet master.</p>
+<ul class="simple">
+<li><p>Walking the Path: Get someone to do something to the Hero’s
+advantage without them realizing it wasn’t their idea.</p></li>
+<li><p>Stepping off the Path: Resort to threats, violence or
+blackmail to achieve the Hero’s ends.</p></li>
+<li><p>Completing the Path:  The Hero achieves their goals and
+chooses a different approach for the future.</p></li>
+</ul>
+</section>
+<section class="small" id="path-of-the-master">
+<h2>Path of the Master<a class="headerlink" href="#path-of-the-master" title="Link to this heading">¶</a></h2>
+<p>The Hero is a teacher with eager,
+immature, half trained students who have put themselves
+in the Hero’s hands.</p>
+<p>See also: <a class="reference internal" href="#path-of-the-commander"><span class="std std-ref">Path of the Commander</span></a> and <a class="reference internal" href="#path-of-the-teacher"><span class="std std-ref">Path of the Teacher</span></a>.</p>
+<ul class="simple">
+<li><p>Walking the Path: When the Hero’s student’s/underling’s
+actions bring the Hero inconvenience or risk or when the Hero
+put themselves at risk to protect their students.</p></li>
+<li><p>Stepping off the Path: The Hero abandons their  students in their hour of need.</p></li>
+<li><p>Complete the Path: Graduate the Hero’s
+students/underlings, and they go into the world prepared to face it.</p></li>
+</ul>
+</section>
+<section class="small" id="path-of-membership">
+<h2>Path of Membership<a class="headerlink" href="#path-of-membership" title="Link to this heading">¶</a></h2>
+<p>The Hero is a member of an organization/tribe/etc and that
+organization gives the Hero purpose and is part of their very
+identity.</p>
+<ul class="simple">
+<li><p>Walking the Path: defend or support the interests of the
+organization at personal risk or cost.</p></li>
+<li><p>Stepping off the Path: Leave the organization.</p></li>
+<li><p>Complete the Path: After achieving great goals for the
+organization, step aside.</p></li>
+</ul>
+</section>
+<section class="small" id="path-of-the-mission">
+<h2>Path of the Mission<a class="headerlink" href="#path-of-the-mission" title="Link to this heading">¶</a></h2>
+<p>The Hero has a personal mission or goal.  To take this path the
+mission must be clearly defined, it may change over time, but
+to the Hero, it remains clear even as circumstances change.</p>
+<p>See also: <a class="reference internal" href="#path-of-vengeance"><span class="std std-ref">Path of Vengeance</span></a> and <a class="reference internal" href="#path-of-the-revolutionary"><span class="std std-ref">Path of the Revolutionary</span></a></p>
+<ul class="simple">
+<li><p>Walking the Path: The Hero takes action to complete the
+mission at personal cost.</p></li>
+<li><p>Stepping off the Path: Abandon the mission.</p></li>
+<li><p>Complete the Path: Complete the mission.</p></li>
+</ul>
+</section>
+<section class="small" id="path-of-the-outcast">
+<h2>Path of the Outcast<a class="headerlink" href="#path-of-the-outcast" title="Link to this heading">¶</a></h2>
+<p>The Hero is separated from an
+organization/tribe/etc. that has great
+import to them.  This might also be a fish
+far from home scenario.</p>
+<ul class="simple">
+<li><p>Walking the Path: The separation brings the Hero harm or
+suffering.</p></li>
+<li><p>Stepping off the Path: Join a new organization/tribe/etc. as<br />
+replacement to the lost one.</p></li>
+<li><p>Completing the Path: Regain membership in the
+organization.</p></li>
+</ul>
+</section>
+<section class="small" id="path-of-the-rake">
+<h2>Path of the Rake<a class="headerlink" href="#path-of-the-rake" title="Link to this heading">¶</a></h2>
+<p>The Hero is a player’s player. They are
+always on the lookout to score with someone
+worthy of bragging about and moving on
+quickly.</p>
+<ul class="simple">
+<li><p>Walking the Path: The Hero seduces someone of note and
+brags about it.</p></li>
+<li><p>Stepping off the Path: Someone refuses the Hero’s advances
+(possibly because of the Hero’s reputation.)</p></li>
+<li><p>Complete the Path: Form a stable relationship with
+someone the Hero thought to be a conquest.</p></li>
+</ul>
+</section>
+<section class="small" id="path-of-renown">
+<h2>Path of Renown<a class="headerlink" href="#path-of-renown" title="Link to this heading">¶</a></h2>
+<p>It’s important to the Hero that the world knows their
+name and what they’ve accomplished.</p>
+<ul class="simple">
+<li><p>Walking the Path: The Hero does something foolish and risky
+to add to their reputation or spread their
+story, or they risk their lives to take credit for an action.</p></li>
+<li><p>Stepping off the Path: Give someone else credit for an action
+that would increase the Hero’s renown.</p></li>
+<li><p>Completing the Path: Achieve fame.</p></li>
+</ul>
+</section>
+<section class="small" id="path-of-the-revolutionary">
+<h2>Path of the Revolutionary<a class="headerlink" href="#path-of-the-revolutionary" title="Link to this heading">¶</a></h2>
+<p>The powers that be have done the Hero or their loved ones
+wrong, and they will overthrow them or die
+trying.</p>
+<ul class="simple">
+<li><p>Walking the Path: The Hero puts themselves at risk to oppose
+the status quo.</p></li>
+<li><p>Stepping off the Path: Accept favors from the rulers for the Hero’s
+support/action/inaction on their behalf.</p></li>
+<li><p>Complete the Path: Overflow the rulers.</p></li>
+</ul>
+</section>
+<section class="small" id="path-of-power">
+<h2>Path of Power<a class="headerlink" href="#path-of-power" title="Link to this heading">¶</a></h2>
+<p>The Hero is dedicated to acquiring power and
+crushing those that stand in their way.</p>
+<ul class="simple">
+<li><p>Walking the Path: The Hero acquires some bit of power
+they can hold over another.</p></li>
+<li><p>Stepping off the Path: The Hero gives up their position and power.</p></li>
+<li><p>Complete the Path: The Hero holds power over all those who
+would stand in their way.</p></li>
+</ul>
+</section>
+<section class="small" id="path-of-the-precious">
+<h2>Path of the Precious<a class="headerlink" href="#path-of-the-precious" title="Link to this heading">¶</a></h2>
+<p>The Hero takes great pleasure in counting
+coup against others by taking something they
+value highly. The item’s intrinsic worth or
+monetary value is meaningless to the
+Hero, only it’s emotional weight to the
+target. This does not have to be a physical
+item, but can be a relationship (e.g. seduce
+their wife) or even their self-image (e.g. take
+away their pride).</p>
+<ul class="simple">
+<li><p>Walking the Path: The Hero takes something that someone values
+greatly and makes sure they learn of it.</p></li>
+<li><p>Stepping off the Path: Give something of great personal
+value to someone as a sign of respect.</p></li>
+<li><p>Completing the Path: After taking something of value form someone,
+give it back.</p></li>
+</ul>
+</section>
+<section class="small" id="path-of-the-teacher">
+<h2>Path of the Teacher<a class="headerlink" href="#path-of-the-teacher" title="Link to this heading">¶</a></h2>
+<p>The Hero has dedicated his life to
+teaching others whenever he has knowledge
+to share.</p>
+<p>See also: <a class="reference internal" href="#path-of-the-master"><span class="std std-ref">Path of the Master</span></a></p>
+<ul class="simple">
+<li><p>Walking the Path: Teach something meaningful to another or
+the Hero’s teachings dramatically change
+the life of another.</p></li>
+<li><p>Stepping off the Path: Ignore an opportunity to educate someone seeking it.</p></li>
+</ul>
+</section>
+<section class="small" id="path-of-unrequited-love">
+<h2>Path of Unrequited Love<a class="headerlink" href="#path-of-unrequited-love" title="Link to this heading">¶</a></h2>
+<p>The Hero loves someone who doesn’t
+love them back.  This must be a specific person.</p>
+<ul class="simple">
+<li><p>Walking the Path: The Hero puts themselves in harms way/make
+a sacrifice to win their unrequited love’s affection.</p></li>
+<li><p>Stepping off the Path: The Hero abandons their pursuit of this person.</p></li>
+<li><p>Complete the Path: Win their love.</p></li>
+</ul>
+</section>
+<section class="small" id="path-of-vengeance">
+<h2>Path of Vengeance<a class="headerlink" href="#path-of-vengeance" title="Link to this heading">¶</a></h2>
+<p>A person/group/etc has wronged the Hero, and
+they seek vengeance upon them.</p>
+<ul class="simple">
+<li><p>Walking the Path: The Hero strikes a serious blow against
+their enemies in the face of risk or consequences.</p></li>
+<li><p>Stepping off the Path: The Hero lets their enemies go,
+abandoning their vengeance.</p></li>
+<li><p>Completing the Path: The Hero Destroys their enemies.</p></li>
+</ul>
+</section>
+<section class="small" id="path-of-the-vow">
+<h2>Path of the Vow<a class="headerlink" href="#path-of-the-vow" title="Link to this heading">¶</a></h2>
+<p>The Hero has a personal vow.  This must be a specific and
+significant vow.</p>
+<p>This is the blueprint for paths like <a class="reference internal" href="#path-of-the-guardian"><span class="std std-ref">Path of the Guardian</span></a>, <a class="reference internal" href="#path-of-vengeance"><span class="std std-ref">Path of Vengeance</span></a>,  <a class="reference internal" href="#path-of-the-commander"><span class="std std-ref">Path of the Commander</span></a> and others.
+Feel free to read those to see what a specific vow might look like.</p>
+<ul class="simple">
+<li><p>Walking the Path: The Hero doesn’t break the vow
+even though it causes inconvenience or
+danger.</p></li>
+<li><p>Stepping off the Path: Break the vow.</p></li>
+<li><p>Completing the Path: Fulfil the vow.</p></li>
+</ul>
+<p>.</p>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="boons/boons.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">Boons</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="paths.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">Paths</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2024, Nephlm
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Sample Paths</a><ul>
+<li><a class="reference internal" href="#path-of-the-artist">Path of the Artist</a></li>
+<li><a class="reference internal" href="#path-of-the-collector">Path of the Collector</a></li>
+<li><a class="reference internal" href="#path-of-the-commander">Path of the Commander</a></li>
+<li><a class="reference internal" href="#path-of-conscience">Path of Conscience</a></li>
+<li><a class="reference internal" href="#path-of-the-curious">Path of the Curious</a></li>
+<li><a class="reference internal" href="#path-of-the-disciple">Path of the Disciple</a></li>
+<li><a class="reference internal" href="#path-of-faith">Path of Faith</a></li>
+<li><a class="reference internal" href="#path-of-the-foolhardy-hero">Path of the Foolhardy Hero</a></li>
+<li><a class="reference internal" href="#path-of-the-guardian">Path of the Guardian</a></li>
+<li><a class="reference internal" href="#path-of-greed">Path of Greed</a></li>
+<li><a class="reference internal" href="#path-of-the-ideal-belief">Path of the Ideal/Belief</a></li>
+<li><a class="reference internal" href="#path-of-the-impostor">Path of the Impostor</a></li>
+<li><a class="reference internal" href="#path-of-love">Path of Love</a></li>
+<li><a class="reference internal" href="#path-of-the-manipulator">Path of the Manipulator</a></li>
+<li><a class="reference internal" href="#path-of-the-master">Path of the Master</a></li>
+<li><a class="reference internal" href="#path-of-membership">Path of Membership</a></li>
+<li><a class="reference internal" href="#path-of-the-mission">Path of the Mission</a></li>
+<li><a class="reference internal" href="#path-of-the-outcast">Path of the Outcast</a></li>
+<li><a class="reference internal" href="#path-of-the-rake">Path of the Rake</a></li>
+<li><a class="reference internal" href="#path-of-renown">Path of Renown</a></li>
+<li><a class="reference internal" href="#path-of-the-revolutionary">Path of the Revolutionary</a></li>
+<li><a class="reference internal" href="#path-of-power">Path of Power</a></li>
+<li><a class="reference internal" href="#path-of-the-precious">Path of the Precious</a></li>
+<li><a class="reference internal" href="#path-of-the-teacher">Path of the Teacher</a></li>
+<li><a class="reference internal" href="#path-of-unrequited-love">Path of Unrequited Love</a></li>
+<li><a class="reference internal" href="#path-of-vengeance">Path of Vengeance</a></li>
+<li><a class="reference internal" href="#path-of-the-vow">Path of the Vow</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script src="../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/scripts/furo.js?v=5fa4622c"></script>
+    <script src="../_static/tabs.js?v=3ee01567"></script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    </body>
+</html>

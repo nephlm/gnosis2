@@ -5,6 +5,22 @@ creation and epic stories.  In Gnosis the GM, as well as all
 other players, work together to craft stories that the whole 
 table enjoys.
 
+## Telling Stories Together
+
+The purpose of playing the game is to collaboratively tell a 
+story that engages everyone. This means everyone at the table, 
+not just the GM is responsible for making that story emerge.
+
+As one of those players consider too things when choosing an 
+action narrating and outcome: 
+
+* What would the character do?  Not necessarily what is optimal, but 
+what would that particular character with all their flaws and baggage
+do?
+* What would make a better story?  What would make the story being 
+told cooler, more exciting, funnier.  Why aren't you choosing to 
+make the story better?
+
 ## Creation
 
 ```{image} _static/portal.jpg

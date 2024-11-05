@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="../../_static/tabs.css?v=4c969af8" />
     <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="../../_static/styles/furo-extensions.css?v=302659d7" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/custom.css?v=020e0b46" />
     
     
 
@@ -203,15 +204,15 @@
   <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../../introduction.html">Introduction</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../../world_creation/world_creation.html">World Creation</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of World Creation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../world_creation/world_creation.html">Creation</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of Creation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../world_creation/facts.html">Setting Facts</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../world_creation/initial_creation.html">Intial World Creation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../world_creation/initial_creation.html">Initial World Creation</a></li>
 </ul>
 </li>
 <li class="toctree-l1 current has-children"><a class="reference internal" href="../character_creation.html">Making a Hero</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle navigation of Making a Hero</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="../attributes.html">Attributes</a></li>
-<li class="toctree-l2 has-children"><a class="reference internal" href="../keys.html">Keys</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle navigation of Keys</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
-<li class="toctree-l3"><a class="reference internal" href="../keys_list.html">Large List of Possible Keys</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../paths.html">Paths</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle navigation of Paths</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../path_list.html">Sample Paths</a></li>
 </ul>
 </li>
 <li class="toctree-l2 current has-children"><a class="reference internal" href="boons.html">Boons</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle navigation of Boons</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
@@ -225,6 +226,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../starting_resources.html">Starting Resources</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../starting_resources.html#bonuses">Bonuses</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../questions.html">Questions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../quests.html">Quests</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../currency.html">Currencies</a></li>
@@ -279,55 +281,147 @@
         <article role="main" id="furo-main-content">
           <section id="network">
 <h1>Network<a class="headerlink" href="#network" title="Link to this heading">¶</a></h1>
-<p>A Hero’s network describes the people the Hero
-knows and can turn to for hel Each member of the
-Hero’s Network is a full NPC with a skill cascade
-defined when they are purchased. The depth of the
-cascade is determined by the level that the Contact is
-purchased. Hero’s can use members of their Network
-as Boons (add to attribute pools) when they are
-present, agree to help and they have a relevant skill set.</p>
-<p>Enemies are usually purchased as Talents rather than
-part of the Hero’s Network. Character’s can buy
-groups as part of their network but they still designate
-an anchor who is their primary contact inside the
+<p>A Hero’s network describes the people
+and organizations the Hero
+knows and can turn to for help.</p>
+<p>Organizations bought as part of the Hero’s Network
+have an anchor who is Hero’s primary contact inside the
 organization.</p>
+<p>Heroes can use members of their Network
+as Boons when they are
+present, agree to help, and they have a relevant skill set.
+A Hero looking for a past a guard could add their tier 2
+familiar, a Companion, as their Possibility Boon for example.</p>
+<p>Sometimes it is enough just to know someone or be part of
+an organization.  A Hero trying to talk his way into
+a posh party could drop a name or mention their membership
+and use that Network as part of their Attribute Roll <abbr title="The set of Boons the player chooses to use for an attribute roll.">Strategy</abbr>.</p>
+<p>Membership and friendship, and a flock of convenience is a
+two-way road.  Sometimes it’s the Hero who is being called
+on to render aid or help with some problem.</p>
+<p>A Network Boon is one of three levels:</p>
+<ul class="simple">
+<li><p><strong>Companion</strong>: A person or group that travels with
+the Hero.</p></li>
+<li><p><strong>Ally</strong>: A person or group that the Hero has a
+history and generally shared goals or some kind
+of understanding.</p></li>
+<li><p><strong>Contacts</strong>: These are people the Hero has met,
+they may even have shared goals, but the Hero
+hasn’t invested in that relationship or
+perhaps the person is just unreliable.</p></li>
+</ul>
 <p>A player can spend xp and upgrade a Contact to an
-Ally or an Ally to Companion during play. Heroes can
-not acquire Contacts at character creation.</p>
-<section id="companion">
+Ally or an Ally to Companion during play.<br />
+Downgrading is also possible.  Either direction
+requires some sort of in-game justification.</p>
+<p><strong>Heroes start the game with up to two
+Contacts.</strong></p>
+<section id="network-tier">
+<h2>Network Tier<a class="headerlink" href="#network-tier" title="Link to this heading">¶</a></h2>
+<p>A member of the Hero’s Network has a maximum tier set
+by the maximum impact they could have.  A <em>Galactic Overlord</em>
+is going to be able to impact much more than a
+<em>Local Bartender</em> is the same game. In most games
+the <em>Galactic Overlord</em> could reach tier 3, while
+in that sort of game the <em>Local Bartender</em> would
+probably be stuck at a maximum of tier 1.</p>
+<p>As with any Boon the Hero could only spend the
+xp go acquire the <em>Galactic Overlord</em> at tier 1.<br />
+For whatever reason when the <em>Galactic Overlord</em>
+provides help to the Hero, it’s considerably less
+aid than they could provide.</p>
+<p>The maximum tier is set by the Table thinks is
+appropriate for that Network in that Game.  If
+necessary, the GM can make the final determination.</p>
+</section>
+<section class="small" id="contact">
+<h2>Contact<a class="headerlink" href="#contact" title="Link to this heading">¶</a></h2>
+<p>Cost: 0xp</p>
+<p>These are people or groups that the Hero only has a
+fleeting relationship with.  They may share a goal
+or outlook, but there is little shared history or
+earned trust.</p>
+<p>Most NPC that the Hero encounters could be developed
+into Contacts.  It takes more than just seeing them
+on a street, but if the Hero exchanges phone numbers
+or whatever is the equivalent in the game,
+could be considered a Contact.</p>
+<p>Unlike normal Network Boons, Contacts can’t
+usually be used as part of a Hero’s <abbr title="The set of Boons the player chooses to use for an attribute roll.">Strategy</abbr>.
+The GM is free to make exceptions if it makes sense
+in the fiction or if the Hero did something, such
+as a Maneuver to be able to use the Contact.</p>
+</section>
+<section class="small" id="ally">
+<h2>Ally<a class="headerlink" href="#ally" title="Link to this heading">¶</a></h2>
+<p>Cost: 1xp per tier</p>
+<p>These are people who will normally answer the Hero’s
+call in most circumstances and will usually take time
+to provide a reasonable amount of help.  Allies
+trust the Hero and will usually take on faith that
+they are trying to do something worth doing.</p>
+<p>However, they do have their own lives and do something
+for a living, probably something the involves deadlines,
+so they aren’t about to drop anything a follow the
+Hero across the country, or possibly even the city
+without a good reason.</p>
+<div class="admonition-example-allies admonition">
+<p class="admonition-title">Example Allies</p>
+<table class="hlist"><tr><td><ul class="simple">
+<li><p>Most Employees</p></li>
+<li><p>Friends</p></li>
+<li><p>Intelligence Officer</p></li>
+<li><p>Distant Family</p></li>
+<li><p>Senechal</p></li>
+</ul>
+</td><td><ul class="simple">
+<li><p>Physics Researcher</p></li>
+<li><p>Friendly Police Officer</p></li>
+<li><p>Guy at the Phone Company</p></li>
+<li><p>Hacker Friend</p></li>
+<li><p>Black Market Vendor</p></li>
+</ul>
+</td></tr></table>
+</div>
+</section>
+<section class="small" id="companion">
 <h2>Companion<a class="headerlink" href="#companion" title="Link to this heading">¶</a></h2>
 <ul class="simple">
 <li><p>2xp per level</p></li>
-<li><p>Almost always available, usually a traveling
-companion of some sort.</p></li>
-<li><p>Examples: Henchman, Sidekick, Familiar, Personal
-Assistant, Family, Bodyguard, Driver</p></li>
 </ul>
-</section>
-<section id="ally">
-<h2>Ally<a class="headerlink" href="#ally" title="Link to this heading">¶</a></h2>
-<ul class="simple">
-<li><p>1xp per level</p></li>
-<li><p>Usually available, you can get these people on the
-phone and working on your problem with a
-single phone call or message.</p></li>
-<li><p>Examples: Most Employees, Friends, Intelligence
-Officer, Senechal, Physics Researcher</p></li>
+<p>Companions are almost always with the Hero.  When the Hero
+decides to board a spaceship for Alpha Centauri, their
+Companions are their with them.</p>
+<p>The Hero and their Companions have been through a lot together,
+there is a lot of earned trust and shared history.  They are
+deeply involved in each other’s lives and usually don’t need much
+justification to meet the Hero in a dark alley at 3am, or
+bend whatever rules are needed to cover for the Hero.</p>
+<p>They are flawed and make mistakes, but to the degree possible,
+they’ll have the Hero’s back.</p>
+<div class="admonition-example-companions admonition">
+<p class="admonition-title">Example Companions</p>
+<table class="hlist"><tr><td><ul class="simple">
+<li><p>Henchman</p></li>
+<li><p>Sidekick</p></li>
+<li><p>Familiar</p></li>
+<li><p>Personal Assistant</p></li>
+<li><p>Close Family</p></li>
+<li><p>Bodyguard (or Protectee)</p></li>
+<li><p>Driver</p></li>
 </ul>
-</section>
-<section id="contact">
-<h2>Contact<a class="headerlink" href="#contact" title="Link to this heading">¶</a></h2>
-<ul class="simple">
-<li><p>0xp</p></li>
-<li><p>Level determined by GM/Credibility</p></li>
-<li><p>You usually have to make an appointment with
-these people or meet them in their offices or
-homes.</p></li>
-<li><p>Examples: Street Contacts, People you’ve worked
-with in the past, teachers, just about anyone
-whose interests coincide with the Hero’s.</p></li>
+</td><td><ul class="simple">
+<li><p>Animal Companion</p></li>
+<li><p>Significant Other</p></li>
+<li><p>Entourage</p></li>
+<li><p>Work Partner</p></li>
+<li><p>Lady in Waiting</p></li>
+<li><p>Officer’s Batman</p></li>
+<li><p>Executive Officer</p></li>
 </ul>
+</td></tr></table>
+</div>
 </section>
 </section>
 
@@ -387,9 +481,10 @@ whose interests coincide with the Hero’s.</p></li>
           <div class="toc-tree">
             <ul>
 <li><a class="reference internal" href="#">Network</a><ul>
-<li><a class="reference internal" href="#companion">Companion</a></li>
-<li><a class="reference internal" href="#ally">Ally</a></li>
+<li><a class="reference internal" href="#network-tier">Network Tier</a></li>
 <li><a class="reference internal" href="#contact">Contact</a></li>
+<li><a class="reference internal" href="#ally">Ally</a></li>
+<li><a class="reference internal" href="#companion">Companion</a></li>
 </ul>
 </li>
 </ul>

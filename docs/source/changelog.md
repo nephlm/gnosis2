@@ -1,11 +1,15 @@
 # Changes
 
+* WIP [](hero_creation/boons/talents.md) rework.
+* [](hero_creation/character_creation.md), [](hero_creation/attributes.md), 
+[](hero_creation/paths.md), [](hero_creation/path_list.md) overhall.
+* Rework of [](world_creation/initial_creation.md).
 * Complete rework of [](world_creation/world_creation.md) and [](world_creation/facts.md)
 * Rewrote [](introduction.md), complete rework.
 * Revised [](hero_creation/attributes.md), Revised, formatting.
 * Revised [](hero_creation/character_creation.md), high concept/trouble, core questions.
-* Revised [](world_creation/facts.md), less words, formatting, clarity.
-* Revised [](world_creation/quests.md), less words, added tables and links.
+* Revised [](world_creation/facts.md), fewer words, formatting, clarity.
+* Revised [](world_creation/quests.md), fewer words, added tables and links.
 * Revised [](world_creation/demiurge.md), standardized Logos cap and 
 updated Logos recovery.
 * Revised [](world_creation/world_creation.md)
@@ -88,6 +92,7 @@ Logos and Favor should have a forcing function so they get spent.
       * Get some equipment
     * Craft a thing
     * Train/Develop a boon
+      * Develop a Contact
     * Acquire/Develop/Upgrade a base
 
 ## Boons/Character

@@ -4,7 +4,7 @@ Each hero is a balance of **Power**, **Precision** and **Possibility**.
 They are strong in one, and weak in another.  This is all in 
 comparison to their other attributes.
 
-Assign a d12, a d10 and a d8. One die to each attribute.
+**Assign a d12, a d10 and a d8. One die to each attribute.**
 Your dominant attribute will have a profound effect
 on the narration of your Hero.
 

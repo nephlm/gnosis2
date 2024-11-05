@@ -1,56 +1,122 @@
 # Boons
 
 Boon is the general name for a host of abilities that
-make the Hero more effective.
+make the Hero more effective.  These are abilities the 
+Hero pays xp for and in general can be permanently 
+lost or taken.  Which is not to say they can't be
+*temporarily* lost.
 
-Hero’s pay xp for these and can’t loose them without
-being compensated by either the return of xp or an
-equivalent capability, whichever the player chooses. It
-is possible for Hero’s to temporarily loose access to
-Boons.
+Whenever the Hero is trying to do something uncertain 
+the player makes their **Attribute Roll** which consists 
+rolling the die for each attribute and adding up the total.
 
-During resolution, the player will roll their Hero’s
-Attribute Pools (i.e. a d8, a d6 and d4). If the
-character has boons that apply to the situation he will
-add additional dice to one of the attribute pools,
-though he will only keep one die from each pool.
-During any given roll the player may only add one
-boon to each Attribute Pool.
+* Boons allow the player to roll one or more attributes with 
+some level of {{advantage}}.  
+* Each attribute can have up to one boon during any given 
+attribute.
+* Boons do not stack on a single attribute.
 
-It may be simpler to explain by example:
+The Boon is attached to a specific attribute based on 
+the {{Strategy}} of the attribute roll, and has an
+appropriate die size based on that attribute.  
+
+Boons are not inherently tied to specific Attributes, 
+but some Boons have clear pre-dispositions.  *Strong Arm*
+is almost certainly going to be associated with Power, 
+while depending on circumstances a *Sniper Rifle* could 
+be used for the Power, Precision or Possibility die.
+
+Boons come in four types: [](talents.md), [](gear.md), 
+[](network.md) and 
+[](location.md).
+
+
+In Gnosis *Excalibur* and an *Orbital Death Laser* are equally 
+impactful in most games where they might appear.  They are 
+probably both tier 3 Boons in most games.  The key 
+question is how effective they are in helping Heroes overcome
+challenges.  
+
+
+
+
+
+
+## Tiers
+
+Boons are rated in tiers from 1-3 which corresponds to how 
+many advantage dice are rolled with an attribute. 
+No matter how many dice are rolled, only one die,
+usually the highest, is used for each attribute. 
+
+```{list-table}
+:header-rows: 1
+
+* - Tier
+  - Advantage Dice
+* - Tier 1
+  - +1 advantage die
+* - Tier 2
+  - +2 advantage dice
+* - Tier 3
+  - +3 advantage dice
+```
+
+Rolling a d12 with a tier 2 Boon would cause the player to roll
+3d12 and choose the highest die.
+
+Players may not start with tier 3 Boons and even after play they take 
+work to acquire and usually only apply to narrow circumstances.
+
+## Maximum Tier vs Effective Tier
+
+The descriptions of Boons will discuss the criteria for a Boon being
+of each tier, but this is the maximum possible tier for a given 
+Boon, and Heroes may purchase a Boon at a lower tier than its
+maximum, and for many types of Boons higher tier versions are bought 
+on top of lower tier equivalents. 
+A tier 2 Talent, *Doctor of Physics* is built on top
+of its tier 1 equivalent, *University Professor*. 
+
+Even for Boons that don't have this sort of hierarchy, 
+a Boon can always be bought at less than its maximum potential, 
+with the understanding that the Hero hasn't yet mastered its full
+potential.
+
+While *Excalibur* is tier 3 gear, that's really its 
+maximum potential tier, while *Swords and Daggers* will 
+never exceed tier 1.  
+
+
+
+## Example
+
 
 > When Talia was a young girl, she had no special skills
-but got in a fight anyway. She would roll her attribute
-pools, in this case d8 d6 d4 and add those number up.
-After having gotten in a number of fights, Talia
-purchases the Tough (+1d) broad talent. Next time
-she gets in a fight she’ll apply tough to her power pool.
-Talia happens to have put a d8 in her power attribute,
-so when she roles in her next fight she’ll roll 2d8 d6
-d4, but she’ll discard one of the d8s and keep d8 d6 d4.
+but got in a fight anyway. Her player made an attribute roll
+which was a simply a d12+d10+d8 with no advantage.
 
-> Still later on she learns how to use a dagger very
-precisely and so she picks up the Dagger (+1d)
-common gear. When Talia next gets in a fight, she
-adds Tough to her Power pool and Dagger to her
-precision pool. She can not add both Tough and
-Dagger to her Power pool as each attribute pool can
-only use one Boon in any given roll. So Talia (with a
-d6 Precision) will roll 2d8 2d6 d4, discard a d8 and a
-d6 thus keeping a d8 d6 d4.
+Later she acquired a tier 2 *Magical Dagger*, but she 
+only had 2xp so bought it as a regular *Dagger*.
 
-Boons range from +1d to +3d
+> When she next gets into a fight her player uses her *Dagger* 
+with her Precision attribute which is her d12, 
+so her player rolls two d12s and chooses the highest 
+one and adds it to her d10+d8.  If it had been a *Magical Warhammer*
+it would likely have had to go with her Power attribute.
 
-Characters can only add one boon per attribute pool.
-The die type of the boon is the same size as the
-attribute pool. Boons are not attribute pool specific
-but they often have affinities. The boon ‘Strong Arm’ 
-will rarely find use in the Possibility pool. However,
-that one time when you are trying to convince the arm
-wrestling champion of something....
+Much later she has a whole set of Boons to choose from, 
+including full use of her *Magical Dagger*.
+When in a fight her go to {{Strategy}} is tier 2 
+*Magical Dagger*, tier 1 *Tough Skinned* and tier 1 
+*Seams and Gaps*.
 
-Boons come in 4 flavors: Talents, Gear, Network and
-Location.
+> At this point when her player rolls an attribute 
+roll using this preferred Strategy, they roll
+3d12 for Precision, 2d10 for Power and 2d8 for Possibility, 
+and choose the highest d12, d10 and d8 from the roll
+and add them up.
+
 
 ```{toctree}
 :maxdepth: 2

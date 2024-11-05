@@ -87,7 +87,7 @@ them together the threat is much more serious.
 If it’s Credible that the adversary/adversaries could
 attack multiple Heroes, the pain pool is reduced by one
 die for each additional target for this action. The GM
-rolls once and all affected Heros must roll a defense
+rolls once and all affected Heroes must roll a defense
 and the Effect is figured out individually for each
 targeted Hero. The Pain Pool can inflict damage to or
 suffer backlash from all targeted Heroes.

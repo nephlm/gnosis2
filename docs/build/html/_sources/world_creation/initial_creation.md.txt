@@ -1,4 +1,4 @@
-# Intial World Creation
+# Initial World Creation
 
 
 ```{image} ../_static/city.jpg
@@ -6,62 +6,54 @@
 :align: right
 ```
 
+Now it's time to look back at the pitch and make it into a full setting.
+
+## High Concept
+
+Cement the High Concept of the setting.  This may be the pitch itself
+if it's sufficiently pithy, or it may be series title or any other 
+way to nail down this specific campaign.  
+
+Some groups may choose to create there facts first and let those 
+guide the campaign High Concept, others will choose to do it 
+the other way around.  
+
+If possible the High Concept should incorporate the Campaign's 
+key Trouble.  
+
+## Setting Facts
+
+Each player has three pre-game [Logos](../logos.md) that must
+be spent to establish [Facts](facts.md).
+
+None of the things the players decided about the setting
+are True yet.  First a player must spend their {{Logos}} and 
+accept the {{Price}}. Players may choose to make those {{Facts}}
+real or create entirely different facts.
+
+Ideas that were generated during the pitch session may need
+to be split up into multiple facts if they are too broad. 
+Edit and revise them until they conform to the breadth 
+of facts discussed in the rules about facts.
 
 Each player who will be making a
-character has 3 Logos that must be spent. Two of them
+character has 3 Logos that must be spent. Two of which
 must be spent to establish Setting 
 [Facts](facts.md) and one which
-must be spent on Metaphysics.
+must be spent on 
+{abbr}`Metaphysics (Facts that govern the breadth and function of magic or technology.)` or 
+{abbr}`Setting Facts (Facts that govern the existence and power of organizations and social structures.)`.
 
 If the GM chooses, they may claim their 3 tokens as well, but
 since they will be setting the price on all the player facts,
 if often is unnecessary. 
 
-Go back to the list of
-facts that were generated when you were
-unpacking the chosen [pitch](world_creation.md). 
-They are all up for bid.
+Any pre-game {{Logos}} that is not spent is lost once this phase 
+world creation is done. 
 
-Edit and revise them until the corm to the breadth 
-of facts discussed in the rules about facts.  Initial
-ideas associated with pitches may need to be broken up 
-into several smaller facts.
+Any pitch facts that paid for with Logos and a 
+{{Price}} aren’t established in the game, yet. 
+After Heroes are created player’s may spend Logos to establish 
+additional {{Facts}}.
 
-Any facts that either no one wants to buy, or for
-which no one has Tokens left to buy aren’t established
-in the game, yet. After Heroes are created and play
-starts player’s may spend Logos to establish new facts 
-and players can fill in anything they didn't have 
-[Logos](demiurge.md) for during initial world creation, 
-if they choose.
-
-With some broad facts about the world established,
-probably with specific Heroes in mind, it is time to get
-to creating those Heroes.
-
-
-
-### Metaphysics
-
-Metaphysics are facts
-that allow vampires to exist and sorcerers to cast spells
-and necromancers to raise the dead. Until someone
-spends a point of Logos to establish these facts, they
-aren’t true (or more precisely, they are undefined).
-
-Metaphysics aren’t just about magic, the breadth and
-reach of technology in a science fiction campaign are
-also defined by Metaphysics.
-
-### Setting
-
-Setting facts introduce organizations, kingdoms and
-relationships into the game world. They can be used to
-establish the existence of the thieves’ guild, a wizard’s
-council, a royal dynasty, etc. 
-
-Generally Logos doesn’t
-have to be spent to make a person exist, but the GM
-or the players can give that person specific qualities by
-spending Logos, as long as it doesn't change established 
-facts or narrative. 
+Once that's done, it's time to create some [Heroes](../hero_creation/character_creation.md)
