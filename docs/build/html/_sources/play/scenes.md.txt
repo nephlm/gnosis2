@@ -77,7 +77,7 @@ only do they explore the character’s personal story,
 but they also invariable get the character into more
 trouble. The GM should be pushing these scenes.
 
-Even the character’s Boons and Secrets tell you how
+Even the character’s Boons and Edges tell you how
 the player intends his Hero to overcome challenges
 and he wants challenges that can be approached in
 that way. A Hero with many persuasion and
@@ -88,4 +88,4 @@ find dissatisfying.
 
 Listen to those character sheets and hit those scenes
 where a character’s keys, quests, weakness, Boons and
-Secrets play center stage.
+Edges play center stage.

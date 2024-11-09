@@ -160,7 +160,7 @@ superior position is a prop.
 
 At the end of a scene all of a Hero’s failure ranks
 are recovered and any boons that were
-downshifted to activate Secrets recover that downshift
+downshifted to activate Edges recover that downshift
 damage.
 
 Players will roll 1d6 and recover that number of levels

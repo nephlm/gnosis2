@@ -148,4 +148,5 @@ now it's good enough to have an idea.
 :caption: Contents:
 facts.md
 initial_creation.md
+crew.md
 ```

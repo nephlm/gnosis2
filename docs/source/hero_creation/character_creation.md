@@ -144,8 +144,7 @@ might be quite large indeed.
 attributes.md
 paths.md
 boons/boons.md
-secrets.md
-starting_resources.md
-questions.md
+edges.md
 quests.md
+checklist.md
 ```

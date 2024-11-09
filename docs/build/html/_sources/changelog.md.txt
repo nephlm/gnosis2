@@ -1,25 +1,66 @@
 # Changes
 
-* WIP [](hero_creation/boons/talents.md) rework.
-* [](hero_creation/character_creation.md), [](hero_creation/attributes.md), 
-[](hero_creation/paths.md), [](hero_creation/path_list.md) overhall.
-* Rework of [](world_creation/initial_creation.md).
-* Complete rework of [](world_creation/world_creation.md) and [](world_creation/facts.md)
-* Rewrote [](introduction.md), complete rework.
-* Revised [](hero_creation/attributes.md), Revised, formatting.
-* Revised [](hero_creation/character_creation.md), high concept/trouble, core questions.
-* Revised [](world_creation/facts.md), fewer words, formatting, clarity.
-* Revised [](world_creation/quests.md), fewer words, added tables and links.
-* Revised [](world_creation/demiurge.md), standardized Logos cap and 
-updated Logos recovery.
-* Revised [](world_creation/world_creation.md)
-* Rewrote [](introduction.md), added links, tried to make it less wordy.
+* Added crew section to world creation.
+* XP rewards changed from 0-3xp to 0-2xp.
+* Secrets -> Edges, the rules were completely re-written.
+* Network -> Kith
+* high concept/trouble, core questions.
+* Standardized Logos cap and updated Logos recovery.
+* d4/d6/d8 -> d8/d10/d12
+* Terminology change to levels of advantage.
 
+
+
+
+---
+* Unit of Damage
+  * 1 tier of Talent/Gear or 2 tiers of Kith or Locations
+     * Final tier of Kith/Locations will satisfy the damage if there are no other tiers of Kith/Location available to the character.
+     * Depleted Kith Boons may kill the NPC
+     * Boons that are unusable are *Suppressed*.
+  * Path Pools of 7+ do 2x damage
+  * Pain Pools of 9+ do 3x damage
+  * Pain Pools of 11+ do 4x damage
+  * Stress & Blood
+    * Track them separately, really?
+    * all stress recovers if there is downtime
+    * Stress recovery roll after any scene where the Hero didn't take additional Stress or Blood.
+    * Blood recovery roll during any downtime action.
+    * How to scale recovery since damage is scaled?
+  * Levels as a terminology
+    * pain pool level 7-8 are level 2
+    * pain pool level 9-10 are level 3
+    * pain pool level 11+ are level 4
+    * Character's gain levels at which point their healing is 
+    multiplied
+
+Starting Character
+
+* apparently there are no starting boons in the original?
+* High Concept (Talent)
+* Farm Orphan
+  * 3xp in boons, 1 contact, no Edges, 1 path
+* Novice:
+  * 7xp in boons, 2 contacts, 1 Edge, 1 Path
+* Experienced: 
+  * 13xp in boons, 2 allies, 2 contacts, 1 location, 2 Edge, 1 Path
 
 ---
 
 ## Plans
 
+
+* Secrets -> Edges
+* end game damage (players have too many HP)
+  * Each level of damage inflicts 1 level of disadvantage 
+  * Any disadvantage at the end of the challenge has to be moved to boons?
+  * Some number of free hits that don't cause disadvantage (1-3)
+* Soak
+  * If the player takes any damage they are taken out.
+  * Heroes can spend/tap/impact Boons to avoid damage.
+    * 3 (or pain dice) xp of Boons to soak each success
+* Rename Vice to Blind spot or something
+* slow the xp advice: 1-2xp
 
 ## Dice
 

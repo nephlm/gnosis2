@@ -3,7 +3,7 @@
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Currencies" href="../currency.html" /><link rel="prev" title="Questions" href="questions.html" />
+<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Checklist &amp; Finishing Touches" href="checklist.html" /><link rel="prev" title="Edges" href="edges.html" />
 
     <!-- Generated with Sphinx 8.1.3 and Furo 2024.08.06 -->
         <title>Quests - Gnosis</title>
@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/tabs.css?v=4c969af8" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?v=302659d7" />
-    <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=020e0b46" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=82606edb" />
     
     
 
@@ -181,7 +181,7 @@
           <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
         </button>
       </div>
-      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
         <div class="visually-hidden">Toggle table of contents sidebar</div>
         <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
       </label>
@@ -207,6 +207,7 @@
 <li class="toctree-l1 has-children"><a class="reference internal" href="../world_creation/world_creation.html">Creation</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of Creation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../world_creation/facts.html">Setting Facts</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../world_creation/initial_creation.html">Initial World Creation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../world_creation/crew.html">Crew</a></li>
 </ul>
 </li>
 <li class="toctree-l1 current has-children"><a class="reference internal" href="character_creation.html">Making a Hero</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle navigation of Making a Hero</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
@@ -218,15 +219,13 @@
 <li class="toctree-l2 has-children"><a class="reference internal" href="boons/boons.html">Boons</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle navigation of Boons</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l3"><a class="reference internal" href="boons/talents.html">Talents</a></li>
 <li class="toctree-l3"><a class="reference internal" href="boons/gear.html">Gear</a></li>
-<li class="toctree-l3"><a class="reference internal" href="boons/network.html">Network</a></li>
+<li class="toctree-l3"><a class="reference internal" href="boons/kith.html">Kith</a></li>
 <li class="toctree-l3"><a class="reference internal" href="boons/location.html">Locations</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="secrets.html">Secrets</a></li>
-<li class="toctree-l2"><a class="reference internal" href="starting_resources.html">Starting Resources</a></li>
-<li class="toctree-l2"><a class="reference internal" href="starting_resources.html#bonuses">Bonuses</a></li>
-<li class="toctree-l2"><a class="reference internal" href="questions.html">Questions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="edges.html">Edges</a></li>
 <li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Quests</a></li>
+<li class="toctree-l2"><a class="reference internal" href="checklist.html">Checklist &amp; Finishing Touches</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../currency.html">Currencies</a></li>
@@ -273,7 +272,7 @@
               <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
             </button>
           </div>
-          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
             <div class="visually-hidden">Toggle table of contents sidebar</div>
             <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
           </label>
@@ -281,58 +280,101 @@
         <article role="main" id="furo-main-content">
           <section id="quests">
 <h1>Quests<a class="headerlink" href="#quests" title="Link to this heading">¶</a></h1>
-<p>The <a class="reference internal" href="character_creation.html"><span class="std std-doc">Hero</span></a>
-completing acts of significance to the Story grants
-the <a class="reference internal" href="#demiurge.md"><span class="xref myst">demiurge</span></a> influence over creation.
-Creation of story is what the Story considered acts of
-Significance.</p>
-<p>The demiurge may spend a point of <a class="reference internal" href="#demiurge.md"><span class="xref myst">Logos</span></a>
-and boast to
-the Story the things his hero will do. In game this
-boast is represented by the quest card. A quest card
-consists of three things:</p>
+<p>How does a Hero advance without accomplishing great
+deeds?  How does a Hero fulfill their destiny and
+have a great character arc?  The answer is Quests.</p>
+<p>The player through their role as Demiurge, give the
+Hero a Quest, by giving it a cool name, and a specific
+thing that must be accomplished.</p>
+<p>Besides the role of quests in Hero advancement they
+serve the much larger purposed in telegraphing to
+the table and the GM, what the Hero will be trying
+to accomplish over the next session or two.</p>
+<p>It’s not uncommon for Heroes to pick up very large
+over arching Quests to communicate their
+campaign goals,
+as well as smaller goals showing what they wish to
+accomplish in the next session or two and
+to advance as a Hero.</p>
+<div class="admonition-example-quests admonition">
+<p class="admonition-title">Example Quests</p>
+<dl class="simple myst">
+<dt>Hunting Scrap</dt><dd><p>Acquire a pure orichalcum core to trade with the Atlantean
+refugees.</p>
+</dd>
+<dt>Freedom!</dt><dd><p>Lead the oppressed people Navarro to rise up and throw off
+the yoke of the necromancer.</p>
+</dd>
+<dt>Rats in the Cellar</dt><dd><p>Investigate the source of the soul eaters discovered in the
+hotel’s wine cellar.</p>
+</dd>
+<dt>Special Skills</dt><dd><p>Hunt down the kidnappers and free the Heroes abducted sister.</p>
+</dd>
+<dt>Moles</dt><dd><p>Develop an informant among the corrupt city guard.</p>
+</dd>
+</dl>
+</div>
+<section id="rewards">
+<h2>Rewards<a class="headerlink" href="#rewards" title="Link to this heading">¶</a></h2>
+<p>If the Hero is successful, they are rewarded.  This
+reward may many things, but importantly <strong>Quests are the
+only way for a Hero to gain <abbr title="Experience Points.">xp</abbr></strong>, which they can
+spend on <a class="reference internal" href="boons/boons.html"><span class="std std-doc">Boons</span></a> and <a class="reference internal" href="edges.html"><span class="doc std std-doc">Edges</span></a>.</p>
 <aside class="sidebar">
 <p class="sidebar-title">Possible Rewards:</p>
 <ul class="simple">
+<li><p>Prop / contact / Kit Gear</p></li>
 <li><p>a point of Favor</p></li>
 <li><p>a point of Logos</p></li>
-<li><p>Prop</p></li>
-<li><p>A contact</p></li>
 <li><p>1 xp specific Boon</p></li>
 <li><p>1 xp</p></li>
 <li><p>2 xp specific Boon</p></li>
 <li><p>2 xp</p></li>
-<li><p>3 xp specific Boon</p></li>
-<li><p>3 xp</p></li>
 <li><p>Combination of the above</p></li>
 </ul>
 </aside>
-<ul class="simple">
-<li><p>A title</p></li>
-<li><p>A specific thing that must be accomplished to
-complete the quest</p></li>
-<li><p>A reward for completing the quest</p></li>
+<p>Quests can be large or small, but should probably
+be at least a session’s worth of effort.
+Less than that and
+the rewards may be non-existent or at least less
+than the Demiurge paid for the quest.</p>
+<p><strong>Quests cost a Logos for each quest, and each
+Hero starts with one Quest for free.</strong> Initial
+Quests often relate to a Hero’s <abbr title="Trouble Definition">Trouble</abbr> or
+what <a class="reference internal" href="checklist.html"><span class="std std-doc">just happened</span></a> before
+the beginning of play.</p>
+<ul>
+<li><p>Only Quests that aren’t worthy of the Hero won’t
+Reward a Logos in combination with any other
+Rewards.  Not receiving Logos is a message that the
+Quest wasn’t worthy.</p>
+<p>Quests that don’t inform the GM what the Hero
+intends before they actually do it, are usually
+considered unworthy.</p>
+</li>
+<li><p>A Prop, Contact and Kit Gear are usually incidental
+rewards or opportunities the Hero can choose to
+spend xp on a later.</p>
+<p>A Hero who wants a
+<em>Magic Sword</em> may make a Quest and go after such a
+sword, and if successful be granted a Prop or Kit Gear
+version of a magic sword in addition to any xp, giving
+them the opportunity to start investing into the
+<em>Magic Sword</em> Boon.</p>
+</li>
+<li><p>Experience points can only be earned by completing Quests.</p></li>
 </ul>
-<p>The GM may create a quest card without expenditure
-of Logos, but they are discouraged from doing so.
-The GM should not force the players to be interested in
-something that aren’t interested in.</p>
-<p>A demiurge can
-create a Quest Card at any time, however the Story is
-dismissive of boasts of obvious events and offers no or
-minimal rewards for such boasts.</p>
-<p>The player whose demiurge spends the Logos specifies
-the title and quest, the GM specifies the reward.
-The Story is unimpressed with boasts that a Hero will
-cross the street.</p>
-<p>Any worthy quests should reward a Logos in addition to
-any other rewards.</p>
+<p>The GM is responsible for choosing the Reward.  They may set
+it when the Quest is acquired or more commonly when it is
+completed once it is revealed how worthy the Quest became.</p>
+<p>Players must create Quests to gain xp, the GM should not create
+Quests under normal circumstances.</p>
 <p>Quest Cards can be either individual, party or group It
 will depend on the specific quest and how it is
+accomplished.  It’s often not possible to know whether
+an individual, party or group reward is appropriate
+for a Quest until it’s revealed how the Quest is
 accomplished.</p>
-<p>Quest cards are the only way to get xp and thus for characters
-to advance.  During Hero creation, Players create one free
-quest.</p>
 <div class="table-wrapper docutils container">
 <table class="docutils align-default">
 <thead>
@@ -364,29 +406,30 @@ by a specific individual.  Only one player can actually get Excalibur.</p></td>
 </table>
 </div>
 </section>
+</section>
 
         </article>
       </div>
       <footer>
         
         <div class="related-pages">
-          <a class="next-page" href="../currency.html">
+          <a class="next-page" href="checklist.html">
               <div class="page-info">
                 <div class="context">
                   <span>Next</span>
                 </div>
-                <div class="title">Currencies</div>
+                <div class="title">Checklist &amp; Finishing Touches</div>
               </div>
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
             </a>
-          <a class="prev-page" href="questions.html">
+          <a class="prev-page" href="edges.html">
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
               <div class="page-info">
                 <div class="context">
                   <span>Previous</span>
                 </div>
                 
-                <div class="title">Questions</div>
+                <div class="title">Edges</div>
                 
               </div>
             </a>
@@ -408,8 +451,27 @@ by a specific individual.  Only one player can actually get Excalibur.</p></td>
         
       </footer>
     </div>
-    <aside class="toc-drawer no-toc">
+    <aside class="toc-drawer">
       
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Quests</a><ul>
+<li><a class="reference internal" href="#rewards">Rewards</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
       
       
     </aside>

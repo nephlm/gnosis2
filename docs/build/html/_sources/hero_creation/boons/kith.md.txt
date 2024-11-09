@@ -1,29 +1,40 @@
-# Network
+# Kith
 
-A Hero’s network describes the people 
+> Kith:   
+> : /kiTH/ (noun) One's friends, acquaintances, and relations.
+
+
+A Hero’s kith describes the people 
 and organizations the Hero
 knows and can turn to for help. 
 
-Organizations bought as part of the Hero's Network
+
+Organizations bought as part of the Hero's Kith
 have an anchor who is Hero's primary contact inside the
 organization.
 
-Heroes can use members of their Network
+
+Heroes can use members of their Kith
 as Boons when they are
 present, agree to help, and they have a relevant skill set.
 A Hero looking for a past a guard could add their tier 2 
 familiar, a Companion, as their Possibility Boon for example.
 
+```{image} /_static/kith.jpg
+:width: 300px
+:align: right
+```
+
 Sometimes it is enough just to know someone or be part of 
 an organization.  A Hero trying to talk his way into 
 a posh party could drop a name or mention their membership
-and use that Network as part of their Attribute Roll {{Strategy}}.
+and use that Kith as part of their Attribute Roll {{Strategy}}.
 
 Membership and friendship, and a flock of convenience is a 
 two-way road.  Sometimes it's the Hero who is being called 
 on to render aid or help with some problem. 
 
-A Network Boon is one of three levels:
+A Kith Boon is one of three levels:
 
 * **Companion**: A person or group that travels with
 the Hero.
@@ -43,9 +54,9 @@ requires some sort of in-game justification.
 **Heroes start the game with up to two 
 Contacts.**
 
-## Network Tier
+## Kith Tier
 
-A member of the Hero's Network has a maximum tier set
+A member of the Hero's Kith has a maximum tier set
 by the maximum impact they could have.  A *Galactic Overlord*
 is going to be able to impact much more than a 
 *Local Bartender* is the same game. In most games
@@ -60,7 +71,7 @@ provides help to the Hero, it's considerably less
 aid than they could provide. 
 
 The maximum tier is set by the Table thinks is 
-appropriate for that Network in that Game.  If 
+appropriate for that NPC in that Game.  If 
 necessary, the GM can make the final determination.
 
 
@@ -80,7 +91,7 @@ on a street, but if the Hero exchanges phone numbers
 or whatever is the equivalent in the game, 
 could be considered a Contact.
 
-Unlike normal Network Boons, Contacts can't 
+Unlike normal Kith Boons, Contacts can't 
 usually be used as part of a Hero's {{Strategy}}.
 The GM is free to make exceptions if it makes sense
 in the fiction or if the Hero did something, such 

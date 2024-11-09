@@ -85,20 +85,21 @@ three tiers of {{advantage}}.
 [Boons](hero_creation/boons/boons.md)
 are a broad set of things that are part of a Hero.
 They are the building blocks that build a Hero.
-Broadly these are Talents, Gear, Network and 
+Broadly these are Talents, Gear, Kith and 
 Locations.
 
 Boons are narrative and unique.  There is an infinite set of Boons, 
 the only limit is imagination and the credibility of the table.
 
-### Secrets
+### Edges
 
-Secrets are how a Hero bends the rules.  Not of Creation, a Hero doesn't 
-need a Secret to cast a spell as long as Creation has magic, and they are 
-a some sort of spell caster, but of fortune.
+Edges are how a Hero bends the rules.  Not of Creation, a Hero doesn't 
+need an Edge to cast a spell as long as Creation has magic, and they are 
+a some sort of spell caster.  Edges bend the rules of fortune and 
+bend the game mechanics in their favor in certain circumstances.
 
-Secrets allow Heroes to do things to shift fortune in their favor.
-Each Hero has their own Secrets.
+Edges allow Heroes to do things to shift fortune in their favor.
+Each Hero has their own Edges.
 
 ### Keys
 
@@ -112,7 +113,7 @@ When a Hero's Keys come up in play the Hero gains Favor.
 
 Favor is the currency that players spend to make their Heroes do more 
 than they usually can.  Favor is flexible and can be used for a lot 
-of effects, everything from powering [Secrets](hero_creation/secrets.md)
+of effects, everything from powering [Edges](hero_creation/edges.md)
 to re-rolling dice and other effects.
 
 

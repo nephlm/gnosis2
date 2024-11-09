@@ -75,18 +75,20 @@ definitions = {
     'Gear': "A type of Boon that represents a piece or set of equipment tied to the Hero.",
     'Locations': "A type of Boon that represents a place or type of place associated with the Hero..",
     'Logos': "Logos Definition",
-    'Networks': "A type of Boon that represents one of the Hero's relationships.",
+    'Kith': "A type of Boon that represents one of the Hero's relationships.",
     'Price': "Price Definition",
     'Props': "Props Definition",
     'Strategy': "The set of Boons the player chooses to use for an attribute roll.",
     'Talent': "A type of Boon that is intrinsic to the Hero, such as a learned skill.",
     'Trouble': 'Trouble Definition',
+    'xp': 'Experience Points.'
 }
 
 # A definition has a synonym such as a plural.
 synonyms = {
     'Boons': definitions['Boon'],
     'Consequences': definitions['Consequence'],
+    'Strategies': definitions['Strategy'],
     'Talents': definitions['Talent'],
 }
 definitions.update(synonyms)

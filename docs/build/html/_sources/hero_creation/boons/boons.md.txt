@@ -27,7 +27,7 @@ while depending on circumstances a *Sniper Rifle* could
 be used for the Power, Precision or Possibility die.
 
 Boons come in four types: [](talents.md), [](gear.md), 
-[](network.md) and 
+[](kith.md) and 
 [](location.md).
 
 
@@ -124,6 +124,6 @@ and add them up.
 :caption: Contents:
 talents.md
 gear.md
-network.md
+kith.md
 location.md
 ```
