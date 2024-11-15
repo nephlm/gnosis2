@@ -1,4 +1,65 @@
-# Checklist & Finishing Touches
+# Checklist
+
+If the player already knows how to create Hero, this checklist 
+should provide all the information needed to make another.
+It has all the numbers and costs, as well as links to 
+more information.
+
+{{checkbox}} Select your Hero's 
+[High Concept](character_creation.md#high-concept) and 
+[Trouble](character_creation.md#trouble).  
+
+{{checkbox}} Answer the 
+[Core Questions](character_creation.md#core-questions).
+
+* What's on the surface?
+* What is the Hero's vice?
+* What holds the Hero here?
+
+{{checkbox}} Assign d12, d10 and d8 to your Hero's
+[](attributes.md).
+
+{{checkbox}} Select your Hero's free 
+[Path](paths.md).
+
+{{checkbox}} Add your Hero's 
+[High Concept](character_creation.md#high-concept)
+as a tier 1 
+[Talent](boons/talents.md).
+
+{{checkbox}} Select your Hero's free 
+[Edge](edges.md).
+
+{{checkbox}} The character starts with **5 xp** to spend.
+
+* [](edges.md) cost 5xp each.
+* [](boons/talents.md) cost 3xp/tier and *must* be grouped.
+* [](boons/gear.md) cost 2xp/tier and can be grouped.
+* [Companions](boons/kith.md#companion) cost 2xp per tier and can't be grouped.
+* [Allies](boons/kith.md#ally) cost 1xp per tier and can't be grouped.
+* [Locations](boons/location.md) cost 1xp per tier and can be grouped.
+* [](paths.md) cost 1 xp each.
+
+{{checkbox}} Create the Hero's free
+[Quest](quests.md).
+
+{{checkbox}} Select up to two 
+[Contacts](boons/kith.md#contact).
+
+{{checkbox}} Select a reasonable amount of 
+[Kit Gear](boons/gear.md#kit-gear).
+
+{{checkbox}} The Demiurge gains 3 Logos, and the
+Hero gains 10 Favor.  
+
+{{checkbox}} Spend any Logos the player wishes to, or safe it all for later.
+
+{{checkbox}} Answer the [](#finishing-touches) question below.
+
+
+# Finishing Touches
+
+## Questions
 
 ### How is Your Hero a Badass?
 

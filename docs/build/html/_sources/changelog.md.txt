@@ -1,11 +1,25 @@
 # Changes
 
-* Added crew section to world creation.
-* XP rewards changed from 0-3xp to 0-2xp.
-* Secrets -> Edges, the rules were completely re-written.
-* Network -> Kith
-* high concept/trouble, core questions.
-* Standardized Logos cap and updated Logos recovery.
+## V1 to V2 Summary of Changes
+
+* New Sections
+  * Added crew section to world creation.
+  * Tools
+    * Progress clocks
+    * Downtime
+* XP
+  * There was no starting xp, so set it to 5xp.
+  * XP rewards changed from 0-3xp to 0-2xp.
+* Boons
+  * Secrets -> Edges, the rules were completely re-imagined.
+  * Network -> Kith
+  * Made Kith tiers less fiddly.
+  * Introduced the concept of Max Tier to non-grouped Boons.
+  * Introduced the general concept of grouped Boons.
+  * high concept/trouble, core questions.  
+  * High Concept became a free starting Talent.
+* Currencies
+  * Standardized Logos cap and updated Logos recovery.
 * d4/d6/d8 -> d8/d10/d12
 * Terminology change to levels of advantage.
 
@@ -13,6 +27,21 @@
 
 
 ---
+
+* Positioning
+  * Game starts in a controlled position
+  * If pain dominates the positions gets one worse.
+  * There are three levels controlled, risky, overwhelmed
+  * Players can sacrifice a success to shift from overwhelmed to risky.
+    * Maybe do maneuvers instead?
+  * Rolls
+    * In controlled draws count as success.
+    * In risky can either:
+      * Count as a success, but positioning becomes overwhelmed
+      * Count as a failure, but positioning stays risky.
+    * In overwhelmed draws count as failures
+
+
 * Unit of Damage
   * 1 tier of Talent/Gear or 2 tiers of Kith or Locations
      * Final tier of Kith/Locations will satisfy the damage if there are no other tiers of Kith/Location available to the character.

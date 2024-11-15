@@ -45,8 +45,9 @@ the providence of a demiurge sent you without you realizing it.
 :caption: Contents:
 introduction.md
 world_creation/world_creation.md
+crew.md
 hero_creation/character_creation.md
-currency.md
+tools/tools.md
 play/play.md
 changelog.md
 ```

@@ -21,7 +21,10 @@ physical, mental, spiritual, social, athletic, etc.
 Mechanics is the Edge Blueprint adjusted or completed to 
 fit the description.  All Edges should be made in consultation
 with the group and GM and everyone should agree that it is 
-appropriately limited in scope.  
+appropriately limited in scope. 
+
+**The Hero starts with one free edge and can purchase
+additional Edges for 5xp each.**
 
 ## Using an Edge
 
@@ -58,7 +61,7 @@ certain circumstances.
 if a Hero pays a Favor, an attribute,
 chosen when the Edge is bought, always has at least one level of advantage, even if there is no appropriate Boon.
 * During a particular kind of challenge, 
-if a Hero pays a favor, an attribute, 
+if a Hero pays a Favor, an attribute, 
 chosen when the Edge is bought, 
 can't roll less than the level of advantage.
 * During a particular kind of challege, if the Hero 
@@ -76,7 +79,7 @@ These Blueprint often require a specific {{Boon}} be used in a
 Strategy to be able to use them or influences Attribute Rolls
 using a particular Boon.
 
-* The Hero pays a favor when making an Attribute Roll that includes
+* The Hero pays a Favor when making an Attribute Roll that includes
 a particular Boon in a specific circumstance or situation,
 and gains +1 level of advantage from that Boon.
 * When using a specific Boon in particular circumstance, and a Hero
@@ -86,8 +89,8 @@ success by one level (draw to success, success to critical success).
 rolls a failure or worse, they may increase the level of 
 success by one level (critical failure to failure, failure to draw).
 * If the Hero has one or more Boons Suppressed from a particular kind of 
-challenge, they may spend a favor, and heal one or more boons.  
-They may recover one tier or Talents or Gear, or two tiers of Kith or 
+challenge, they may spend a Favor, and heal one or more boons. 
+They may recover one tier of Talents or Gear, or two tiers of Kith or 
 Locations.
 
 
@@ -101,12 +104,14 @@ These Blueprints may not be used
 in any way by themselves or in combination with other Edges or other Heroes
 that can be said to generate infinite resources.
 
-* Spend a favor, get two favor to spend in a specific way.  The Favor 
-must be spent by the end of the scene, or it is lost.  
+* Spend a Favor, get two Favor to spend in a specific way.  The Favor 
+must be spent by the end of the scene, or it is lost. 
+The cost of this Edge increases by one Favor each time it is 
+used during a challenge.
 This Favor may not be used in any way that generates any further Favor.
-* Spend a favor, gain two dice that can added to 
+* Spend a Favor, gain two dice that can added to 
 pools under constrained circumstances, such as having to be given to 
-other Heroes or something similarly limited.  
+other Heroes or something similarly limited. 
 If the dice are not used by the end of the challenge, they are lost.
 
 
@@ -117,12 +122,12 @@ If the dice are not used by the end of the challenge, they are lost.
 These Blueprints influence the Pain Pool, usually reducing it by 
 either dice or a set number. 
 
-* During a particular type of challenge a Hero may spend a favor and 
+* During a particular type of challenge a Hero may spend a Favor and 
 reduce the pain pool by 1 die.  This persists for the remainder of 
 the challenge.  This may only be done once per challenge and cannot 
 reduce the pain pool below 3 dice. 
 * During a particular type of challenge a Hero may spend a one or more 
-favor and 
+Favor and 
 reduce the pain pool by 1 on the pain pool's next roll for each Favor spent.
 
 
@@ -209,7 +214,7 @@ limits normally associated with their use.
     The Favor must be spent by the end of the challenge, or it is lost. 
     The other player can use this gifted Favor for 
     anything they might use Favor for. The cost to activate this edge
-    increases by 1 favor each time it is used during a challenge.
+    increases by 1 Favor each time it is used during a challenge.
 * **Divine Blessing of Loki**
     * *Description:* The Hero calls upon Loki and asks them to bless the deceptions of one of 
     their comrades.
@@ -234,7 +239,7 @@ social challenges.
 * **Mental Competency**
     * *Description:* The Hero's intense mental training grants at least basic mental competency
     if on their most off days.
-    * *Mechanics:* When the Hero spends a favor each pool can't roll lower than the level of 
+    * *Mechanics:* When the Hero spends a Favor each pool can't roll lower than the level of 
     advantage they are rolling during the Attribute Roll.
 * **Acrobatic Recovery**
     * *Description:* The Hero is adept in minimizing how badly they fall on their faces.

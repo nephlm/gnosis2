@@ -6,8 +6,8 @@
 
 In addition to the {{Demiurge}} which exist outside of
 {{Creation}}, each player also has a Hero. The Hero is
-connected to the demiurge, though since creation isn’t
-even aware of the existence of the demiurges, the Hero
+connected to the Demiurge, though since Creation isn’t
+even aware of the existence of the Demiurges, the Hero
 certainly isn’t either.
 
 It is the player’s responsibility to make the Hero's 
@@ -17,11 +17,17 @@ Although we call the Hero a hero,
 depending on the campaign they may be more or less
 heroic to downright unpleasant.
 
+If you already know the difference between 
+an {{Edge}} and a {{Talent}}, the 
+[Hero Creation Checklist](checklist.md)
+contains the steps and numbers without
+the explanation.
+
 ```{sidebar} Sample High Concepts
 
 Wizard Private Eye \
 Bug Engineer \
-Daughter of Zeus \
+Daughter of Hades \
 Vengeful Escaped Slave \
 Keeper of a Dragon Soul \
 Vampire Cleaner \
@@ -34,10 +40,10 @@ Chosen of Excalibur
 
 ## High Concept
 
-The first thing to choose is the hero's High Concept.
-This pithy short phrase encapsulates the hero's 
+The first thing to choose is the Hero's High Concept.
+This pithy short phrase encapsulates the Hero's 
 nature.  This is how the other players describe the 
-character when they can't remember their name. 
+Hero when they can't remember their name. 
 
 Any source of metaphysical power should be part 
 of the high concept.  It could be entirely that, but 
@@ -46,8 +52,11 @@ or something more than a generic practitioner of some
 metaphysical art.
 
 It could be a job title or a responsibility.  This is
-the core nature of the character.  It is what they *do*
+the core nature of the Hero.  It is what they *do*
 and what they *are* rolled together.
+
+The High Concept becomes a free tier 1 
+[Talent](boons/talents.md).
 
 ## Trouble
 
@@ -66,7 +75,7 @@ Terrified Seer
 ```
 
 
-The heroes are talented individuals with a lot of potential
+The Heroes are talented individuals with a lot of potential
 at the least, and probably power.  They could stay at home 
 and work a cushy 9-to-5 and do well for themselves.
 
@@ -87,7 +96,7 @@ encapsulates what gets the Hero in trouble.
 
 In addition to High Concept and Trouble, there are 
 other questions to consider while constructing the core
-of the character.  
+of the Hero.  
 
 ### What’s on the Surface?
 
@@ -97,7 +106,7 @@ Who would be cast to play them in a movie?
 
 This is where we ask species, gender, height and all
 the surface level things that will have impacted the 
-hero as they became adults... or are they still a kid?
+Hero as they became adults... or are they still a kid?
 
 ### What is the Hero’s Vice?
 
@@ -120,8 +129,8 @@ their vice if they put it before their own survival.
 
 ### What Holds Your Hero Here?
 
-The hero can go anywhere, why are they **here**?
-What is the character's baggage?
+The Hero can go anywhere, why are they **here**?
+What is the Hero's baggage?
 
 There is another planet just 116 light-years away,
 barely a skip and a jump, but the Hero can't leave

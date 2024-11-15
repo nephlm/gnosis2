@@ -65,19 +65,25 @@ definitions = {
             "adventure takes place.  The campaign world may be a whole world but if " +
             "the Heroes never leave one city, than the adventuring space is only that city.",
     'Boon': "Boon Definition",
+    'Challenge': "Challenge Definition",
     'Consequence': "Consequence Definition",
     'Creation': "The game world.",
     'Demiurge': ("A less perfect being responsible for the creation of the "
                 "material universe, subordinate to the perfect, "
                 "purely spiritual creator."),
+    'Edge': 'Edge Definition',
     'Facts': "Campaign Fact, a fact that is true in the game setting.",
-    'Favor': "Favor Definition",
+    'Favor': "The Currency spent by Heroes to power Edges and similar benefits.",
     'Gear': "A type of Boon that represents a piece or set of equipment tied to the Hero.",
     'Locations': "A type of Boon that represents a place or type of place associated with the Hero..",
-    'Logos': "Logos Definition",
+    'Logos': "The currency used by Demiurges to affect Creation and the Hero.",
+    'metaphysics': "Facts the deal with magic systems, tech or other Hero power sources.",
     'Kith': "A type of Boon that represents one of the Hero's relationships.",
     'Price': "Price Definition",
     'Props': "Props Definition",
+    'bible': ("There many ways to keep a setting bible: Index cards, "
+                " text file, online services, etc.  Use whatever works for your group. "
+                " What matters is it is a place where facts can be written down."),
     'Strategy': "The set of Boons the player chooses to use for an attribute roll.",
     'Talent': "A type of Boon that is intrinsic to the Hero, such as a learned skill.",
     'Trouble': 'Trouble Definition',
@@ -88,6 +94,8 @@ definitions = {
 synonyms = {
     'Boons': definitions['Boon'],
     'Consequences': definitions['Consequence'],
+    'Demiurges': definitions['Demiurge'],
+    'Edges': definitions['Edge'],
     'Strategies': definitions['Strategy'],
     'Talents': definitions['Talent'],
 }
@@ -97,6 +105,7 @@ abbr_substitutions = {key: abbr_fx(key, val) for key,val in definitions.items()}
 
 abbr_substitutions.update({
     # Non definition substitution are added here.
+    'checkbox': '<input type="checkbox">'
 })
 
 myst_substitutions = abbr_substitutions

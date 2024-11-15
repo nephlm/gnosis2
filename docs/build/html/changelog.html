@@ -3,7 +3,7 @@
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="prev" title="Downtime Activities" href="play/downtime.html" />
+<link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="prev" title="Conflict" href="play/conflict.html" />
 
     <!-- Generated with Sphinx 8.1.3 and Furo 2024.08.06 -->
         <title>Changes - Gnosis</title>
@@ -207,9 +207,9 @@
 <li class="toctree-l1 has-children"><a class="reference internal" href="world_creation/world_creation.html">Creation</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of Creation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="world_creation/facts.html">Setting Facts</a></li>
 <li class="toctree-l2"><a class="reference internal" href="world_creation/initial_creation.html">Initial World Creation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="world_creation/crew.html">Crew</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="crew.html">Crew</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="hero_creation/character_creation.html">Making a Hero</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle navigation of Making a Hero</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="hero_creation/attributes.html">Attributes</a></li>
 <li class="toctree-l2 has-children"><a class="reference internal" href="hero_creation/paths.html">Paths</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle navigation of Paths</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
@@ -225,16 +225,21 @@
 </li>
 <li class="toctree-l2"><a class="reference internal" href="hero_creation/edges.html">Edges</a></li>
 <li class="toctree-l2"><a class="reference internal" href="hero_creation/quests.html">Quests</a></li>
-<li class="toctree-l2"><a class="reference internal" href="hero_creation/checklist.html">Checklist &amp; Finishing Touches</a></li>
+<li class="toctree-l2"><a class="reference internal" href="hero_creation/checklist.html">Checklist</a></li>
+<li class="toctree-l2"><a class="reference internal" href="hero_creation/checklist.html#finishing-touches">Finishing Touches</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="currency.html">Currencies</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="play/play.html">Play</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><div class="visually-hidden">Toggle navigation of Play</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="play/scenes.html">Scenes</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="tools/tools.html">Tools</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><div class="visually-hidden">Toggle navigation of Tools</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="tools/currency.html">Currencies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tools/props.html">Props</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tools/scenes.html">Scenes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tools/progress.html">Progress Clocks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tools/downtime.html">Downtime Activities</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="play/play.html">Play</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" role="switch" type="checkbox"/><label for="toctree-checkbox-6"><div class="visually-hidden">Toggle navigation of Play</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="play/resolution.html">Resolution</a></li>
 <li class="toctree-l2"><a class="reference internal" href="play/conflict.html">Conflict</a></li>
-<li class="toctree-l2"><a class="reference internal" href="play/props.html">Props</a></li>
-<li class="toctree-l2"><a class="reference internal" href="play/downtime.html">Downtime Activities</a></li>
 </ul>
 </li>
 <li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Changes</a></li>
@@ -280,18 +285,71 @@
         <article role="main" id="furo-main-content">
           <section id="changes">
 <h1>Changes<a class="headerlink" href="#changes" title="Link to this heading">¶</a></h1>
+<section id="v1-to-v2-summary-of-changes">
+<h2>V1 to V2 Summary of Changes<a class="headerlink" href="#v1-to-v2-summary-of-changes" title="Link to this heading">¶</a></h2>
 <ul class="simple">
+<li><p>New Sections</p>
+<ul>
 <li><p>Added crew section to world creation.</p></li>
+<li><p>Tools</p>
+<ul>
+<li><p>Progress clocks</p></li>
+<li><p>Downtime</p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>XP</p>
+<ul>
+<li><p>There was no starting xp, so set it to 5xp.</p></li>
 <li><p>XP rewards changed from 0-3xp to 0-2xp.</p></li>
-<li><p>Secrets -&gt; Edges, the rules were completely re-written.</p></li>
+</ul>
+</li>
+<li><p>Boons</p>
+<ul>
+<li><p>Secrets -&gt; Edges, the rules were completely re-imagined.</p></li>
 <li><p>Network -&gt; Kith</p></li>
+<li><p>Made Kith tiers less fiddly.</p></li>
+<li><p>Introduced the concept of Max Tier to non-grouped Boons.</p></li>
+<li><p>Introduced the general concept of grouped Boons.</p></li>
 <li><p>high concept/trouble, core questions.</p></li>
+<li><p>High Concept became a free starting Talent.</p></li>
+</ul>
+</li>
+<li><p>Currencies</p>
+<ul>
 <li><p>Standardized Logos cap and updated Logos recovery.</p></li>
+</ul>
+</li>
 <li><p>d4/d6/d8 -&gt; d8/d10/d12</p></li>
 <li><p>Terminology change to levels of advantage.</p></li>
 </ul>
 <hr class="docutils" />
 <ul class="simple">
+<li><p>Positioning</p>
+<ul>
+<li><p>Game starts in a controlled position</p></li>
+<li><p>If pain dominates the positions gets one worse.</p></li>
+<li><p>There are three levels controlled, risky, overwhelmed</p></li>
+<li><p>Players can sacrifice a success to shift from overwhelmed to risky.</p>
+<ul>
+<li><p>Maybe do maneuvers instead?</p></li>
+</ul>
+</li>
+<li><p>Rolls</p>
+<ul>
+<li><p>In controlled draws count as success.</p></li>
+<li><p>In risky can either:</p>
+<ul>
+<li><p>Count as a success, but positioning becomes overwhelmed</p></li>
+<li><p>Count as a failure, but positioning stays risky.</p></li>
+</ul>
+</li>
+<li><p>In overwhelmed draws count as failures</p></li>
+</ul>
+</li>
+</ul>
+</li>
 <li><p>Unit of Damage</p>
 <ul>
 <li><p>1 tier of Talent/Gear or 2 tiers of Kith or Locations</p>
@@ -345,6 +403,7 @@ multiplied</p></li>
 </ul>
 </li>
 </ul>
+</section>
 <hr class="docutils" />
 <section id="plans">
 <h2>Plans<a class="headerlink" href="#plans" title="Link to this heading">¶</a></h2>
@@ -574,14 +633,14 @@ multiplied</p></li>
         
         <div class="related-pages">
           
-          <a class="prev-page" href="play/downtime.html">
+          <a class="prev-page" href="play/conflict.html">
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
               <div class="page-info">
                 <div class="context">
                   <span>Previous</span>
                 </div>
                 
-                <div class="title">Downtime Activities</div>
+                <div class="title">Conflict</div>
                 
               </div>
             </a>
@@ -616,6 +675,7 @@ multiplied</p></li>
           <div class="toc-tree">
             <ul>
 <li><a class="reference internal" href="#">Changes</a><ul>
+<li><a class="reference internal" href="#v1-to-v2-summary-of-changes">V1 to V2 Summary of Changes</a></li>
 <li><a class="reference internal" href="#plans">Plans</a></li>
 <li><a class="reference internal" href="#dice">Dice</a></li>
 <li><a class="reference internal" href="#currency">Currency</a></li>

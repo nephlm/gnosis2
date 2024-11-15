@@ -1,0 +1,36 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with svg_stack (http://github.com/astraw/svg_stack) -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" version="1.1" width="400.0" height="400.0">
+  <defs/>
+  <g id="id0:id0" transform="translate(0.0,0.0)"><g id="id0:id0:id0" transform="matrix(1.0,0,0,1.0,0.0,0.0)"><path d="M100.0,100.0 L100.0,10.0 A90.0,90.0 0 0,1 177.94228634059948,145.0 z" fill="#47a" stroke="black" stroke-width="2"/>
+<path d="M100.0,100.0 L177.94228634059948,145.0 A90.0,90.0 0 0,1 22.057713659400534,145.00000000000003 z" fill="None" stroke="black" stroke-width="2"/>
+<path d="M100.0,100.0 L22.057713659400534,145.00000000000003 A90.0,90.0 0 0,1 99.99999999999999,10.0 z" fill="None" stroke="black" stroke-width="2"/>
+</g>
+  <g id="id0:id1:id1" transform="matrix(1.0,0,0,1.0,200.0,0.0)"><path d="M100.0,100.0 L100.0,10.0 A90.0,90.0 0 0,1 190.0,100.0 z" fill="#47a" stroke="black" stroke-width="2"/>
+<path d="M100.0,100.0 L190.0,100.0 A90.0,90.0 0 0,1 100.0,190.0 z" fill="#47a" stroke="black" stroke-width="2"/>
+<path d="M100.0,100.0 L100.0,190.0 A90.0,90.0 0 0,1 10.0,100.00000000000001 z" fill="#47a" stroke="black" stroke-width="2"/>
+<path d="M100.0,100.0 L10.0,100.00000000000001 A90.0,90.0 0 0,1 99.99999999999999,10.0 z" fill="None" stroke="black" stroke-width="2"/>
+</g>
+</g>
+  <g id="id1:id1" transform="translate(0.0,200.0)"><g id="id1:id0:id0" transform="matrix(1.0,0,0,1.0,0.0,0.0)"><path d="M100.0,100.0 L100.0,10.0 A90.0,90.0 0 0,1 177.94228634059948,55.0 z" fill="#47a" stroke="black" stroke-width="2"/>
+<path d="M100.0,100.0 L177.94228634059948,55.0 A90.0,90.0 0 0,1 177.94228634059948,145.0 z" fill="#47a" stroke="black" stroke-width="2"/>
+<path d="M100.0,100.0 L177.94228634059948,145.0 A90.0,90.0 0 0,1 100.00000000000003,190.0 z" fill="None" stroke="black" stroke-width="2"/>
+<path d="M100.0,100.0 L100.0,190.0 A90.0,90.0 0 0,1 22.057713659400534,145.00000000000003 z" fill="None" stroke="black" stroke-width="2"/>
+<path d="M100.0,100.0 L22.057713659400534,145.00000000000003 A90.0,90.0 0 0,1 22.05771365940049,55.00000000000006 z" fill="None" stroke="black" stroke-width="2"/>
+<path d="M100.0,100.0 L22.05771365940049,55.00000000000006 A90.0,90.0 0 0,1 99.9999999999999,10.0 z" fill="None" stroke="black" stroke-width="2"/>
+</g>
+  <g id="id1:id1:id1" transform="matrix(1.0,0,0,1.0,200.0,0.0)"><path d="M100.0,100.0 L100.0,10.0 A90.0,90.0 0 0,1 152.90067270632258,27.18847050625473 z" fill="#47a" stroke="black" stroke-width="2"/>
+<path d="M100.0,100.0 L152.90067270632258,27.18847050625473 A90.0,90.0 0 0,1 185.59508646656383,72.18847050625473 z" fill="#47a" stroke="black" stroke-width="2"/>
+<path d="M100.0,100.0 L185.59508646656383,72.18847050625473 A90.0,90.0 0 0,1 185.59508646656383,127.81152949374527 z" fill="#47a" stroke="black" stroke-width="2"/>
+<path d="M100.0,100.0 L185.59508646656383,127.81152949374527 A90.0,90.0 0 0,1 152.90067270632258,172.81152949374527 z" fill="#47a" stroke="black" stroke-width="2"/>
+<path d="M100.0,100.0 L152.90067270632258,172.81152949374527 A90.0,90.0 0 0,1 100.0,190.0 z" fill="#47a" stroke="black" stroke-width="2"/>
+<path d="M100.0,100.0 L100.0,190.0 A90.0,90.0 0 0,1 47.099327293677426,172.81152949374527 z" fill="None" stroke="black" stroke-width="2"/>
+<path d="M100.0,100.0 L47.099327293677426,172.81152949374527 A90.0,90.0 0 0,1 14.404913533436186,127.81152949374527 z" fill="None" stroke="black" stroke-width="2"/>
+<path d="M100.0,100.0 L14.404913533436186,127.81152949374527 A90.0,90.0 0 0,1 14.404913533436172,72.18847050625475 z" fill="None" stroke="black" stroke-width="2"/>
+<path d="M100.0,100.0 L14.404913533436172,72.18847050625475 A90.0,90.0 0 0,1 47.099327293677405,27.188470506254745 z" fill="None" stroke="black" stroke-width="2"/>
+<path d="M100.0,100.0 L47.099327293677405,27.188470506254745 A90.0,90.0 0 0,1 99.99999999999999,10.0 z" fill="None" stroke="black" stroke-width="2"/>
+</g>
+</g>
+</svg>

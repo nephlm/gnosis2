@@ -11,8 +11,8 @@ on the narration of your Hero.
 ## Power
 
 **Power** governs the application of solid unyielding
-force. Big swords, fireballs, force fields, the BFG-9000,
-tough as nails and iron will are all examples of boons
+force. *Big swords*, *Fireballs*, *Force Fields*, the *BFG-9000*,
+*Tough as Nails* and *Iron Will* are all examples of Boons
 usually associated with the power attribute.
 
 Not all power is physical, a preacher's charisma or a 
@@ -23,10 +23,11 @@ Power is by far the most important attribute.
 
 ## Precision
 
-**Precision** governs application of finesse and accuracy. Sniper scopes, 
-unerring aim, move like
-water, pressure points and rapier are all
-examples of boons often associated with precision.
+**Precision** governs application of finesse and accuracy. *Sniper Scope*, 
+*Unerring Aim*, 
+*Move Like Water*, 
+*Pressure Points* and *Rapier* are all
+examples of Boons often associated with precision.
 
 Precision is about applying small amounts of 
 power very effectively.  An 
@@ -38,13 +39,13 @@ Precision is by far the most important attribute.
 ## Possibility
 
 **Possibility** governs creating, spotting and
-exploiting opportunities. Feint, trip, research, sense
-weakness and divination are examples of possibility
-related boons.
+exploiting opportunities. *Feint*, *Trip*, *Google Research*, *Sense
+Weakness* and *Mirror Scrying* are examples of possibility
+related Boons.
 
 Possibility is about spotting the opportunity to precisely 
 apply power.  Without being able to see the opportunity, the 
-sniper rife collects dust on the shelf, and the villains run 
+*Sniper Rifle* collects dust on the shelf, and the villains run 
 roughshod over the good people of the world.  
 
 Possibility is by far the most important attribute.

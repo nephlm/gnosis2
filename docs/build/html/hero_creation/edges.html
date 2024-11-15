@@ -207,9 +207,9 @@
 <li class="toctree-l1 has-children"><a class="reference internal" href="../world_creation/world_creation.html">Creation</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of Creation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../world_creation/facts.html">Setting Facts</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../world_creation/initial_creation.html">Initial World Creation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../world_creation/crew.html">Crew</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="../crew.html">Crew</a></li>
 <li class="toctree-l1 current has-children"><a class="reference internal" href="character_creation.html">Making a Hero</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle navigation of Making a Hero</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="attributes.html">Attributes</a></li>
 <li class="toctree-l2 has-children"><a class="reference internal" href="paths.html">Paths</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle navigation of Paths</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
@@ -225,16 +225,21 @@
 </li>
 <li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Edges</a></li>
 <li class="toctree-l2"><a class="reference internal" href="quests.html">Quests</a></li>
-<li class="toctree-l2"><a class="reference internal" href="checklist.html">Checklist &amp; Finishing Touches</a></li>
+<li class="toctree-l2"><a class="reference internal" href="checklist.html">Checklist</a></li>
+<li class="toctree-l2"><a class="reference internal" href="checklist.html#finishing-touches">Finishing Touches</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../currency.html">Currencies</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../play/play.html">Play</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><div class="visually-hidden">Toggle navigation of Play</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../play/scenes.html">Scenes</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../tools/tools.html">Tools</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><div class="visually-hidden">Toggle navigation of Tools</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../tools/currency.html">Currencies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tools/props.html">Props</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tools/scenes.html">Scenes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tools/progress.html">Progress Clocks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tools/downtime.html">Downtime Activities</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../play/play.html">Play</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" role="switch" type="checkbox"/><label for="toctree-checkbox-6"><div class="visually-hidden">Toggle navigation of Play</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../play/resolution.html">Resolution</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../play/conflict.html">Conflict</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../play/props.html">Props</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../play/downtime.html">Downtime Activities</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../changelog.html">Changes</a></li>
@@ -281,7 +286,7 @@
           <section id="edges">
 <h1>Edges<a class="headerlink" href="#edges" title="Link to this heading">¶</a></h1>
 <p>Edges are ways in which a Hero can bend the rules under specific
-circumstances.  These are not , those are covered by
+circumstances.  These are not <abbr title="Facts the deal with magic systems, tech or other Hero power sources.">metaphysics</abbr>, those are covered by
 <abbr title="Boon Definition">Boons</abbr> in general and <a class="reference internal" href="boons/talents.html"><span class="std std-doc">Talents</span></a> exploiting
 metaphysics facts specifically
 are intrinsic to the campaign world, while Edges are specific
@@ -299,6 +304,8 @@ physical, mental, spiritual, social, athletic, etc.</p>
 fit the description.  All Edges should be made in consultation
 with the group and GM and everyone should agree that it is
 appropriately limited in scope.</p>
+<p><strong>The Hero starts with one free edge and can purchase
+additional Edges for 5xp each.</strong></p>
 <section id="using-an-edge">
 <h2>Using an Edge<a class="headerlink" href="#using-an-edge" title="Link to this heading">¶</a></h2>
 <p>Almost all Edges require the expenditure of one or more Favor
@@ -329,7 +336,7 @@ certain circumstances.</p>
 if a Hero pays a Favor, an attribute,
 chosen when the Edge is bought, always has at least one level of advantage, even if there is no appropriate Boon.</p></li>
 <li><p>During a particular kind of challenge,
-if a Hero pays a favor, an attribute,
+if a Hero pays a Favor, an attribute,
 chosen when the Edge is bought,
 can’t roll less than the level of advantage.</p></li>
 <li><p>During a particular kind of challege, if the Hero
@@ -347,7 +354,7 @@ advantage levels return to normal.</p></li>
 Strategy to be able to use them or influences Attribute Rolls
 using a particular Boon.</p>
 <ul class="simple">
-<li><p>The Hero pays a favor when making an Attribute Roll that includes
+<li><p>The Hero pays a Favor when making an Attribute Roll that includes
 a particular Boon in a specific circumstance or situation,
 and gains +1 level of advantage from that Boon.</p></li>
 <li><p>When using a specific Boon in particular circumstance, and a Hero
@@ -357,8 +364,8 @@ success by one level (draw to success, success to critical success).</p></li>
 rolls a failure or worse, they may increase the level of
 success by one level (critical failure to failure, failure to draw).</p></li>
 <li><p>If the Hero has one or more Boons Suppressed from a particular kind of
-challenge, they may spend a favor, and heal one or more boons.<br />
-They may recover one tier or Talents or Gear, or two tiers of Kith or
+challenge, they may spend a Favor, and heal one or more boons.
+They may recover one tier of Talents or Gear, or two tiers of Kith or
 Locations.</p></li>
 </ul>
 </section>
@@ -370,12 +377,14 @@ These Blueprints may not be used
 in any way by themselves or in combination with other Edges or other Heroes
 that can be said to generate infinite resources.</p>
 <ul class="simple">
-<li><p>Spend a favor, get two favor to spend in a specific way.  The Favor
-must be spent by the end of the scene, or it is lost.<br />
+<li><p>Spend a Favor, get two Favor to spend in a specific way.  The Favor
+must be spent by the end of the scene, or it is lost.
+The cost of this Edge increases by one Favor each time it is
+used during a challenge.
 This Favor may not be used in any way that generates any further Favor.</p></li>
-<li><p>Spend a favor, gain two dice that can added to
+<li><p>Spend a Favor, gain two dice that can added to
 pools under constrained circumstances, such as having to be given to
-other Heroes or something similarly limited.<br />
+other Heroes or something similarly limited.
 If the dice are not used by the end of the challenge, they are lost.</p></li>
 </ul>
 </section>
@@ -384,12 +393,12 @@ If the dice are not used by the end of the challenge, they are lost.</p></li>
 <p>These Blueprints influence the Pain Pool, usually reducing it by
 either dice or a set number.</p>
 <ul class="simple">
-<li><p>During a particular type of challenge a Hero may spend a favor and
+<li><p>During a particular type of challenge a Hero may spend a Favor and
 reduce the pain pool by 1 die.  This persists for the remainder of
 the challenge.  This may only be done once per challenge and cannot
 reduce the pain pool below 3 dice.</p></li>
 <li><p>During a particular type of challenge a Hero may spend a one or more
-favor and
+Favor and
 reduce the pain pool by 1 on the pain pool’s next roll for each Favor spent.</p></li>
 </ul>
 </section>
@@ -494,7 +503,7 @@ behalf of other Heroes.
 The Favor must be spent by the end of the challenge, or it is lost.
 The other player can use this gifted Favor for
 anything they might use Favor for. The cost to activate this edge
-increases by 1 favor each time it is used during a challenge.</p></li>
+increases by 1 Favor each time it is used during a challenge.</p></li>
 </ul>
 </li>
 <li><p><strong>Divine Blessing of Loki</strong></p>
@@ -531,7 +540,7 @@ the Hero can spend a Favor and gain a level of Advantage on that attribute.</p><
 <ul>
 <li><p><em>Description:</em> The Hero’s intense mental training grants at least basic mental competency
 if on their most off days.</p></li>
-<li><p><em>Mechanics:</em> When the Hero spends a favor each pool can’t roll lower than the level of
+<li><p><em>Mechanics:</em> When the Hero spends a Favor each pool can’t roll lower than the level of
 advantage they are rolling during the Attribute Roll.</p></li>
 </ul>
 </li>

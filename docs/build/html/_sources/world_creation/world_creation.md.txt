@@ -37,11 +37,11 @@ It’s best to know that early.
 
 The goal is to find a pitch that engages everyone
 enough to build that world, so discarding anything
-tht won't make the cut early is helpful. 
+that won't make the cut early is helpful. 
 
 ## Pitches
 
-Next it's time for some actual pitches.  
+Next, it's time for some actual pitches.  
 
 * A pitch should be one or two sentences maximum. 
 * They don't have to be complete idea or settings, a
@@ -56,7 +56,7 @@ to get specific, just write them down and move on.
 :columns: 2
 
 * Government B list superheroes.
-* Fallen Angels search for souls in New York City.
+* Fallen Angels search for noble souls in New York City.
 * Competitive steampunk inventors.
 * Rebellion against the space empire.
 * Mobsters in a fantasy world.
@@ -103,18 +103,19 @@ to lock down a couple of settings.  These will make
 sure everyone is on the same page, and allow 
 narration to be credible to everyone.
 
-## Tech Level
 
-```{sidebar} A few Tech Levels
-    Stone
+```{sidebar} Tech Levels
     Medieval
     Steam
-    Digital
-    Cybernetic
+    Early Space Age
+    Modern
     Nanotech
-    Space
+    Cybernetic
     Interstellar
+    etc, etc...
 ```
+
+## Tech Level
 
 What is the level of technology in the
 world? Is everyone at the same tech level,  or do
@@ -122,17 +123,17 @@ different cultures or countries use vastly different
 technologies? 
 
 The world may also have very different tech levels for different 
-technologies.  For example high biological tech, but limited
+technologies.  For example, high biological tech, but limited
 information tech.  For extremely advanced
 technologies it may be thought of more as magic as
 tech. 
 
 ## Magic Level
 
-Another question is what is the place and
+Another question to ask is what is the place and
 prevalence of magic? Is the group looking for a game
 where fireballs and rings of invisibility are common
-occurrences,  or is magic rare, dangerous and hard? 
+occurrences, or is magic rare, dangerous and hard? 
 
 Make sure everyone is on at least a similar page. 
 If there is magic, what sorts of magic exist in the world? 
@@ -148,5 +149,4 @@ now it's good enough to have an idea.
 :caption: Contents:
 facts.md
 initial_creation.md
-crew.md
 ```

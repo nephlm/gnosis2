@@ -1,7 +1,7 @@
 # Paths
 
-Paths are Hero's way of being.  They balance between
-a *nature* and *role*.  
+Paths are Hero's way of being.  They are a balance between
+a *nature* and a *role*.  
 
 * Role the 
 Hero fills in the story the group is creating.
@@ -40,7 +40,7 @@ Path of the Thief and focus on something else.
 The triggering event should be some sort of high point
 along the path, which differentiates from Stepping off a Path.
 
-When a Hero Completes a Path, they gain a new Path.  
+When a Hero Completes a Path, they gain a new Path. 
 Not all Paths have an obvious way they can be Completed.
 
 **The Hero starts the game with 

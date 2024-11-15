@@ -42,7 +42,7 @@ Moles
 
 ```
 
-### Rewards
+## Rewards
 
 If the Hero is successful, they are rewarded.  This
 reward may many things, but importantly **Quests are the 

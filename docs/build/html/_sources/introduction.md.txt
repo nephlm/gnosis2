@@ -1,18 +1,18 @@
 # Introduction
 
-Welcome to Gnosis a narrative game of collaborative world 
-creation and epic stories.  In Gnosis the GM, as well as all 
+Welcome to Gnosis, a narrative game of collaborative world 
+creation and epic stories.  In Gnosis, the GM, as well as all 
 other players, work together to craft stories that the whole 
 table enjoys.
 
 ## Telling Stories Together
 
-The purpose of playing the game is to collaboratively tell a 
+The purpose of playing the game, is to collaboratively tell a 
 story that engages everyone. This means everyone at the table, 
-not just the GM is responsible for making that story emerge.
+not just the GM, is responsible for making that story emerge.
 
-As one of those players consider too things when choosing an 
-action narrating and outcome: 
+As one of those players, consider two things when choosing 
+action narration and outcomes: 
 
 * What would the character do?  Not necessarily what is optimal, but 
 what would that particular character with all their flaws and baggage
@@ -31,7 +31,8 @@ make the story better?
 
 Gnosis is a game that leans toward an epic and heroic tone, but it works
 with any setting.  That setting is called Creation and in the central framing
-of the game, Creation is created by demiurges to impress the Story.
+of the game, [Creation](world_creation/world_creation.md) is created by {{Demiurges}} to impress the Story, a 
+all encompassing perfect spiritual entity that created the Demiurges.
 
 This setting is defined by all the players, not just the GM, and evolves and 
 grows over time.  
@@ -45,10 +46,23 @@ For whatever reason Demiurges are driven to create interesting situations
 and urge Heroes into them.  If that makes them sound like role playing 
 game players, you're not wrong. 
 
-Demiurges don't get spotlight time, but they are how players create the 
-setting and quests to lure the Heroes into action. **Logos** is the 
-currency the Demiurges spend to create [Facts](facts.md) and 
-[Quests](quests.md).
+Demiurges don't get spotlight time or personalties, 
+they are the impersonal conceit used to create the 
+setting and quests to lure the Heroes into action. {{Logos}} is the 
+currency the Demiurges spend to create [Facts](world_creation/facts.md) and 
+[Quests](hero_creation/quests.md).
+
+If the group needs to explain some bit of table talk and coordination
+that the Heroes couldn't do, Demiurges allow that to happen.
+Demiurges are as inexplicable to {{Creation}} and the Heroes
+as the players are.
+
+### Logos
+
+Logos in the Currency spent by the Demiurge to alter Creation
+and create Quests for their Heroes.  Demiurges recover a Logos
+at the beginning of each session, completions of Quests
+and after Facts appear in the Story a few times.
 
 ## Hero
 
@@ -71,13 +85,13 @@ Each Hero has three [attributes](hero_creation/attributes.md):
 
 Heroes get a d12, d10 and d8 to assign, one to each attribute.
 
-#### Rolls
+#### Attribute Roll
 
 The basic dice roll to accomplish anything is to roll the Heroes 
 Power, Precisions and Possibility and add up the total. 
 That number is compared to an opposed roll, or sometimes as set number.
 
-As the Hero gets better by acquiring [Boons](hero_creation/boons/boons.md), each attribute will get up to
+As the Hero gets better, by acquiring [Boons](hero_creation/boons/boons.md), each attribute will get up to
 three tiers of {{advantage}}. 
 
 ### Boons
@@ -89,25 +103,27 @@ Broadly these are Talents, Gear, Kith and
 Locations.
 
 Boons are narrative and unique.  There is an infinite set of Boons, 
-the only limit is imagination and the credibility of the table.
+the only limit is a players imagination and 
+the credibility of the table.
 
 ### Edges
 
 Edges are how a Hero bends the rules.  Not of Creation, a Hero doesn't 
 need an Edge to cast a spell as long as Creation has magic, and they are 
-a some sort of spell caster.  Edges bend the rules of fortune and 
-bend the game mechanics in their favor in certain circumstances.
+a some sort of magic user.  Edges bend the rules of fortune and 
+bend the game mechanics in the Hero's favor in certain circumstances.
 
 Edges allow Heroes to do things to shift fortune in their favor.
-Each Hero has their own Edges.
+Each Hero has their own Edges.  A Hero must spend {{Favor}}
+to activate their Edges.
 
-### Keys
+### Paths
 
-A Heroes Keys are mix of their motivations, obsessions and natures.  
+A Heroes paths are mix of their motivations, obsessions and natures.  
 They may be related to a character's {{Trouble}}, or maybe separate, 
 but like a character's Trouble they motivate a Hero to action.  
 
-When a Hero's Keys come up in play the Hero gains Favor.
+When a Hero's Paths come up in play the Hero gains {{Favor}}.
 
 ### Favor
 
@@ -116,4 +132,7 @@ than they usually can.  Favor is flexible and can be used for a lot
 of effects, everything from powering [Edges](hero_creation/edges.md)
 to re-rolling dice and other effects.
 
+A Hero's starts each session at full Favor, and there are various 
+things that allows a Hero to recover one or more Favor during the 
+Session.
 

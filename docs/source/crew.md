@@ -27,7 +27,7 @@ the same parts of the campaign world.
 
 All the choices require the group to work together 
 if they want to be considered a group.  They don't 
-have to end up a group, who hang out in each other's 
+have to end up a group who hang out in each other's 
 scenes, they could be having their own adventures in 
 a shared world, but that isn't what most groups want. 
 
