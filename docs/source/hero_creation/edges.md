@@ -28,12 +28,13 @@ additional Edges for 5xp each.**
 
 ## Using an Edge
 
-Almost all Edges require the expenditure of one or more Favor
+Almost all Edges require the expenditure of one or more {{Favor}}
 to activate them.  There may be particular situations that 
 exactly match an Edge's description and the GM may allow them 
 to be activated for free.  
 
-The GM can always award arbitrary Favor, and this is just a case 
+The GM can always award arbitrary [Favor](../tools/currency.md#favor), 
+and this is just a case 
 of them awarding Favor conditioned on the Hero activating their 
 Edge. 
 
@@ -58,16 +59,17 @@ These Blueprints typically influence Attribute Rolls under
 certain circumstances.
 
 * During a particular kind of challenge, 
-if a Hero pays a Favor, an attribute,
-chosen when the Edge is bought, always has at least one level of advantage, even if there is no appropriate Boon.
+if a Hero pays a Favor, the Hero adds one level of advantage to each
+attribute, even if there is no appropriate Boon.
 * During a particular kind of challenge, 
 if a Hero pays a Favor, an attribute, 
 chosen when the Edge is bought, 
-can't roll less than the level of advantage.
-* During a particular kind of challege, if the Hero 
-rolls a failure on their Attribute Roll, they may
+can't roll less than 2x the level of advantage.
+* During a particular kind of challenge, if the Hero 
+rolls a failure or worse on their Attribute Roll, they may
 spend a Favor and add a level of advantage to all their attributes.
-Each subsequent roll they fail they add an additional level of success to 
+Each subsequent roll they fail, 
+they add an additional level of {{advantage}} to 
 each attribute until they succeed, or choose not to engage with the challenge.
 If the Hero chooses not to engage, or succeeds at an attribute roll, their 
 advantage levels return to normal. 
@@ -76,22 +78,21 @@ advantage levels return to normal.
 ### Boon Blueprints
 
 These Blueprint often require a specific {{Boon}} be used in a 
-Strategy to be able to use them or influences Attribute Rolls
+{{Strategy}} to be able to use them or influences Attribute Rolls
 using a particular Boon.
 
 * The Hero pays a Favor when making an Attribute Roll that includes
 a particular Boon in a specific circumstance or situation,
-and gains +1 level of advantage from that Boon.
+and gains x2 level of advantage from that Boon.
 * When using a specific Boon in particular circumstance, and a Hero
-rolls at least a draw success, they may increase the level of 
-success by one level (draw to success, success to critical success).
+rolls at least a tie, they may increase the level of 
+success by one level (tie to success 
+or success to critical success).
 * When using a specific Boon in particular circumstance, and a Hero
 rolls a failure or worse, they may increase the level of 
-success by one level (critical failure to failure, failure to draw).
-* If the Hero has one or more Boons Suppressed from a particular kind of 
-challenge, they may spend a Favor, and heal one or more boons. 
-They may recover one tier of Talents or Gear, or two tiers of Kith or 
-Locations.
+success by one level (critical failure to failure, failure to tie).
+* When making an Attribute Roll that includes a specific Boon, a 
+Hero may spend a Favor and reduce the Blood or Stress by one.
 
 
 
@@ -106,14 +107,16 @@ that can be said to generate infinite resources.
 
 * Spend a Favor, get two Favor to spend in a specific way.  The Favor 
 must be spent by the end of the scene, or it is lost. 
-The cost of this Edge increases by one Favor each time it is 
-used during a challenge.
 This Favor may not be used in any way that generates any further Favor.
 * Spend a Favor, gain two dice that can added to 
 pools under constrained circumstances, such as having to be given to 
 other Heroes or something similarly limited. 
 If the dice are not used by the end of the challenge, they are lost.
-
+No more than two dice may be added per attribute roll in this way.
+* The Hero can spend a Favor and be able to perform a Wound or 
+Trauma recovery roll (specified at purchase).  
+The recover roll could be used by the Hero or granted to another.
+No Hero can benefit from this more than once per scene.
 
 
 {.small}
@@ -128,7 +131,8 @@ the challenge.  This may only be done once per challenge and cannot
 reduce the pain pool below 3 dice. 
 * During a particular type of challenge a Hero may spend a one or more 
 Favor and 
-reduce the pain pool by 1 on the pain pool's next roll for each Favor spent.
+reduce the pain pool by 1 on the pain pool's next (or current) 
+roll for each Favor spent.
 
 
 
@@ -138,7 +142,7 @@ reduce the pain pool by 1 on the pain pool's next roll for each Favor spent.
 If a Player wants an Edge for their Hero that they don't feel can 
 be built by the existing Blueprints, and is approximately of the same
 impact level of the existing Blueprints, they are 
-invited to propose new mechanics blueprints for the groups and 
+invited to propose new mechanics blueprints for the group's and 
 the GM's consideration.  
 
 The GM is under no obligation to make something for them, only to 
@@ -159,24 +163,29 @@ limits normally associated with their use.
 ```{admonition} Sample Edges
 
 * **Ancestral Crafting**
-    * *Description:* The Hero can channel the Ancestral knowledge of their craft 
+    * *Description:* The Hero can channel the Ancestral knowledge 
+    of their craft 
     masters and all those that came before them to create masterwork 
     craftings. 
     * *Mechanics:* The Hero can spend a Favor while attempting an attribute roll to craft 
-    something and add an additional level of advantage to one of their 
-    attributes.
+    something and add an additional level of advantage to all their attributes.
 * **Hellfire Burn**
     * *Description:* The Hero can infuse their flames with the power of Hell which 
     clings to any touched by it.
     * *Mechanics:* When the Hero rolls a success on a {{Strategy}} that includes their
     *Fire Blast* Talent, they can spend a Favor and turn it into a 
     Critical Success.
+* **Quick Draw**
+    * *Description:* The Hero is fastest gun in the West. 
+    Few can draw and shoot with their speed and accuracy.
+    * *Mechanics:* When the hero draws and fires they can spend a favor and 
+    double the advantage level from their *Favorite Peacemaker* Talent.
 * **Stony Resilience**
     * *Description:* The Hero's flesh is literally made of stone, physical damage
     that would lay out other Heroes only makes them mad.
-    * *Mechanics:* When the Hero Damage they spend a Favor instead of Suppressing a 
-    Kith or Location Boon, or spend two Favor instead of Suppressing a 
-    Talent or Gear Boon.
+    * *Mechanics:* When the Hero is using their *Stone Skin* Talent in 
+    their {{Strategy}} and they would take Blood, they can spend a Favor 
+    instead.
 * **Distracting Banter**
     * *Description:* The Hero's witty banter and one-liners are next level material.
     * *Mechanics:* The Hero can spend a Favor and reduce the Pain Pool by 1d (min 3) 
@@ -185,36 +194,36 @@ limits normally associated with their use.
 * **Troll's Regeneration**
     * *Description:* The Hero's body heals at a mythical rate, healing almost instantly after 
     each blow.
-    * *Mechanics:* The Hero can spend a Favor and recover a suppressed tier of 
-    Talents or Gear or two tiers of Kith or Locations 
-    during a physical altercation.
+    * *Mechanics:* Once per scene, 
+    the Hero can spend a Favor and make a wound recovery roll.
 * **Unassailable self-image**
     * *Description:* The Hero shrugs off social and psychic attacks 
     as if they were a child's taunts.
-    * *Mechanics:* The Hero can spend a Favor and recover a suppressed tier of 
-    Talents or Gear or two tiers of Kith or Locations 
-    during a social or psychic altercation.
+    * *Mechanics:* Once per scene, 
+    the Hero can spend a Favor and make a trauma recovery roll.
 * **Vengeful Strike**
     * *Description:* Pain focuses the Hero's heart and skill.  They will have their vengeance.
-    * *Mechanics:* After the Hero takes damage, they can spend a Favor and gain an 
+    * *Mechanics:* After the Hero takes damage, 
+    they can spend a Favor and gain an 
     additional level of advantage on each attribute during each exchange 
-    until they are successful, at which point their Attribute Roll returns to 
-    normal. 
+    until they are successful.
+    Each subsequent failure stacks, adding an additional level of advantage.
+    Once they are successful, their Attribute Roll returns to normal. 
 * **Clumsy Curse**
-    * *Description:* The Hero's curse will turn even the most graceful dancer into a complete
-    klutz.  
+    * *Description:* The Hero's curse will turn 
+    even the most graceful dancer into a complete klutz.  
     * *Mechanics:* The Hero spends a Favor and 
     the pain pool receives a -1d penalty during physical 
     challenges, assuming it can be klutzy (mountains don't trip).
 * **Song of Inspiration**
     * *Description:* The Hero sings or plays a stirring anthem that their 
     comrades feel in their hearts.  
-    * *Mechanics:* The Hero spends and Favor and gains 2 Favor that can only be spent on the 
+    * *Mechanics:* The Hero spends a Favor 
+    and gains 2 Favor that can only be spent on the 
     behalf of other Heroes. 
     The Favor must be spent by the end of the challenge, or it is lost. 
     The other player can use this gifted Favor for 
-    anything they might use Favor for. The cost to activate this edge
-    increases by 1 Favor each time it is used during a challenge.
+    anything they might use Favor for. 
 * **Divine Blessing of Loki**
     * *Description:* The Hero calls upon Loki and asks them to bless the deceptions of one of 
     their comrades.
@@ -230,28 +239,32 @@ limits normally associated with their use.
     or gift it to another Hero. Any flashbacks not used by the end of the 
     scene are lost. 
 * **Aptitude for Insult**
-    * *Description:* The Hero's cutting remarks naturally find home, 
-    despite their ineptitude in 
-social challenges.
+    * *Description:* The Hero's cutting remarks naturally find home.
     * *Mechanics:* During a social challenge 
-    in which a Hero has at least one attribute with no levels of Advantage, 
-    the Hero can spend a Favor and gain a level of Advantage on that attribute.
+    in which a Hero is throwing insults they may spend a favor and double the 
+    level of advantage on their Precision attribute.
 * **Mental Competency**
-    * *Description:* The Hero's intense mental training grants at least basic mental competency
-    if on their most off days.
-    * *Mechanics:* When the Hero spends a Favor each pool can't roll lower than the level of 
-    advantage they are rolling during the Attribute Roll.
+    * *Description:* The Hero's intense mental training 
+    grants at least basic mental competency if on their most off days.
+    * *Mechanics:* If the Hero spends a Favor, they can't roll less than 
+    twice the level of advantage on their precision die 
+    for their precision die roll in mental challenges.
 * **Acrobatic Recovery**
-    * *Description:* The Hero is adept in minimizing how badly they fall on their faces.
+    * *Description:* The Hero is adept in minimizing how badly they fall on their face.
     * *Mechanics:* The Hero can spend a Favor during a physical {{Strategy}} that
     failed, the Hero can spend a Favor and reduce it by one level.
-    From a critical failure to a failure or from a failure to a draw.
+    From a critical failure to a failure or from a failure to a tie.
 * **Backstab**
-    * *Description:* When striking from shadows, the Hero's blows are incredibly 
-    deadly.
-    * *Mechanics:* When attacking from concealment and achieving at least a draw, 
-    the Hero can spend a Favor and increase it by one level.  
-    From a draw to a success or from a success to a critical success.
+    * *Description:* When striking from shadows, 
+    the Hero's blows are incredibly deadly.
+    * *Mechanics:* When attacking from concealment 
+    and achieving at least a tie, 
+    the Hero can spend a Favor and increase it by one level. 
+    From a tie to a success or from a success to a critical success.
+* **Weakness**
+    * **Description**:  The Hero's magic aura saps the strength from their enemies.
+    * **Mechanics**: The Hero may spend a Favor and the Pain Pool suffers 
+    a -1 penalty on its roll.
 ```
 
 

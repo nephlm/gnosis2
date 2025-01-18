@@ -3,10 +3,9 @@
 ## V1 to V2 Summary of Changes
 
 * New Sections
-  * Added crew section to world creation.
+  * Added crew section.
   * Tools
     * Progress clocks
-    * Downtime
 * XP
   * There was no starting xp, so set it to 5xp.
   * XP rewards changed from 0-3xp to 0-2xp.
@@ -22,6 +21,10 @@
   * Standardized Logos cap and updated Logos recovery.
 * d4/d6/d8 -> d8/d10/d12
 * Terminology change to levels of advantage.
+* Damage system re-imagined.
+  * Stress/Blood progress clocks added.
+  * Wounds and Trauma added.
+  * Recovery roll / First Aid.
 
 
 

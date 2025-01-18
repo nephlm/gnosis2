@@ -13,7 +13,7 @@ the GM as well as player engagement with the story being
 told. 
 
 ```{image} _static/portal.jpg
-:width: 300px
+:width: 33%
 :align: right
 ```
 Since world creation, including the

@@ -45,7 +45,7 @@ def cmp_key(element):
 
 
 if __name__ == "__main__":
-    MAX_POOL = 4
+    MAX_POOL = 5
     NUM_ROLLS = 1000
     results = []
     for num_high_dice in range(1, MAX_POOL + 1):

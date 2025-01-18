@@ -1,7 +1,7 @@
 # Talents
 
 ```{image} /_static/superhero_blast.jpg
-:width: 300px
+:width: 33%
 :align: right
 ```
 
@@ -60,7 +60,7 @@ those things that *Fighting* wouldn't be able to.
 
 * Soldier in the Atlantean Armed Services 
 * Professor of Sciences in the Royal Society
-* Fashion Model
+* Vogue Fashion Model
 * Journeyman in the Guild of Arcane Thought
 * Government Metahuman
 * High Pain Threshold
@@ -102,7 +102,7 @@ that's at least related if not clearly a superset.
     * Atlantean Battle staff
 * Professor of Sciences in the Royal Society
     * Chair of the Physics Department
-* Fashion Model
+* Vogue Fashion Model
     * Charismatic Smile
 * Journeyman in the Guild of Arcane Thought
     * Student of Pyromancy
@@ -163,7 +163,7 @@ Heroes can not start with Master Talents.
 * Professor of Sciences in the Royal Society
     * Chair of the Physics Department
         * Intimidate Postdoc
-* Fashion Model
+* Vogue Fashion Model
     * Charismatic Smile
         * Pillowtalk Interrogation
 * Journeyman in the Guild of Arcane Thought
@@ -171,7 +171,7 @@ Heroes can not start with Master Talents.
         * Counter Pyromancy
 * Government Metahuman
     * Power over Darkness
-        * Drain Life in Darkness
+        * Darkvision
 * High Pain Threshold
     * Unmatched Endurance
         * Swift Recovery
@@ -183,7 +183,7 @@ Heroes can not start with Master Talents.
         * Atlantean Battle Staff Technical Specs
 * Bearer of a Gold Dragon Soul
     * Fiery Breath
-        * Lingering Burn
+        * Underwater Burn
 * Psychic of Division 12
     * Conspiracy Insider
         * Alien Hybrid Weaknesses

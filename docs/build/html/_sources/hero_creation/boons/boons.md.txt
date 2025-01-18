@@ -7,13 +7,13 @@ lost or taken.  Which is not to say they can't be
 *temporarily* lost.
 
 Whenever the Hero is trying to do something uncertain 
-the player makes their **Attribute Roll** which consists 
+the player makes their **Attribute Roll** which consists of
 rolling the die for each attribute and adding up the total.
 
 * Boons allow the player to roll one or more attributes with 
 some level of {{advantage}}.  
 * Each attribute can have up to one boon during any given 
-attribute.
+attribute roll.
 * Boons do not stack on a single attribute.
 
 The Boon is attached to a specific attribute based on 
@@ -83,7 +83,7 @@ a Boon can always be bought at less than its maximum potential,
 with the understanding that the Hero hasn't yet mastered its full
 potential.
 
-While *Excalibur* is tier 3 gear, that's really its 
+While *Excalibur* is a tier 3 gear, that's really its 
 maximum potential tier, while *Swords and Daggers* will 
 never exceed tier 1.  
 

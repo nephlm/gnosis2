@@ -1,7 +1,7 @@
 # Crew
 
 ```{image} /_static/crew.jpg
-:width: 300px
+:width: 33%
 :align: right
 ```
 

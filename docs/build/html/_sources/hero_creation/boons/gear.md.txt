@@ -18,7 +18,7 @@ These items can’t be
 destroyed without replacement or compensation.
 
 ```{image} /_static/sword_set.jpg
-:width: 300px
+:width: 33%
 :align: right
 ```
 
@@ -55,7 +55,7 @@ the course of the game could first buy the tier 1 *Sword* for
 
 Tier: 1  
 Group Cost: 2xp  
-Group Requirements: None
+Group Requirements: None  
 Cost: 2xp
 
 This is common gear that the Hero can basically 
@@ -81,7 +81,7 @@ identity.
 
 Tier: 1  
 Group Cost: 2xp  
-Group Requirements: A Common Gear version of this item.
+Group Requirements: A Common Gear version of this item.  
 Cost: 4xp
 
 Rare gear is more specialized and harder to find. 
@@ -109,7 +109,7 @@ or special skills to make or use effectively.
 
 Tier: 3  
 Group Cost: 2xp  
-Group Requirements: A Rare Gear version of this item.
+Group Requirements: A Rare Gear version of this item.  
 Cost: 6xp
 
 These are specific particular items.  They 
@@ -121,12 +121,6 @@ replacement would require the skills of a true master
 and prolonged effort as well as rare resources.
 
 Or recover it from whoever currently has it.
-
-
-* Specific Magic Item w/ name/history, Rare
-Equipment, Alien Tech
-* Examples: Excalibur, Dad’s Lucky 9mm, Zendari
-Lightening Gun, Unicorn Horn
 
 
 
@@ -163,8 +157,8 @@ permanent.
 ```
 
 Tier: N/A  
-Cascade Cost: N/A  
-Cascade Requirements: None
+Group Cost: N/A  
+Group Requirements: None  
 Cost: 0xp
 
 Kit Gear is not actually a Boon and thus not Gear in a 
@@ -174,14 +168,13 @@ to make a note of.
 
 * Kit Gear offers no level of advantage for an 
 Attribute Roll.
-* Kit Gear can not be used to soak {{Consequences}}.
 * Kit Gear doesn't have the same protection as 
 actual Gear, but the GM shouldn't make any special 
 effort to take it away or destroy it.
 
 Being Kit Gear doesn't imply that the Gear is mundane or
 easily acquired, only that the Hero doesn't use it to
-overcome challenges.  
+overcome challenges effectively.  
 
 Kit Gear may also be actual Gear that the Hero doesn't
 yet have the XP to capitalize on.  If a Hero acquires

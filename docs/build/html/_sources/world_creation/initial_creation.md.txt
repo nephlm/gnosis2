@@ -2,7 +2,7 @@
 
 
 ```{image} ../_static/city.jpg
-:width: 300px
+:width: 33%
 :align: right
 ```
 
@@ -11,10 +11,10 @@ Now it's time to look back at the pitch and make it into a setting.
 ## High Concept
 
 Cement the High Concept of the setting.  This may be the pitch itself
-if it's sufficiently pithy, or it may be series title or any other 
-way to nail down this specific campaign.  
+if it's sufficiently pithy, or it may be a series title or any other 
+way the table chooses to nail down this specific campaign.  
 
-Some groups may choose to create there facts first and let those 
+Some groups may choose to create their facts first and let those 
 guide the campaign's High Concept, others will choose to do it 
 the other way around.  
 

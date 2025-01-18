@@ -4,7 +4,7 @@
 > : /kiTH/ (noun) One's friends, acquaintances, and relations.
 
 
-A Hero’s kith describes the people 
+A Hero’s Kith describes the people 
 and organizations the Hero
 knows and can turn to for help. 
 
@@ -17,11 +17,11 @@ organization.
 Heroes can use members of their Kith
 as Boons when they are
 present, agree to help, and they have a relevant skill set.
-A Hero looking for a past a guard could add their tier 2 
+A Hero looking for a way past a guard could add their tier 2 
 familiar, a Companion, as their Possibility Boon for example.
 
 ```{image} /_static/kith.jpg
-:width: 300px
+:width: 33%
 :align: right
 ```
 
@@ -59,18 +59,18 @@ Contacts.**
 A member of the Hero's Kith has a maximum tier set
 by the maximum impact they could have.  A *Galactic Overlord*
 is going to be able to impact much more than a 
-*Local Bartender* is the same game. In most games
+*Local Bartender* in the same game. In most games
 the *Galactic Overlord* could reach tier 3, while 
 in that sort of game the *Local Bartender* would 
 probably be stuck at a maximum of tier 1.  
 
-As with any Boon the Hero could only spend the
-xp go acquire the *Galactic Overlord* at tier 1.  
+As with any Boon, the Hero could only spend the
+xp to acquire the *Galactic Overlord* at tier 1.  
 For whatever reason when the *Galactic Overlord* 
 provides help to the Hero, it's considerably less
 aid than they could provide. 
 
-The maximum tier is set by the Table thinks is 
+The maximum tier is set by what the Table thinks is 
 appropriate for that NPC in that Game.  If 
 necessary, the GM can make the final determination.
 
@@ -140,7 +140,7 @@ without a good reason.
 
 Companions are almost always with the Hero.  When the Hero 
 decides to board a spaceship for Alpha Centauri, their
-Companions are their with them.
+Companions are there with them.
 
 The Hero and their Companions have been through a lot together, 
 there is a lot of earned trust and shared history.  They are 

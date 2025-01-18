@@ -32,7 +32,7 @@ Hero's collection.
 ## Path of the Commander
 
 ```{image} ../_static/commander.jpg
-:width: 300px
+:width: 33%
 :align: right
 ```
 
@@ -104,7 +104,7 @@ choosing a different life for the future.
 
 
 ```{image} ../_static/guardian.jpg
-:width: 300px
+:width: 33%
 :align: left
 ```
 {.small}
@@ -251,7 +251,7 @@ far from home scenario.
 
 * Walking the Path: The separation brings the Hero harm or
 suffering.
-* Stepping off the Path: Join a new organization/tribe/etc. as  
+* Stepping off the Path: Join a new organization/tribe/etc. as 
 replacement to the lost one.
 * Completing the Path: Regain membership in the
 organization.

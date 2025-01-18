@@ -1,7 +1,7 @@
 # Progress Clocks
 
 ```{image} /_static/progress.svg
-:width: 300px
+:width: 33%
 :align: right
 ```
 

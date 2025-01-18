@@ -1,0 +1,694 @@
+<!doctype html>
+<html class="no-js" lang="en" data-content_root="../">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Resolution" href="resolution.html" /><link rel="prev" title="Play" href="play.html" />
+
+    <!-- Generated with Sphinx 8.1.3 and Furo 2024.08.06 -->
+        <title>Challenges - Gnosis</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=354aac6f" />
+    <link rel="stylesheet" type="text/css" href="../_static/tabs.css?v=4c969af8" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/furo-extensions.css?v=302659d7" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/custom.css?v=82606edb" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  
+  }
+  @media not print {
+    body[data-theme="dark"] {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+    @media (prefers-color-scheme: dark) {
+      body:not([data-theme="light"]) {
+        --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+      }
+    }
+  }
+</style></head>
+  <body>
+    
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024">
+      <path d="M408 442h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8zm-8 204c0 4.4 3.6 8 8 8h480c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H408c-4.4 0-8 3.6-8 8v56zm504-486H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 632H120c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM115.4 518.9L271.7 642c5.8 4.6 14.4.5 14.4-6.9V388.9c0-7.4-8.5-11.5-14.4-6.9L115.4 505.1a8.74 8.74 0 0 0 0 13.8z"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-with-moon" viewBox="0 0 24 24">
+    <title>Auto light/dark, in light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path style="opacity: 50%" d="M 5.411 14.504 C 5.471 14.504 5.532 14.504 5.591 14.504 C 3.639 16.319 4.383 19.569 6.931 20.352 C 7.693 20.586 8.512 20.551 9.25 20.252 C 8.023 23.207 4.056 23.725 2.11 21.184 C 0.166 18.642 1.702 14.949 4.874 14.536 C 5.051 14.512 5.231 14.5 5.411 14.5 L 5.411 14.504 Z"/>
+      <line x1="14.5" y1="3.25" x2="14.5" y2="1.25"/>
+      <line x1="14.5" y1="15.85" x2="14.5" y2="17.85"/>
+      <line x1="10.044" y1="5.094" x2="8.63" y2="3.68"/>
+      <line x1="19" y1="14.05" x2="20.414" y2="15.464"/>
+      <line x1="8.2" y1="9.55" x2="6.2" y2="9.55"/>
+      <line x1="20.8" y1="9.55" x2="22.8" y2="9.55"/>
+      <line x1="10.044" y1="14.006" x2="8.63" y2="15.42"/>
+      <line x1="19" y1="5.05" x2="20.414" y2="3.636"/>
+      <circle cx="14.5" cy="9.55" r="3.6"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon-with-sun" viewBox="0 0 24 24">
+    <title>Auto light/dark, in dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="icon-custom-derived-from-feather-sun-and-tabler-moon">
+      <path d="M 8.282 7.007 C 8.385 7.007 8.494 7.007 8.595 7.007 C 5.18 10.184 6.481 15.869 10.942 17.24 C 12.275 17.648 13.706 17.589 15 17.066 C 12.851 22.236 5.91 23.143 2.505 18.696 C -0.897 14.249 1.791 7.786 7.342 7.063 C 7.652 7.021 7.965 7 8.282 7 L 8.282 7.007 Z"/>
+      <line style="opacity: 50%" x1="18" y1="3.705" x2="18" y2="2.5"/>
+      <line style="opacity: 50%" x1="18" y1="11.295" x2="18" y2="12.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="4.816" x2="14.464" y2="3.964"/>
+      <line style="opacity: 50%" x1="20.711" y1="10.212" x2="21.563" y2="11.063"/>
+      <line style="opacity: 50%" x1="14.205" y1="7.5" x2="13.001" y2="7.5"/>
+      <line style="opacity: 50%" x1="21.795" y1="7.5" x2="23" y2="7.5"/>
+      <line style="opacity: 50%" x1="15.316" y1="10.184" x2="14.464" y2="11.036"/>
+      <line style="opacity: 50%" x1="20.711" y1="4.789" x2="21.563" y2="3.937"/>
+      <circle style="opacity: 50%" cx="18" cy="7.5" r="2.169"/>
+    </svg>
+  </symbol>
+  <symbol id="svg-pencil" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-pencil-code">
+      <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4" />
+      <path d="M13.5 6.5l4 4" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+  <symbol id="svg-eye" viewBox="0 0 24 24">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-eye-code">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+      <path
+        d="M11.11 17.958c-3.209 -.307 -5.91 -2.293 -8.11 -5.958c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6c-.21 .352 -.427 .688 -.647 1.008" />
+      <path d="M20 21l2 -2l-2 -2" />
+      <path d="M17 17l-2 2l2 2" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+<a class="skip-to-content muted-link" href="#furo-main-content">Skip to content</a>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="../index.html"><div class="brand">Gnosis</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+          <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="../index.html">
+  
+  
+  <span class="sidebar-brand-text">Gnosis</span>
+  
+</a><form class="sidebar-search-container" method="get" action="../search.html" role="search">
+  <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../introduction.html">Introduction</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../world_creation/world_creation.html">Creation</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" role="switch" type="checkbox"/><label for="toctree-checkbox-1"><div class="visually-hidden">Toggle navigation of Creation</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../world_creation/facts.html">Setting Facts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../world_creation/initial_creation.html">Initial World Creation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../crew.html">Crew</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../hero_creation/character_creation.html">Making a Hero</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" role="switch" type="checkbox"/><label for="toctree-checkbox-2"><div class="visually-hidden">Toggle navigation of Making a Hero</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../hero_creation/attributes.html">Attributes</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../hero_creation/paths.html">Paths</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" role="switch" type="checkbox"/><label for="toctree-checkbox-3"><div class="visually-hidden">Toggle navigation of Paths</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../hero_creation/path_list.html">Sample Paths</a></li>
+</ul>
+</li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../hero_creation/boons/boons.html">Boons</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" role="switch" type="checkbox"/><label for="toctree-checkbox-4"><div class="visually-hidden">Toggle navigation of Boons</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="../hero_creation/boons/talents.html">Talents</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../hero_creation/boons/gear.html">Gear</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../hero_creation/boons/kith.html">Kith</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../hero_creation/boons/location.html">Locations</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../hero_creation/edges.html">Edges</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../hero_creation/quests.html">Quests</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../hero_creation/checklist.html">Checklist</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../hero_creation/checklist.html#finishing-touches">Finishing Touches</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current has-children"><a class="reference internal" href="play.html">Play</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" role="switch" type="checkbox"/><label for="toctree-checkbox-5"><div class="visually-hidden">Toggle navigation of Play</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
+<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Challenges</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="resolution.html">Resolution</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" role="switch" type="checkbox"/><label for="toctree-checkbox-6"><div class="visually-hidden">Toggle navigation of Resolution</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="consequences.html">Stress &amp; Blood</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="narration.html">Narration</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../tools/tools.html">Tools</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" role="switch" type="checkbox"/><label for="toctree-checkbox-7"><div class="visually-hidden">Toggle navigation of Tools</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../tools/currency.html">Currencies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tools/props.html">Props</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tools/maneuvers.html">Maneuvers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tools/scenes.html">Scenes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tools/progress.html">Progress Clocks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tools/flashbacks.html">Flashbacks</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../changelog.html">Changes</a></li>
+</ul>
+
+</div>
+</div>
+
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <a href="#" class="back-to-top muted-link">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"></path>
+          </svg>
+          <span>Back to top</span>
+        </a>
+        <div class="content-icon-container">
+          <div class="view-this-page">
+  <a class="muted-link" href="../_sources/play/challenge.md.txt" title="View this page">
+    <svg><use href="#svg-eye"></use></svg>
+    <span class="visually-hidden">View this page</span>
+  </a>
+</div>
+<div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto-light"><use href="#svg-sun-with-moon"></use></svg>
+              <svg class="theme-icon-when-auto-dark"><use href="#svg-moon-with-sun"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main" id="furo-main-content">
+          <section id="challenges">
+<h1>Challenges<a class="headerlink" href="#challenges" title="Link to this heading">¶</a></h1>
+<p>Gnosis leans into narrative play, and has little interest in
+simulating each sword stroke or the position of each foot on the map.
+Instead, being concerned with the soul of every story, conflict.</p>
+<p>Some conflicts are merely <strong>obstacles</strong>,
+they don’t actively oppose the Heroes, they are
+just in the way.  A storm when the Heroes are on a boat is an obstacle, it is
+unconcerned with the Heroes success or failure, it’s just in the way</p>
+<p><strong>Conflicts</strong> on the other hand are when thinking entities are at actual
+cross purposes.  An art thief is in conflict with the Heroes protecting the
+museum.  The two sides will adjust, try different tacts, even withdraw and
+try a different approach.</p>
+<p>Sometimes a thinking entity is just an obstacle, their goals don’t
+conflict with what the Heroes want to accomplish, they’re just in the
+way.  A bouncer may not be in conflict with the Heroes, but an obstacle
+the Heroes need to get around to get into the club.  The bouncer’s
+goal is not to keep people out of the club, quite the opposite really, but
+they still may be an obstacle the Heroes must overcome in some way.</p>
+<p>Whether an obstacle or a conflict,
+challenges are resolved by telling a story three times.</p>
+<ul class="simple">
+<li><p>The first story is a story of the Heroes <a class="reference internal" href="#intent">intent</a>.</p></li>
+<li><p>The second story is <a class="reference internal" href="#strategy">how</a> the Hero
+is going to attempt to accomplish their intent.</p></li>
+<li><p>Last story is what the Hero <a class="reference internal" href="narration.html"><span class="std std-doc">accomplished</span></a>.</p></li>
+</ul>
+<section id="actions-challenges-and-scenes">
+<h2>Actions, Challenges and Scenes<a class="headerlink" href="#actions-challenges-and-scenes" title="Link to this heading">¶</a></h2>
+<p>The group and GM should endeavor to only spend valuable time
+around the table on things that matter to someone.
+Fast-forward through shopping and travel scenes unless they
+matter to someone at the table.</p>
+<p>This goes for challenges as well. Unless both success and
+failure are interesting, the interesting thing automatically
+happens.</p>
+<p>Some challenges are simple, requiring only one Hero gaining
+a normal success to overcome them.  Others have
+<a class="reference internal" href="../tools/progress.html"><span class="std std-doc">progress clocks</span></a>
+that track how much more the Heroes must do to overcome the
+challenge.  In these sorts of challenges when a Hero does
+something to overcome the challenge that is considered an
+action.</p>
+<p>The Hero who least recently took an action, gets precedence to
+take an action at any given moment when trying to determine who
+gets to act.  Every 2-3 Hero actions the GM should consider if
+the Challenge should do anything.</p>
+<p>Since any attack includes
+risk of losing the engagement, depending on the nature of the
+challenge they may not need to act that often since they will
+automatically be delivering reprisals against the Heroes that
+are attacking them.</p>
+<p>Once a Hero with precedence decides to take an action, it’s
+time to declare an intent.</p>
+</section>
+<section id="intent">
+<h2>Intent<a class="headerlink" href="#intent" title="Link to this heading">¶</a></h2>
+<p>The Hero’s goal is almost never to hit someone with a weapon,
+they are hitting someone with a weapon for some other purpose,
+it is a means to an end.
+At the very least the Hero intends knock out or kill the person they
+are hitting, but in truth their intent may simply be to get past
+a guard, hitting them might be one way of doing it, but it is
+hardly the only way.</p>
+<p>Articulating the actual intent, is the first story.</p>
+</section>
+<section id="strategy">
+<h2>Strategy<a class="headerlink" href="#strategy" title="Link to this heading">¶</a></h2>
+<p>With an intent firmly defined, it’s time to tell the second story,
+the <abbr title="The set of Boons the player chooses to use for an attribute roll.">Strategy</abbr> the Hero intends to use to achieve their intent.</p>
+<p>This is where the player chooses which <abbr title="Boon Definition">Boons</abbr> the Hero will use,
+one per attribute.</p>
+<p>A Hero with the intent of getting into the
+VIP section of a nightclub might build a Strategy such as:</p>
+<blockquote>
+<div><p>Power: Heir to the Markowski fortune  (tier 2)<br />
+Precision: One of the Beautiful People  (tier 1)<br />
+Possibility: Location: Nightclubs (tier 2)</p>
+</div></blockquote>
+<p>or:</p>
+<blockquote>
+<div><p>Power: Repeating heavy blaster (tier 2)<br />
+Precision: Headshot (tier 2)<br />
+Possibility: Shock and awe (tier 1)</p>
+</div></blockquote>
+<p>Both tell a story of how the Hero gets into the VIP lounge, but they
+tell very, very different stories.  If the Hero’s goal is to schmooze a
+bigwig for a job opportunity, the second strategy may not be the best,
+but if the goal is to assassinate the bigwig, either might work.</p>
+<p>The Strategy that the player
+builds for their Hero is the second story, the one that tells how the
+Hero will accomplish their intent.</p>
+</section>
+<section id="difficulty">
+<h2>Difficulty<a class="headerlink" href="#difficulty" title="Link to this heading">¶</a></h2>
+<p>With a proposed Strategy in place the GM should set a difficulty,
+this is likely done by setting the size of the Pain Pool, though
+for some rolls the GM may choose to use a static difficulty.</p>
+<p>Whichever the case, the number of dice, or number, should be shared
+with the player.  Assuming the Hero is not incompetent in the
+area of conflict they’ll have some sense of the difficulty of what
+their trying to do.</p>
+<p>If the GM and player have very different ideas of the difficulty that
+might be because they have different understandings of the situation,
+and it’s best to clarify that situation and let the player choose a
+different course of action for their Hero.</p>
+<p>The GM will set the size of the Pain Pool, which is
+the number of d10s they’ll be rolling in opposition to
+the Hero’s Attribute Roll.
+Like players, they will only keep the best 3.  The fourth die is quite
+impactful, but the 12th, doesn’t significantly move the needle, just
+like Hero’s Strategies.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p>Name</p></th>
+<th class="head text-center"><p>Pain Pool Size</p></th>
+<th class="head text-center"><p>Static Difficulty</p></th>
+<th class="head text-center"><p>Mean Result</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p>Unskilled</p></td>
+<td class="text-center"><p>3</p></td>
+<td class="text-center"><p>16</p></td>
+<td class="text-center"><p>16.6</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>Apprentice</p></td>
+<td class="text-center"><p>4</p></td>
+<td class="text-center"><p>20</p></td>
+<td class="text-center"><p>19.7</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p>Journeyman</p></td>
+<td class="text-center"><p>5</p></td>
+<td class="text-center"><p>22</p></td>
+<td class="text-center"><p>21.6</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>Master</p></td>
+<td class="text-center"><p>6</p></td>
+<td class="text-center"><p>23</p></td>
+<td class="text-center"><p>22.8</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p>Heroic</p></td>
+<td class="text-center"><p>7</p></td>
+<td class="text-center"><p>24</p></td>
+<td class="text-center"><p>24.0</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>Artist</p></td>
+<td class="text-center"><p>8</p></td>
+<td class="text-center"><p>25</p></td>
+<td class="text-center"><p>24.8</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p>Inconceivable</p></td>
+<td class="text-center"><p>9</p></td>
+<td class="text-center"><p>26</p></td>
+<td class="text-center"><p>25.5</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>Epic</p></td>
+<td class="text-center"><p>10</p></td>
+<td class="text-center"><p>26</p></td>
+<td class="text-center"><p>26.0</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p>Legendary</p></td>
+<td class="text-center"><p>11</p></td>
+<td class="text-center"><p>26</p></td>
+<td class="text-center"><p>26.4</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>Mythic</p></td>
+<td class="text-center"><p>12</p></td>
+<td class="text-center"><p>27</p></td>
+<td class="text-center"><p>26.8</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>There are diminishing returns on large pain pools.
+Before seven dice an additional die is more impactful than a +1 result,
+after that point and the reverse is true.</p>
+<p>Heroes using just their <abbr title="Boon Definition">Boons</abbr> can have at most three levels of advantage
+in each attribute pool, which is approximately equivalent to a 9 die
+Pain Pool (25.3 vs 25.5).  Even if they have all those Boons, by the nature
+of tier 3 Boons, they should only be able to bring that to bear under
+limited circumstances.</p>
+<p>There comes a point where what you’re trying to confront the Heroes with
+is an impossible challenge which probably should be more correctly
+handled with <a class="reference internal" href="#effect">Effect</a> and <a class="reference internal" href="#risk">Risk</a>,
+rather than adding more dice to the Pain Pool.</p>
+<section id="effect">
+<h3>Effect<a class="headerlink" href="#effect" title="Link to this heading">¶</a></h3>
+<p>Not all opposing forces operate on the same scale.  A normal person facing down
+the mile long imperial dreadnought while only armed with a six-shooter,
+is not going to be able to overcome that difference in scale and adding more
+dice to the Pain Pool isn’t going to be able to represent that difference.</p>
+<p>If the scale is only marginally different or if the challenge is something
+that could be handled, but it’s going to take prolonged effort, than
+simply adding a <a class="reference internal" href="../tools/progress.html"><span class="std std-doc">Progress Clock</span></a> may represent the
+effort it will take to overcome the challenge.</p>
+<p>If so, draw the progress clock wherever your group keeps them and disclose it
+when you disclose the difficulty.</p>
+<p>For challenges that verge even closer to impossible, there will be additional
+penalties to Hero’s effectiveness.  By default, Heroes are assumed to have
+<em>Similar Power</em> to the challenges they attempt to overcome.</p>
+<div class="table-wrapper colwidths-auto docutils container" id="id1">
+<table class="docutils align-default" id="id1">
+<caption><span class="caption-text">cons = consequence level</span><a class="headerlink" href="#id1" title="Link to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head text-center"><p>Scale Difference</p></th>
+<th class="head text-center"><p>Critical Failure</p></th>
+<th class="head text-center"><p>Failure</p></th>
+<th class="head text-center"><p>Tie</p></th>
+<th class="head text-center"><p>Success</p></th>
+<th class="head text-center"><p>Critical Success</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-center"><p>Unheroic</p></td>
+<td class="text-center"><p>1 effect lvl at a cost</p></td>
+<td class="text-center"><p>1 effect lvl</p></td>
+<td class="text-center"><p>2 effect lvl</p></td>
+<td class="text-center"><p>3 effect lvls</p></td>
+<td class="text-center"><p>3 effect lvls</p></td>
+</tr>
+<tr class="row-odd"><td class="text-center"><p>Punching Down</p></td>
+<td class="text-center"><p>1 cons</p></td>
+<td class="text-center"><p>1 effect lvl at a cost</p></td>
+<td class="text-center"><p>1 effect lvl</p></td>
+<td class="text-center"><p>2 effect lvl</p></td>
+<td class="text-center"><p>3 effect lvls</p></td>
+</tr>
+<tr class="row-even"><td class="text-center"><p>Similar Power</p></td>
+<td class="text-center"><p>2 cons</p></td>
+<td class="text-center"><p>1 cons</p></td>
+<td class="text-center"><p>1 effect lvl at a cost</p></td>
+<td class="text-center"><p>1 effect lvl</p></td>
+<td class="text-center"><p>2 effect lvls</p></td>
+</tr>
+<tr class="row-odd"><td class="text-center"><p>Punching Up</p></td>
+<td class="text-center"><p>3 cons</p></td>
+<td class="text-center"><p>2 cons</p></td>
+<td class="text-center"><p>1 cons</p></td>
+<td class="text-center"><p>1 effect lvl at a cost</p></td>
+<td class="text-center"><p>1 effect lvls</p></td>
+</tr>
+<tr class="row-even"><td class="text-center"><p>Severe Underdog</p></td>
+<td class="text-center"><p>3 cons</p></td>
+<td class="text-center"><p>3 cons</p></td>
+<td class="text-center"><p>2 cons</p></td>
+<td class="text-center"><p>1 cons</p></td>
+<td class="text-center"><p>1 effect lvl at a cost</p></td>
+</tr>
+<tr class="row-odd"><td class="text-center"><p>Impossible</p></td>
+<td class="text-center"><p>3 cons</p></td>
+<td class="text-center"><p>3 cons</p></td>
+<td class="text-center"><p>3 cons</p></td>
+<td class="text-center"><p>2 cons</p></td>
+<td class="text-center"><p>1 cons</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Scale is not just about size, but it’s about power.  A cosmic level superhero
+may tear through that imperial dreadnought without slowing down.  In a lot of
+genres size and numbers correlate with power, but not in all genres.</p>
+<p><abbr title="The set of Boons the player chooses to use for an attribute roll.">Strategy</abbr> is important here.  Tunneling through a mountain with a teaspoon
+is <em>Impossible</em>, while following the path around the base of the mountain
+might not even be an obstacle, but both get the Heroes to the other side
+of the mountain.</p>
+<p>Taking one or more <a class="reference internal" href="consequences.html#stress-blood"><span class="std std-ref">consequence level</span></a>
+generally means the Hero took Stress or Blood depending on
+<a class="reference internal" href="#risk">Risk</a>.  Gaining one or more <a class="reference internal" href="resolution.html#effect-levels"><span class="std std-ref">effect level</span></a>
+means the Hero overcomes the Challenge or fills a segment
+of a <a class="reference internal" href="../tools/progress.html"><span class="std std-doc">progress clock</span></a> and moves
+closer toward overcoming a
+complex challenge.  If it comes at a cost, that means that even if successful,
+something bad happened in the <a class="reference internal" href="narration.html"><span class="std std-doc">narration</span></a>.</p>
+</section>
+<section id="risk">
+<h3>Risk<a class="headerlink" href="#risk" title="Link to this heading">¶</a></h3>
+<p>Almost all challenges have consequences, otherwise they wouldn’t be challenges,
+but not all consequences are equal.</p>
+<p>Challenges are <em>Safe</em>, <em>Stressful</em> or <em>Bloody</em>.</p>
+<dl class="simple myst">
+<dt><strong>Safe</strong>:</dt><dd><p>Usually an entire challenge is not safe, but a certain
+action might be.  A <a class="reference internal" href="../tools/flashbacks.html"><span class="std std-doc">flashback</span></a> or
+<a class="reference internal" href="../tools/maneuvers.html"><span class="std std-doc">maneuver</span></a> are often safe.
+Safe challenges also might be challenges that aren’t dangerous
+themselves, but how much time is taken on them is important.</p>
+<p>Consequences for Safe challenges don’t normally inflict stress or blood.
+Effectively the consequences only have a
+<a class="reference internal" href="narration.html"><span class="std std-doc">narrative</span></a> impact.
+The Hero’s failure to bribe the guard might not have caused any
+stress, but that guard might recognize the Hero later on.</p>
+</dd>
+<dt><strong>Stressful</strong>:</dt><dd><p>This is the default risk for non-violent encounters.  Consequences in
+these sorts of challenges will usually inflict
+<a class="reference internal" href="consequences.html#stress-blood"><span class="std std-ref">Stress</span></a> rather than Blood.
+Both impair the character, but Stress is easier to recover, taking less
+time than Blood.</p>
+<p>These tend to be social, intellectual and some forms of spiritual
+challenges.  Attempting, and failing, to push your agenda at the
+Royal Academy only rarely results in blood being spilt, but
+its damage is just as real.</p>
+</dd>
+<dt><strong>Bloody</strong></dt><dd><p>This is the default risk for violent encounters.  If you take a
+consequence in this sort of challenge it generally means your clothes
+have holes in them and are stained red with blood.  The Hero will take
+<a class="reference internal" href="consequences.html#stress-blood"><span class="std std-ref">Blood</span></a>
+damage which causes the same penalties as Stress, but takes longer
+to recover from.</p>
+<p>These challenges are violent or dangerous.  Things like driving
+the trolls off with violence or defending your honor in a duel
+with laser pistols are Bloody challenges.</p>
+</dd>
+</dl>
+<p>Mechanically the only difference is the expected sort of
+<a class="reference internal" href="consequences.html"><span class="std std-doc">consequences</span></a> a Hero will take
+if they fail their Attribute Roll.</p>
+</section>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="resolution.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>Next</span>
+                </div>
+                <div class="title">Resolution</div>
+              </div>
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="play.html">
+              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>Previous</span>
+                </div>
+                
+                <div class="title">Play</div>
+                
+              </div>
+            </a>
+        </div>
+        <div class="bottom-of-page">
+          <div class="left-details">
+            <div class="copyright">
+                Copyright &#169; 2024, Nephlm
+            </div>
+            Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+            
+            <a href="https://github.com/pradyunsg/furo">Furo</a>
+            
+          </div>
+          <div class="right-details">
+            
+          </div>
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Challenges</a><ul>
+<li><a class="reference internal" href="#actions-challenges-and-scenes">Actions, Challenges and Scenes</a></li>
+<li><a class="reference internal" href="#intent">Intent</a></li>
+<li><a class="reference internal" href="#strategy">Strategy</a></li>
+<li><a class="reference internal" href="#difficulty">Difficulty</a><ul>
+<li><a class="reference internal" href="#effect">Effect</a></li>
+<li><a class="reference internal" href="#risk">Risk</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script src="../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/scripts/furo.js?v=5fa4622c"></script>
+    <script src="../_static/tabs.js?v=3ee01567"></script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    </body>
+</html>

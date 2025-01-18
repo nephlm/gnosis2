@@ -1,13 +1,13 @@
 # Locations
 
 ```{image} /_static/city.jpg
-:width: 300px
+:width: 33%
 :align: right
 ```
 
 Locations are places where the Hero has home field
 advantage.  Maybe from years living on the streets 
-of that place, or it could be here own apartment 
+of that place, or it could be their own apartment 
 building or a place they spent a lot of time.
 
 Locations come in two varieties contiguous 
@@ -73,7 +73,7 @@ such as coffee houses, schools or transit stations.
 
 
 ```{image} /_static/alley_tavern.jpg
-:width: 300px
+:width: 33%
 :align: left
 ```
 
@@ -110,7 +110,7 @@ or *Seattle Ley Lines*.
   * Cafes of Earth 187
 * In a Global Campaign
   * Seattle
-  * Chicago Bookstores 
+  * English Bookstores 
 * In a City Campaign
   * MIT Campus
   * Disney World Restaurants

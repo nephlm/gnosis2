@@ -4,7 +4,7 @@ How does a Hero advance without accomplishing great
 deeds?  How does a Hero fulfill their destiny and 
 have a great character arc?  The answer is Quests.
 
-The player through their role as Demiurge, give the 
+The player, through their role as Demiurge, give the 
 Hero a Quest, by giving it a cool name, and a specific
 thing that must be accomplished.  
 
@@ -27,7 +27,7 @@ Hunting Scrap
 refugees. 
 
 Freedom!
-: Lead the oppressed people Navarro to rise up and throw off
+: Lead the oppressed people of Navarro to rise up and throw off
 the yoke of the necromancer.
 
 Rats in the Cellar
@@ -35,7 +35,7 @@ Rats in the Cellar
 hotel's wine cellar.
 
 Special Skills
-: Hunt down the kidnappers and free the Heroes abducted sister.
+: Hunt down the kidnappers and free the Hero's abducted child.
 
 Moles
 : Develop an informant among the corrupt city guard.
@@ -56,10 +56,8 @@ spend on [Boons](boons/boons.md) and [Edges](edges).
 * Prop / contact / Kit Gear
 * a point of Favor
 * a point of Logos 
-* 1 xp specific Boon
-* 1 xp
-* 2 xp specific Boon
-* 2 xp
+* 1-2 xp for a specific Boon
+* 1-2 xp
 * Combination of the above
 ```
 
@@ -75,7 +73,7 @@ Quests often relate to a Hero's {{Trouble}} or
 what [just happened](checklist.md) before 
 the beginning of play.
 
-* Only Quests that aren't worthy of the Hero won't 
+* Any Quest that is worthy of the Hero will 
 Reward a Logos in combination with any other 
 Rewards.  Not receiving Logos is a message that the 
 Quest wasn't worthy.

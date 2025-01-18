@@ -31,10 +31,10 @@ Logos Uses:
 
 Logos Recovery:
 
-* At the beginning of each session, the group chooses
-one player to receive a Logos. 
 * A Demiurge that starts a session with 0 Logos, gains 
 one Logos. 
+* At the beginning of each session, the player with the 
+least Logos, gains a Logos. 
 * After a Fact has come up in the game three times.
 * When a Hero completes one of their Quests (usually).
 
@@ -45,9 +45,9 @@ There are a few set uses for Favor and times when Favor is
 required, it is also the general way for a Hero to indicate that 
 this matters, and they are willing to sacrifice something for it. 
 
-In addtion to whatever a Hero's Edges allow them to do with Favor, 
-all Heroes can use favor to re-roll and Attribute Roll and they 
-may make a maneuver roll without taking an action to to do so.
+In addition to whatever a Hero's Edges allow them to do with Favor, 
+all Heroes can use favor to re-roll and Attribute Roll, and they 
+may make a maneuver roll without taking an action to do so.
 
 In addition to the mechanical things, Favor can also be used as 
 a very light version of Logos to make some minor thing in the 

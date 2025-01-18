@@ -1,7 +1,7 @@
 # Creation
 
 ```{image} ../_static/world_creation.jpg
-:width: 300px
+:width: 33%
 :align: right
 ```
 
@@ -16,8 +16,8 @@ Before generating specific ideas or pitches,
 spend a moment to decide on a 
 tone. 
 
-Are people looking for a something epic, 
-light four color heroes or even a cartoon sort of
+Are people looking for a something epic? 
+Light four color heroes? Or even a cartoon sort of
 game? Nothing is written in stone but get the feeling
 of the people at the table.
 
@@ -41,7 +41,7 @@ that won't make the cut early is helpful.
 
 ## Pitches
 
-Next, it's time for some actual pitches.  
+Next, it's time for some actual pitches. 
 
 * A pitch should be one or two sentences maximum. 
 * They don't have to be complete idea or settings, a
@@ -99,7 +99,7 @@ spend time with.
 
 
 When you find something everyone loves, take a moment
-to lock down a couple of settings.  These will make
+to lock down a couple of knobs.  These will make
 sure everyone is on the same page, and allow 
 narration to be credible to everyone.
 
@@ -125,7 +125,7 @@ technologies?
 The world may also have very different tech levels for different 
 technologies.  For example, high biological tech, but limited
 information tech.  For extremely advanced
-technologies it may be thought of more as magic as
+technologies it may be thought of more as magic than
 tech. 
 
 ## Magic Level

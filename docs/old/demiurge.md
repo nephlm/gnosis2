@@ -27,7 +27,7 @@ This voice is measured in Logos, a
 measure of the demiurge’s ability to alter creation.
 
 ```{image} ../_static/demiurge.jpg
-:width: 300px
+:width: 33%
 :align: right
 ```
 

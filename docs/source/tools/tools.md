@@ -20,7 +20,8 @@ or Edges used, then it's a system that can be dropped.
 
 currency.md
 props.md
+maneuvers.md
 scenes.md
 progress.md
-downtime.md
+flashbacks.md
 ```
