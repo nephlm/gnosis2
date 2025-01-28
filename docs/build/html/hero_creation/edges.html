@@ -236,18 +236,19 @@
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../play/narration.html">Narration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../play/narration.html#back-to-the-beginning">Back to the Beginning</a></li>
 </ul>
 </li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../tools/tools.html">Tools</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" role="switch" type="checkbox"/><label for="toctree-checkbox-7"><div class="visually-hidden">Toggle navigation of Tools</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../tools/currency.html">Currencies</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../tools/props.html">Props</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../tools/maneuvers.html">Maneuvers</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../tools/scenes.html">Scenes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tools/social.html">Social Challenges</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tools/currency.html">Currencies</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../tools/progress.html">Progress Clocks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../tools/modifiers.html">Modifiers</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../tools/flashbacks.html">Flashbacks</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../changelog.html">Changes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../changelog.html">Version 2.0.0b0 Changelog</a></li>
 </ul>
 
 </div>
@@ -292,10 +293,9 @@
 <h1>Edges<a class="headerlink" href="#edges" title="Link to this heading">¶</a></h1>
 <p>Edges are ways in which a Hero can bend the rules under specific
 circumstances.  These are not <abbr title="Facts the deal with magic systems, tech or other Hero power sources.">metaphysics</abbr>, those are covered by
-<abbr title="Boon Definition">Boons</abbr> in general and <a class="reference internal" href="boons/talents.html"><span class="std std-doc">Talents</span></a> exploiting
-metaphysics facts specifically
-are intrinsic to the campaign world, while Edges are specific
-to a particular Hero.</p>
+<a class="reference internal" href="boons/boons.html"><span class="std std-doc">Boons</span></a>, often as <a class="reference internal" href="boons/talents.html"><span class="std std-doc">Talents</span></a> exploiting
+metaphysics facts which
+are intrinsic to the campaign world.</p>
 <p>An edge has three parts: <strong>Name</strong>, <strong>Description</strong> and <strong>Mechanics</strong>.
 Name and description are descriptions of the Edge and will imply
 when it can apply.  The description should limit an edge in some
@@ -305,7 +305,8 @@ limited to <abbr title="The set of Boons the player chooses to use for an attrib
 used.  Even those Edges that don’t have such a requirement
 should be limited to a particular kind of challenge;
 physical, mental, spiritual, social, athletic, etc.</p>
-<p>Mechanics is the Edge Blueprint adjusted or completed to
+<p>Mechanics is the Edge Blueprint adjusted or with specifics
+filled in to
 fit the description.  All Edges should be made in consultation
 with the group and GM and everyone should agree that it is
 appropriately limited in scope.</p>
@@ -313,7 +314,7 @@ appropriately limited in scope.</p>
 additional Edges for 5xp each.</strong></p>
 <section id="using-an-edge">
 <h2>Using an Edge<a class="headerlink" href="#using-an-edge" title="Link to this heading">¶</a></h2>
-<p>Almost all Edges require the expenditure of one or more <abbr title="The Currency spent by Heroes to power Edges and similar benefits.">Favor</abbr>
+<p>All Edges require the expenditure of one or more <abbr title="The Currency spent by Heroes to power Edges and similar benefits.">Favor</abbr>
 to activate them.  There may be particular situations that
 exactly match an Edge’s description and the GM may allow them
 to be activated for free.</p>
@@ -332,7 +333,8 @@ Edge doesn’t need an Attribute Roll, it can be used whenever.</p>
 <h2>Edge Blueprints<a class="headerlink" href="#edge-blueprints" title="Link to this heading">¶</a></h2>
 <p>There are a finite number of Edge Blueprints that can be adjusted
 or completed into an infinite number of possible edges, each applicable
-to different situations and in different <abbr title="The set of Boons the player chooses to use for an attribute roll.">Strategies</abbr>.</p>
+to different situations and in different
+<a class="reference internal" href="../play/challenge.html#strategy"><span class="std std-ref">Strategies</span></a>.</p>
 <section class="small" id="attribute-blueprints">
 <h3>Attribute Blueprints<a class="headerlink" href="#attribute-blueprints" title="Link to this heading">¶</a></h3>
 <p>These Blueprints typically influence Attribute Rolls under
@@ -345,7 +347,7 @@ attribute, even if there is no appropriate Boon.</p></li>
 if a Hero pays a Favor, an attribute,
 chosen when the Edge is bought,
 can’t roll less than 2x the level of advantage.</p></li>
-<li><p>During a particular kind of challenge, if the Hero
+<li><p>During a particular kind of complex challenge, if the Hero
 rolls a failure or worse on their Attribute Roll, they may
 spend a Favor and add a level of advantage to all their attributes.
 Each subsequent roll they fail,
@@ -357,22 +359,31 @@ advantage levels return to normal.</p></li>
 </section>
 <section class="small" id="boon-blueprints">
 <h3>Boon Blueprints<a class="headerlink" href="#boon-blueprints" title="Link to this heading">¶</a></h3>
-<p>These Blueprint often require a specific <abbr title="Boon Definition">Boon</abbr> be used in a
-<abbr title="The set of Boons the player chooses to use for an attribute roll.">Strategy</abbr> to be able to use them or influences Attribute Rolls
+<p>These Blueprint often require a specific <a class="reference internal" href="boons/boons.html"><span class="std std-doc">Boon</span></a>
+be used in a
+<a class="reference internal" href="../play/challenge.html#strategy"><span class="std std-ref">Strategy</span></a>
+to be able to use them or influences Attribute Rolls
 using a particular Boon.</p>
 <ul class="simple">
 <li><p>The Hero pays a Favor when making an Attribute Roll that includes
 a particular Boon in a specific circumstance or situation,
-and gains x2 level of advantage from that Boon.</p></li>
-<li><p>When using a specific Boon in particular circumstance, and a Hero
-rolls at least a tie, they may increase the level of
+and gains x2 level of <a class="reference internal" href="boons/boons.html#tiers"><span class="std std-ref">advantage</span></a> from that Boon.</p></li>
+<li><p>When using a specific Boon in a particular circumstance, and a Hero
+rolls at least a <a class="reference internal" href="../play/challenge.html#effect"><span class="std std-ref">tie</span></a>, they may increase the level of
 success by one level (tie to success
 or success to critical success).</p></li>
-<li><p>When using a specific Boon in particular circumstance, and a Hero
-rolls a failure or worse, they may increase the level of
+<li><p>When using a specific Boon in a particular circumstance, and a Hero
+rolls a <a class="reference internal" href="../play/challenge.html#effect"><span class="std std-ref">failure</span></a>
+or worse, they may increase the level of
 success by one level (critical failure to failure, failure to tie).</p></li>
 <li><p>When making an Attribute Roll that includes a specific Boon, a
-Hero may spend a Favor and reduce the Blood or Stress by one.</p></li>
+Hero may spend a Favor and reduce the <a class="reference internal" href="../play/consequences.html#stress-blood"><span class="std std-ref">Blood or Stress</span></a> by one.</p></li>
+<li><p>When making an Attribute Roll that includes a specific Boon, a
+Hero may spend a Favor and ignore the effect of Wounds or Trauma
+(chosen when the Edge is purchased) for the remainder of the
+scene.  At the end of the scene the Hero receives an additional
+Wound or Trauma (chosen when the Edge is purchased) that can’t be
+recovered by <a class="reference internal" href="../play/consequences.html#first-aid"><span class="std std-ref">First Aid</span></a>.</p></li>
 </ul>
 </section>
 <section class="small" id="resource-blueprints">
@@ -383,17 +394,22 @@ These Blueprints may not be used
 in any way by themselves or in combination with other Edges or other Heroes
 that can be said to generate infinite resources.</p>
 <ul class="simple">
-<li><p>Spend a Favor, get two Favor to spend in a specific way.  The Favor
+<li><p>Spend a Favor, and get two <a class="reference internal" href="../tools/currency.html#favor"><span class="std std-ref">Favor</span></a>
+to spend in a specific way.  The Favor
 must be spent by the end of the scene, or it is lost.
 This Favor may not be used in any way that generates any further Favor.</p></li>
-<li><p>Spend a Favor, gain two dice that can added to
+<li><p>Spend a Favor, and gain two dice that can added to
 pools under constrained circumstances, such as having to be given to
 other Heroes or something similarly limited.
 If the dice are not used by the end of the challenge, they are lost.
+Each die increases the level of advantage for a single attribute
+during an Attribute Roll.
 No more than two dice may be added per attribute roll in this way.</p></li>
 <li><p>The Hero can spend a Favor and be able to perform a Wound or
-Trauma recovery roll (specified at purchase).<br />
-The recover roll could be used by the Hero or granted to another.
+Trauma <a class="reference internal" href="../play/consequences.html#first-aid"><span class="std std-ref">recovery roll</span></a>
+(specified at purchase).
+The recover roll could be used by the Hero or granted to another
+depending on the Edge description.
 No Hero can benefit from this more than once per scene.</p></li>
 </ul>
 </section>
@@ -402,14 +418,15 @@ No Hero can benefit from this more than once per scene.</p></li>
 <p>These Blueprints influence the Pain Pool, usually reducing it by
 either dice or a set number.</p>
 <ul class="simple">
-<li><p>During a particular type of challenge a Hero may spend a Favor and
+<li><p>During a particular type of <a class="reference internal" href="../play/challenge.html"><span class="std std-doc">challenge</span></a>,
+a Hero may spend a Favor and
 reduce the pain pool by 1 die.  This persists for the remainder of
 the challenge.  This may only be done once per challenge and cannot
 reduce the pain pool below 3 dice.</p></li>
-<li><p>During a particular type of challenge a Hero may spend a one or more
+<li><p>During a particular type of challenge, a Hero may spend a one or more
 Favor and
-reduce the pain pool by 1 on the pain pool’s next (or current)
-roll for each Favor spent.</p></li>
+reduce the pain pool by 1 for each Favor spent for
+the pain pool’s next (or current) roll.</p></li>
 </ul>
 </section>
 </section>
@@ -418,7 +435,7 @@ roll for each Favor spent.</p></li>
 <p>If a Player wants an Edge for their Hero that they don’t feel can
 be built by the existing Blueprints, and is approximately of the same
 impact level of the existing Blueprints, they are
-invited to propose new mechanics blueprints for the group’s and
+invited to propose new mechanics for blueprints for the group’s and
 the GM’s consideration.</p>
 <p>The GM is under no obligation to make something for them, only to
 consider their proposals and hopefully work with them to find
@@ -453,7 +470,7 @@ Critical Success.</p></li>
 </li>
 <li><p><strong>Quick Draw</strong></p>
 <ul>
-<li><p><em>Description:</em> The Hero is fastest gun in the West.
+<li><p><em>Description:</em> The Hero is the fastest gun in the West.
 Few can draw and shoot with their speed and accuracy.</p></li>
 <li><p><em>Mechanics:</em> When the hero draws and fires they can spend a favor and
 double the advantage level from their <em>Favorite Peacemaker</em> Talent.</p></li>
@@ -531,7 +548,8 @@ their comrades.</p></li>
 <li><p><em>Mechanics:</em> The Hero spends a Favor and the
 Blessed Hero gains two additional levels of advantage to add to a
 <abbr title="The set of Boons the player chooses to use for an attribute roll.">Strategy</abbr> that involves deception or misdirection.
-Don’t have to be used immediately, but do have to be used by the end of the
+These dice don’t have to be used immediately,
+but do have to be used by the end of the
 Challenge, or they are lost.</p></li>
 </ul>
 </li>
@@ -555,7 +573,7 @@ level of advantage on their Precision attribute.</p></li>
 <li><p><strong>Mental Competency</strong></p>
 <ul>
 <li><p><em>Description:</em> The Hero’s intense mental training
-grants at least basic mental competency if on their most off days.</p></li>
+grants at least basic mental competency even on their most off days.</p></li>
 <li><p><em>Mechanics:</em> If the Hero spends a Favor, they can’t roll less than
 twice the level of advantage on their precision die
 for their precision die roll in mental challenges.</p></li>
@@ -620,7 +638,7 @@ a -1 penalty on its roll.</p></li>
         <div class="bottom-of-page">
           <div class="left-details">
             <div class="copyright">
-                Copyright &#169; 2024, Nephlm
+                Copyright &#169; 2025, Nephlm
             </div>
             Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
             
@@ -668,7 +686,7 @@ a -1 penalty on its roll.</p></li>
       
     </aside>
   </div>
-</div><script src="../_static/documentation_options.js?v=5929fcd5"></script>
+</div><script src="../_static/documentation_options.js?v=9d675db7"></script>
     <script src="../_static/doctools.js?v=9bcbadda"></script>
     <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../_static/scripts/furo.js?v=5fa4622c"></script>

@@ -1,6 +1,6 @@
 # Paths
 
-Paths are Hero's way of being.  They are a balance between
+Paths are a Hero's way of being.  They are a balance between
 a *nature* and a *role*.  
 
 * Role the 

@@ -147,7 +147,8 @@ Or recover it from whoever currently has it.
 
 ```{sidebar} Kit Gear vs Props
 
-Kit Gear differs from {{Props}} in that that Props can 
+Kit Gear differs from [Props](../../tools/modifiers.md#props) 
+in that that Props can 
 be used in Attribute Rolls, and it's the GM's duty
 to take Props away.
 

@@ -31,7 +31,7 @@ examples of Boons often associated with precision.
 
 Precision is about applying small amounts of 
 power very effectively.  An 
-orbital death laster is less effective than a rubber chicken, 
+orbital death laser is less effective than a rubber chicken, 
 if you can't make it hit your target.
 
 Precision is by far the most important attribute.

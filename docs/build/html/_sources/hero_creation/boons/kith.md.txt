@@ -28,9 +28,10 @@ familiar, a Companion, as their Possibility Boon for example.
 Sometimes it is enough just to know someone or be part of 
 an organization.  A Hero trying to talk his way into 
 a posh party could drop a name or mention their membership
-and use that Kith as part of their Attribute Roll {{Strategy}}.
+and use that Kith as part of their Attribute Roll 
+[Strategy](../../play/challenge.md#strategy).
 
-Membership and friendship, and a flock of convenience is a 
+Membership, friendship, or a flock of convenience is a 
 two-way road.  Sometimes it's the Hero who is being called 
 on to render aid or help with some problem. 
 
@@ -85,7 +86,7 @@ fleeting relationship with.  They may share a goal
 or outlook, but there is little shared history or 
 earned trust.  
 
-Most NPC that the Hero encounters could be developed 
+Most NPCs that the Hero encounters could be developed 
 into Contacts.  It takes more than just seeing them 
 on a street, but if the Hero exchanges phone numbers
 or whatever is the equivalent in the game, 
@@ -111,8 +112,8 @@ they are trying to do something worth doing.
 
 However, they do have their own lives and do something 
 for a living, probably something the involves deadlines, 
-so they aren't about to drop anything a follow the 
-Hero across the country, or possibly even the city
+so they aren't about to drop anything and follow the 
+Hero across the country, or possibly even the city,
 without a good reason. 
 
 ```{admonition} Example Allies
@@ -156,12 +157,12 @@ they'll have the Hero's back.
 :columns: 2
 
 * Henchman
+* Emotional Support Droid
 * Sidekick 
 * Familiar 
 * Personal Assistant
 * Close Family
 * Bodyguard (or Protectee)
-* Driver
 * Animal Companion
 * Significant Other
 * Entourage

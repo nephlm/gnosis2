@@ -5,16 +5,18 @@ planning something to death --perhaps you have an engineer
 or two playing-- then the flashback mechanic is your 
 get out of planning hell free card.  
 
-Flashbacks are simply a special form of {{Maneuver}} that 
+Flashbacks are simply a special form of [Maneuver](modifiers.md#maneuver) that 
 allows the Hero to take advantage of the planning they did 
 quietly off-screen, only when it becomes relevant, rather 
 than spending time doing planning that may not apply. 
 
 Flashbacks tend to be more narrative while Maneuvers are more
-mechanical.  Maneuvers tend to be taking an action, or 
-remembering something that gives a mechanical advantage, 
+mechanical.  Maneuvers tend to be taking an action, 
+that gives a mechanical advantage, 
 while Flashbacks tend to be more likely to change the 
-narrative situation. 
+narrative situation.  This may lead to lead to 
+exploitable [circumstances](modifiers.md#circumstances)
+that can be exploited, but the link is less direct.
 
 ## Approach
 
@@ -24,7 +26,8 @@ sneak in over the roofs, or con their way in.
 
 Each Hero makes an Attribute Roll, putting together an 
 appropriate strategy for their Hero.  Any planning or 
-intel related {{Boons}} can be freely shared.
+intel related [Boons](../hero_creation/boons/boons.md) 
+can be freely shared.
 
 The Pain Pool should be appropriate for how well defended 
 target is, but it should be on the low side, the expectation
@@ -59,3 +62,7 @@ and anything more, probably can't be done in a flashback.
 Major plot points are beyond the scope of a flashback.  The 
 Hero can't kill the major villain or steal the McGuffin, but
 they can make those things easier in the present. 
+
+The guiding principle remains to make stories together, so 
+a flashback that doesn't make the story better, probably shouldn't
+be allowed.

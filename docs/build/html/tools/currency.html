@@ -3,7 +3,7 @@
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Props" href="props.html" /><link rel="prev" title="Tools" href="tools.html" />
+<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Progress Clocks" href="progress.html" /><link rel="prev" title="Social Challenges" href="social.html" />
 
     <!-- Generated with Sphinx 8.1.3 and Furo 2024.08.06 -->
         <title>Currencies - Gnosis</title>
@@ -236,18 +236,19 @@
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../play/narration.html">Narration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../play/narration.html#back-to-the-beginning">Back to the Beginning</a></li>
 </ul>
 </li>
 <li class="toctree-l1 current has-children"><a class="reference internal" href="tools.html">Tools</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" role="switch" type="checkbox"/><label for="toctree-checkbox-7"><div class="visually-hidden">Toggle navigation of Tools</div><i class="icon"><svg><use href="#svg-arrow-right"></use></svg></i></label><ul class="current">
-<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Currencies</a></li>
-<li class="toctree-l2"><a class="reference internal" href="props.html">Props</a></li>
-<li class="toctree-l2"><a class="reference internal" href="maneuvers.html">Maneuvers</a></li>
 <li class="toctree-l2"><a class="reference internal" href="scenes.html">Scenes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="social.html">Social Challenges</a></li>
+<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Currencies</a></li>
 <li class="toctree-l2"><a class="reference internal" href="progress.html">Progress Clocks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modifiers.html">Modifiers</a></li>
 <li class="toctree-l2"><a class="reference internal" href="flashbacks.html">Flashbacks</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../changelog.html">Changes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../changelog.html">Version 2.0.0b0 Changelog</a></li>
 </ul>
 
 </div>
@@ -291,22 +292,25 @@
           <section id="currencies">
 <h1>Currencies<a class="headerlink" href="#currencies" title="Link to this heading">¶</a></h1>
 <p>The two mechanical currencies, <abbr title="The currency used by Demiurges to affect Creation and the Hero.">Logos</abbr> and <abbr title="The Currency spent by Heroes to power Edges and similar benefits.">Favor</abbr>
-have already been mentioned.</p>
+are used to limit how often a player or Hero can do certain
+things.  They are a resource that forces players to choose
+<em>when</em> they do cool things.</p>
 <section id="logos">
 <h2>Logos<a class="headerlink" href="#logos" title="Link to this heading">¶</a></h2>
 <p>Logos is used, in general, to do things the Hero
 is oblivious to.  <a class="reference internal" href="../world_creation/facts.html"><span class="std std-doc">Facts</span></a>
-were always true, and while they may have goals
+were always true as far as the Hero is concerned,
+and while they may have goals
 that line up with <a class="reference internal" href="../hero_creation/quests.html"><span class="std std-doc">Quests</span></a>,
 they know nothing about the specific criteria for
 success or the rewards.</p>
-<p>If you need a currency for something that lies somewhere
-between metagaming and world creation, that’s Logos.</p>
-<p>Each Demiurge has a maximum of six Logos and any additional
+<p>If you need a currency for
+metagaming, world creation and similar concerns, that’s Logos.</p>
+<p>Each Demiurge has a <strong>maximum of six Logos</strong>, and any additional
 Logos they gain are lost.  If the Demiurge gets a new Logos
 when they are at their max,
 they can’t “quickly” spend one to make space, it is lost.</p>
-<p>Generally when a Demiurge spends a Logos they should get it
+<p>Generally, when a Demiurge spends a Logos they should get it
 back, though it might be invested for an arbitrary length of
 time.</p>
 <p>Logos Uses:</p>
@@ -316,12 +320,17 @@ time.</p>
 </ul>
 <p>Logos Recovery:</p>
 <ul class="simple">
-<li><p>A Demiurge that starts a session with 0 Logos, gains
-one Logos.</p></li>
+<li><p>A Demiurge gains
+one Logos at the beginning of each session.</p></li>
 <li><p>At the beginning of each session, the player with the
 least Logos, gains a Logos.</p></li>
-<li><p>After a Fact has come up in the game three times.</p></li>
-<li><p>When a Hero completes one of their Quests (usually).</p></li>
+<li><p>The third time a <a class="reference internal" href="../world_creation/facts.html"><span class="std std-doc">Fact</span></a>
+has come up in the game, the player that
+created that fact, gains a Logos.</p></li>
+<li><p>When a Hero completes one of their <a class="reference internal" href="../hero_creation/quests.html"><span class="std std-doc">Quests</span></a>
+they will almost always regain
+the Logos they invested in the Quest, though this is technically a reward of
+the Quest, so it is subject to the GM setting the reward.</p></li>
 </ul>
 </section>
 <section id="favor">
@@ -330,43 +339,45 @@ least Logos, gains a Logos.</p></li>
 There are a few set uses for Favor and times when Favor is
 required, it is also the general way for a Hero to indicate that
 this matters, and they are willing to sacrifice something for it.</p>
-<p>In addition to whatever a Hero’s Edges allow them to do with Favor,
-all Heroes can use favor to re-roll and Attribute Roll, and they
-may make a maneuver roll without taking an action to do so.</p>
-<p>In addition to the mechanical things, Favor can also be used as
-a very light version of Logos to make some minor thing in the
-setting true.</p>
-<blockquote>
-<div><p>Player: I look around the room for something that can be used
-as a weapon.</p>
-<p>GM: I don’t know, it’s been pretty well cleaned out.</p>
-<p>Player: (Pushes a Favor across the table.)</p>
-<p>GM: When you look again you see a broom leaning in the corner, and it
-looks like it has a pretty thick handle.
-High quality.  They don’t make ‘em like this anymore.</p>
-</div></blockquote>
-<p>Heroes may have a maximum of 10 Favor at any given time. Like
+<p>In addition to whatever a Hero’s <a class="reference internal" href="../hero_creation/edges.html"><span class="std std-doc">Edges</span></a>
+allow them to do with Favor,
+all Heroes can use favor to re-roll an Attribute Roll, and they
+may make a <a class="reference internal" href="modifiers.html#maneuver"><span class="std std-ref">maneuver or assess</span></a>
+roll without taking an action to do so.</p>
+<p>Heroes may have a <strong>maximum of 10 Favor</strong> at any given time. Like
 Logos, Favor can’t be “quickly” spent just as the Hero would go
 over their maximum.</p>
 <p>Favor Uses:</p>
 <ul class="simple">
 <li><p>Power <a class="reference internal" href="../hero_creation/edges.html"><span class="std std-doc">Edges</span></a>.</p></li>
-<li><p>Add environmental details.</p></li>
-<li><p>Do a <a class="reference internal" href="../play/resolution.html#maneuvers"><span class="std std-ref">Maneuver</span></a> without taking a turn.</p></li>
+<li><p>Do a <a class="reference internal" href="modifiers.html#maneuver"><span class="std std-ref">Maneuver</span></a> without taking a turn.</p></li>
+<li><p><a class="reference internal" href="modifiers.html#assess"><span class="std std-ref">Assess</span></a> without taking a turn.</p></li>
 <li><p>Re-roll an Attribute Roll and accept the new value.</p></li>
-<li><p>Use a <a class="reference internal" href="props.html"><span class="std std-doc">Prop</span></a> more than once during a challenge.</p></li>
+<li><p>Use a <a class="reference internal" href="modifiers.html"><span class="std std-doc">Modifier</span></a> more than once during a scene.</p></li>
+<li><p>Add environmental detail that seems unlikely.  A player can always suggest an
+environmental detail, and if the GM and group think the detail seems likely, than it is part of hte scene.  However, if the detail doesn’t seem likely, but still seems possible, the GM may say that inserting that detail into the environment will cost a Favor.</p></li>
 </ul>
 <p>Favor Recovery:</p>
 <ul class="simple">
-<li><p>Start each session with at least 8 Favor.</p></li>
-<li><p>First three times a <a class="reference internal" href="../world_creation/facts.html"><span class="std std-doc">Fact</span></a> comes up on play.</p></li>
-<li><p>Gain a Favor for each <a class="reference internal" href="#downtime.md"><span class="xref myst">Downtime</span></a> action taken during a session.</p></li>
-<li><p>If at the end of a scene and the Hero has 0 Favor.</p></li>
-<li><p>If the Hero suffers consequences of a Critical Failure, they gain a Favor.</p></li>
-<li><p>If the Hero must make a Recovery Roll
-due to consequences they took during the scene that just ended.</p></li>
-<li><p>If a Hero sacrifices a <a class="reference internal" href="props.html"><span class="std std-doc">Prop</span></a>.</p></li>
-<li><p>GM whim.  The GM may give out Favor whenever they choose.</p></li>
+<li><p>Each Hero starts each session with at least 8 Favor.</p></li>
+<li><p>The first three times a <a class="reference internal" href="../world_creation/facts.html"><span class="std std-doc">Fact</span></a>
+comes up on play, the Hero gains a Favor.</p></li>
+<li><p>The first three times a Hero walks each of their
+<a class="reference internal" href="../hero_creation/paths.html"><span class="std std-doc">Paths</span></a> during
+a session, the Hero gains a Favor.</p></li>
+<li><p>If a Hero chooses to step off a
+<a class="reference internal" href="../hero_creation/paths.html"><span class="std std-doc">Paths</span></a> they receive three Favor.</p></li>
+<li><p>If at the end of a scene a Hero has 0 Favor, they gain one Favor.</p></li>
+<li><p>If a Hero suffers <a class="reference internal" href="../play/consequences.html#stress-blood"><span class="std std-ref">Consequences</span></a>
+because of a Critical Failure, they gain a Favor.</p></li>
+<li><p>If a Hero must make a Recovery Roll,
+due to <a class="reference internal" href="../play/consequences.html#wounds-and-trauma"><span class="std std-ref">Wounds and Trauma</span></a>
+they took during the scene that just ended,
+they gain a Favor.</p></li>
+<li><p>If a Hero sacrifices a <a class="reference internal" href="modifiers.html#props"><span class="std std-ref">Prop</span></a>, they gain a Favor.</p></li>
+<li><p>GM whim.  The GM may give out Favor whenever they choose.
+This is not the main or usual way that a Hero recovers Favor, but
+it is something that can happen.</p></li>
 </ul>
 </section>
 </section>
@@ -376,23 +387,23 @@ due to consequences they took during the scene that just ended.</p></li>
       <footer>
         
         <div class="related-pages">
-          <a class="next-page" href="props.html">
+          <a class="next-page" href="progress.html">
               <div class="page-info">
                 <div class="context">
                   <span>Next</span>
                 </div>
-                <div class="title">Props</div>
+                <div class="title">Progress Clocks</div>
               </div>
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
             </a>
-          <a class="prev-page" href="tools.html">
+          <a class="prev-page" href="social.html">
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
               <div class="page-info">
                 <div class="context">
                   <span>Previous</span>
                 </div>
                 
-                <div class="title">Tools</div>
+                <div class="title">Social Challenges</div>
                 
               </div>
             </a>
@@ -400,7 +411,7 @@ due to consequences they took during the scene that just ended.</p></li>
         <div class="bottom-of-page">
           <div class="left-details">
             <div class="copyright">
-                Copyright &#169; 2024, Nephlm
+                Copyright &#169; 2025, Nephlm
             </div>
             Made with <a href="https://www.sphinx-doc.org/">Sphinx</a> and <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
             
@@ -440,7 +451,7 @@ due to consequences they took during the scene that just ended.</p></li>
       
     </aside>
   </div>
-</div><script src="../_static/documentation_options.js?v=5929fcd5"></script>
+</div><script src="../_static/documentation_options.js?v=9d675db7"></script>
     <script src="../_static/doctools.js?v=9bcbadda"></script>
     <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="../_static/scripts/furo.js?v=5fa4622c"></script>

@@ -18,7 +18,8 @@ over arching Quests to communicate their
 campaign goals, 
 as well as smaller goals showing what they wish to 
 accomplish in the next session or two and 
-to advance as a Hero. 
+to advance as a Hero. Some larger over-aching quests might 
+better be modeled as [Paths](paths.md).
 
 ```{admonition} Example Quests
 
@@ -37,7 +38,7 @@ hotel's wine cellar.
 Special Skills
 : Hunt down the kidnappers and free the Hero's abducted child.
 
-Moles
+Pigs and Moles
 : Develop an informant among the corrupt city guard.
 
 ```
@@ -70,7 +71,7 @@ than the Demiurge paid for the quest.
 **Quests cost a Logos for each quest, and each 
 Hero starts with one Quest for free.** Initial 
 Quests often relate to a Hero's {{Trouble}} or 
-what [just happened](checklist.md) before 
+what [just happened](checklist.md#what-just-happened) before 
 the beginning of play.
 
 * Any Quest that is worthy of the Hero will 
@@ -84,7 +85,7 @@ Quest wasn't worthy.
 
 * A Prop, Contact and Kit Gear are usually incidental
 rewards or opportunities the Hero can choose to 
-spend xp on a later.  
+spend xp on later.  
 
     A Hero who wants a 
     *Magic Sword* may make a Quest and go after such a 
@@ -133,6 +134,6 @@ accomplished.
 *   - Group
     - Quests that took many sessions to accomplish.  
     - Stop the Necromancer and his army of Undead from conquoring the land.
-    - All group members get a reward, even if they weren't present when the quest was actually accomplished.  
+    - All group members get a reward, even if they weren't present when the quest was actually completed. 
 ```
 

@@ -1,7 +1,9 @@
 # Sample Paths
 
 The listed items for Walking, Completing and Stepping Off 
-the Path are only examples.
+the Path are only examples.  And these Paths themselves are only
+examples.  If they don't fit a player's needs feel free to create 
+additional paths.
 
 {.small}
 ## Path of the Artist
@@ -221,7 +223,7 @@ The Hero is a member of an organization/tribe/etc and that
 organization gives the Hero purpose and is part of their very 
 identity.
 
-* Walking the Path: defend or support the interests of the
+* Walking the Path: Defend or support the interests of the
 organization at personal risk or cost.
 * Stepping off the Path: Leave the organization.
 * Complete the Path: After achieving great goals for the 
@@ -283,7 +285,7 @@ to add to their reputation or spread their
 story, or they risk their lives to take credit for an action.
 * Stepping off the Path: Give someone else credit for an action
 that would increase the Hero's renown.
-* Completing the Path: Achieve fame.
+* Completing the Path: Achieve fame or Infamy.
 
 {.small}
 ## Path of the Revolutionary
@@ -327,7 +329,7 @@ away their pride).
 greatly and makes sure they learn of it.
 * Stepping off the Path: Give something of great personal
 value to someone as a sign of respect.
-* Completing the Path: After taking something of value form someone, 
+* Completing the Path: After taking something of value from someone, 
 give it back.
 
 

@@ -2,8 +2,8 @@
 
 Boon is the general name for a host of abilities that
 make the Hero more effective.  These are abilities the 
-Hero pays xp for and in general can be permanently 
-lost or taken.  Which is not to say they can't be
+Hero pays xp for and in general can not be permanently 
+lost or taken away.  Which is not to say they can't be
 *temporarily* lost.
 
 Whenever the Hero is trying to do something uncertain 
@@ -17,7 +17,8 @@ attribute roll.
 * Boons do not stack on a single attribute.
 
 The Boon is attached to a specific attribute based on 
-the {{Strategy}} of the attribute roll, and has an
+the [Strategy](../../play/challenge.md#strategy) 
+of the attribute roll, and has an
 appropriate die size based on that attribute.  
 
 Boons are not inherently tied to specific Attributes, 

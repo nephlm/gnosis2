@@ -62,15 +62,15 @@ The High Concept becomes a free tier 1
 
 ```{sidebar} Sample Troubles
 
-Owe the Mob  
-Hand of Justice  
+Owe Don Scasini  
+Hand of Tyr  
 Chosen of Excalibur  
 Magic Addict  
 Obsessive Collector  
-Lost Family  
-Vicious Rival  
+Abducted Sister  
+Enemy of the Black Knight  
 Hunter and Hunted  
-Prophesied Protector  
+Scion of Prophesy  
 Terrified Seer  
 ```
 
@@ -100,7 +100,7 @@ of the Hero.
 
 ### What’s on the Surface?
 
-What does the Hero look like, what do they appear be.
+What does the Hero look like, what do they appear to be.
 What assumptions do people make by looking at them?
 Who would be cast to play them in a movie? 
 

@@ -1,7 +1,6 @@
 # Narration
 
-Once the Attribute roll is resolved it's time to update what 
-happens in the narration. 
+Once the Attribute roll is resolved it's time to update the narrative. 
 What did all that dice rolling tell us about what happens in the Story? 
 This is largely a question of the groups 
 taste, but there are some recommendations to increase engagement and 
@@ -21,7 +20,7 @@ in the state of the challenge should be adhered to.
 The importance of this can be seen in a case where a Hero is trying to 
 stealthily get through a door.  They put together a strategy suggesting they 
 are picking the lock, but they fail.  The Hero should not be able to try again, 
-because something has changed.  Maybe they set an alarm off, or maybe they had retreat to keep from being spotted or maybe their pick broke in the lock.
+because something has changed.  Maybe they set an alarm off, or maybe they had to retreat to keep from being spotted or maybe their pick broke in the lock.
 
 Fundamentally they already did try again.  They tried as many times as they 
 could, until something happened that caused them not to be able to try again.
@@ -29,7 +28,7 @@ could, until something happened that caused them not to be able to try again.
 A complex combat challenge is not anything like one swing of a sword, it is an
 involved back and forth involving attacks, blocks, feints, riposts, etc. 
 It comes to and end when something in the narration has sufficiently changed
-that the Hero may choose to use a different {{Strategy}}.
+that the Hero may choose to use a different [Strategy](challenge.md#strategy).
 
 {.small}
 ## Narrative Authority
@@ -43,7 +42,8 @@ If a player considers their Hero the embodiment of grace, in fact they have a
 Boon, *Embodiment of Grace*, the last thing they want to hear is that their 
 Hero rolled a critical failure and tripped on the rug and face-planted.  
 
-How a Hero succeeds or fails is an important part of the story and about the 
+How a Hero succeeds or fails is an important part of the story and 
+may say something about the 
 Hero's identity.  Allowing the Hero's player to answer that question can only 
 help build that identity.  
 

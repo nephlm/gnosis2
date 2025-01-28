@@ -21,6 +21,26 @@ do?
 told cooler, more exciting, funnier.  Why aren't you choosing to 
 make the story better?
 
+## Session Zero
+
+Session Zero is the idea that the group will meet before
+initializing the shared imagery space
+and discuss the parameters of the game to come.  This is 
+traditionally where the social contract between all the players is 
+discussed and ensures everyone has similar expectations.  
+
+This is the 
+point to discuss limits, things that players don't want to see in the game,
+and veils, things that if they appear will be quickly glossed over 
+rather than graphically dwelt on.  For many groups these topics end up 
+being such things as racial violence, violence against children, sexual 
+assault, etc.
+
+In Gnosis, it is also when the group will work cooperatively to build the 
+world and the Heroes.  World creation and Hero creation should be a group 
+activity done in the context of session zero with understanding of 
+the groups expectations.
+
 ## Creation
 
 ```{image} _static/portal.jpg
@@ -39,7 +59,7 @@ grows over time.
 
 ## Demiurge
 
-Demiurges are imperfect creator spirits that create the material world.  In 
+In 
 Gnosis the players play both a Demiurge and a Hero.  
 
 For whatever reason Demiurges are driven to create interesting situations 
@@ -59,7 +79,8 @@ as the players are.
 
 ### Logos
 
-Logos in the Currency spent by the Demiurge to alter Creation
+[Logos](tools/currency.md#logos) 
+is the Currency spent by the Demiurge to alter Creation
 and create Quests for their Heroes.  Demiurges recover a Logos
 at the beginning of each session, completions of Quests
 and after Facts appear in the Story a few times.
@@ -72,8 +93,9 @@ protagonists of the story being told.  These are the characters
 controlled by the players, and can be as varied as the settings
 they are played in.
 
-Each Hero is defined by a [High Concept](hero_creation/character_creation.md)
-and a [Trouble](hero_creation/character_creation.md).
+Each Hero is defined by a 
+[High Concept](hero_creation/character_creation.md#high-concept)
+and a [Trouble](hero_creation/character_creation.md#trouble).
 
 ### Attributes
 
@@ -90,7 +112,7 @@ Heroes get a d12, d10 and d8 to assign, one to each attribute.
 The basic dice roll to accomplish anything is to roll the Heroes 
 Power, Precisions and Possibility and add up the total. 
 That number is compared to an opposed roll, or sometimes as set number.
-This called that Attribute Roll.
+This is called an Attribute Roll.
 
 As the Hero gets better, by acquiring [Boons](hero_creation/boons/boons.md), each attribute will get up to
 three tiers of {{advantage}}. 
@@ -112,7 +134,7 @@ the credibility of the table.
 
 ### Edges
 
-[Edges](hero_creation/edges.md) are how a Hero bends the rules.  
+[Edges](hero_creation/edges.md) are how a Hero bends the rules. 
 Not of {{Creation}}, a Hero doesn't 
 need an Edge to cast a spell as long as {{Creation}} has magic, and they are 
 some sort of magic user.  Edges bend the rules of fortune and 
@@ -140,7 +162,7 @@ than they usually can.  Favor is flexible and can be used for a lot
 of effects, everything from powering [Edges](hero_creation/edges.md)
 to re-rolling dice and other effects.
 
-A Hero's starts each session at full Favor, and there are various 
+A Hero's starts each session with eight Favor, and there are various 
 things that allow a Hero to recover one or more Favor during the 
 Session.
 

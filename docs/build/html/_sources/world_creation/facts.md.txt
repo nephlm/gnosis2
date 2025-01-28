@@ -14,7 +14,7 @@ chooses to use as a setting {{bible}}.
 A fact is made up of three parts:
 
 :**Fact**: The fact being established in the setting.
-:**Price**: A counterbalancing fact in the setting that balances fact that
+:**Price**: A counterbalancing fact in the setting that balances the fact that
 is being established.
 :**Player**: The player who created the fact.  The player is important because they get rewarded the first few
 times the fact comes up in play.  
@@ -213,14 +213,14 @@ the most interesting world to play in.
 
 The first three (3) times a Campaign Fact is used, 
 the {{Hero}} of the {{Demiurge}} that 
-created the fact, gains a point of {{Favor}}.
+created the fact, gains a point of [Favor](../tools/currency.md#favor).
 
 This is only for facts created by
 player Demiurges, not for the Price associated with 
 those facts.  
 
 After receiving three favor for a given fact, the
-Demiurge receives a point of Logos and the 
+Demiurge receives a point of [Logos](../tools/currency.md#logos) and the 
 Hero no longer gains Favor when the fact appears 
 in the game.
 

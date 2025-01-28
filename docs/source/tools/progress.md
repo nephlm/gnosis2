@@ -14,20 +14,23 @@ wedges that serves as a visual representation of how
 close something is to being done and how many steps 
 are left.  
 
-In the basic progress clock wedges are often filled
+In the basic progress clock, wedges are often filled
 by successes or failures (or two wedges for criticals), 
 but the criteria to fill a wedge could be anything.
 
 An enchanter Hero could a have a progress clock tracking
-the downtime actions he's spent to make his 
+the downtime they've spent to make their 
 *Staff of Smashing Annoying People*, or they may be 
 filled each time the alien hive mind consumes a human 
-mind and gets one step closer to being to consume the 
+and gets one step closer to understanding humanity well enough 
+to consume the 
 whole human race. 
 
-Major villains are differentiated from normal challenges
+Major villains are differentiated from normal 
+[challenges](../play/challenge.md)
 by having a progress clock, it will take more than one
-exchange to take them out.  
+exchange to take them out. These are often called 
+complex challenges.
 
 ### Clock Sizes
 
@@ -60,18 +63,18 @@ On the other side are countdown clocks which get filled
 when progress is made toward a bad outcome. 
 This can happen when Heroes fail stealth rolls and 
 guards get more and more suspicious until they 
-trigger a full alarm, or simply by taking a downtime 
-action, allowing the villains to progress their plans 
+trigger a full alarm, or simply by taking downtime, 
+allowing the villains to progress their plans 
 unimpeded. 
 
 Things get interesting when they are paired 
 together.  The Hero is trying to hunt down a 
 *Totally Bad Person* who's trying to escape the 
 area.  The Bad person gets a countdown to 
-escape clock, while the Heroes capture effort clock.
+escape clock, while the Heroes a capture effort clock.
 Heroes failing fill the escape clock, while success 
 fill the capture clock, whichever clock is filled 
-first dictates what the outcome.
+first dictates the outcome.
 
 ### Examples
 
@@ -79,7 +82,7 @@ first dictates what the outcome.
 >The Heroes may have decided to dig a tunnel under the 
 prison wall to rescue an ally.  This isn't the sort of 
 thing that can normally be done instantly, and the 
-longer the dig the more likely the guards will be 
+longer they dig the more likely the guards will be 
 alerted.  
 >
 >Two progress clocks are created, one for the tunnel
@@ -95,12 +98,12 @@ to complete the tunnel before being discovered.
 
 > The Heroes and a rival gang are competing for 
 the hearts and minds in a new territory.  This is a 
-slow process, probably mostly done during downtime. 
+slow process, taking days. 
 >
->Each downtime the rival gang fills a section of 
+>Each day the rival gang fills a section of 
 their countdown timer, and if it fills the territory
-falls to the rivals.  Each time the Heroes spend a
-downtime action to sway the people they can 
+falls to the rivals.  Each time the Heroes do 
+something to try to sway the people they can 
 make an Attribute Roll and fill their own 
 progress clock, to win the minds of the territory.
 

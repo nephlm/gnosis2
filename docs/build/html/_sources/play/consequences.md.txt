@@ -14,7 +14,7 @@ filled, the character takes a Wound or a Trauma
 depending on which clock was filled and the filled clock is cleared.  
 
 Any partially filled Stress or Blood Progress clocks are cleared at 
-the end of the scene, while any actual points of Stress and Blood will
+the end of the scene, while any actual Wounds or Trauma will
 remain until recovered. 
 
 
@@ -39,8 +39,8 @@ roll.
 
 ## Taken Out
 
-A player can choose to have their Hero taken out at any time.  
-If a player makes that choice at end of hte challenge, they
+A player can choose to have their Hero taken out at any time. 
+If a player makes that choice at end of the challenge, they
 are allowed to make two [](#first-aid) rolls, instead of the 
 normal one. 
 
@@ -73,12 +73,14 @@ to this roll, but this roll is considered safe.
 | Wounds | 20 |
 
 The Trauma recovery roll has a difficulty of 16 and is an 
-Attribute Roll.  Any appropriate {{Boons}} can be added to this
+Attribute Roll.  Any appropriate 
+[Boons](../hero_creation/boons/boons.md) can be added to this
 roll as per normal.
 
 The Wound recovery roll has a difficulty of 20 and is 
 also an Attribute Roll made with any appropriate {{Boons}}.
-The {{Strategy}} to recover from Stress and Wounds will almost 
+The [Strategy](challenge.md#strategy) 
+to recover from [Trauma and Wounds](#wounds-and-trauma) will almost 
 always be different.
 
 Each Effect Level removes one Trauma or Wound as appropriate to the roll

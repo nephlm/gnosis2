@@ -42,7 +42,7 @@ failure are interesting, the interesting thing automatically
 happens.  
 
 Some challenges are simple, requiring only one Hero gaining 
-a normal success to overcome them.  Others have 
+a normal success to overcome them.  Others are *complex* and have 
 [progress clocks](../tools/progress.md) 
 that track how much more the Heroes must do to overcome the 
 challenge.  In these sorts of challenges when a Hero does 
@@ -80,7 +80,8 @@ Articulating the actual intent, is the first story.
 With an intent firmly defined, it's time to tell the second story, 
 the {{Strategy}} the Hero intends to use to achieve their intent.
 
-This is where the player chooses which {{Boons}} the Hero will use, 
+This is where the player chooses which 
+[Boons](../hero_creation/boons/boons.md) the Hero will use, 
 one per attribute.
 
 A Hero with the intent of getting into the 
@@ -117,7 +118,7 @@ for some rolls the GM may choose to use a static difficulty.
 Whichever the case, the number of dice, or number, should be shared 
 with the player.  Assuming the Hero is not incompetent in the 
 area of conflict they'll have some sense of the difficulty of what 
-their trying to do.  
+they're trying to do.  
 
 If the GM and player have very different ideas of the difficulty that 
 might be because they have different understandings of the situation, 
@@ -148,7 +149,8 @@ There are diminishing returns on large pain pools.
 Before seven dice an additional die is more impactful than a +1 result, 
 after that point and the reverse is true.
 
-Heroes using just their {{Boons}} can have at most three levels of advantage
+Heroes using just their [Boons](../hero_creation/boons/boons.md) 
+can have at most three levels of advantage
 in each attribute pool, which is approximately equivalent to a 9 die 
 Pain Pool (25.3 vs 25.5).  Even if they have all those Boons, by the nature
 of tier 3 Boons, they should only be able to bring that to bear under 
@@ -156,7 +158,7 @@ limited circumstances.
 
 There comes a point where what you're trying to confront the Heroes with
 is an impossible challenge which probably should be more correctly 
-handled with [Effect](#effect) and [Risk](#risk), 
+handled with [Effect](#effect), 
 rather than adding more dice to the Pain Pool.
 
 ### Effect
@@ -175,7 +177,7 @@ If so, draw the progress clock wherever your group keeps them and disclose it
 when you disclose the difficulty.
 
 For challenges that verge even closer to impossible, there will be additional
-penalties to Hero's effectiveness.  By default, Heroes are assumed to have 
+penalties to a Hero's effectiveness.  By default, Heroes are assumed to have 
 *Similar Power* to the challenges they attempt to overcome.  
 
 :::{table} cons = consequence level
@@ -194,13 +196,15 @@ Scale is not just about size, but it's about power.  A cosmic level superhero
 may tear through that imperial dreadnought without slowing down.  In a lot of 
 genres size and numbers correlate with power, but not in all genres.
 
-{{Strategy}} is important here.  Tunneling through a mountain with a teaspoon 
+[Strategy](#strategy) 
+is important here.  Tunneling through a mountain with a teaspoon 
 is *Impossible*, while following the path around the base of the mountain 
 might not even be an obstacle, but both get the Heroes to the other side 
-of the mountain.
+of the mountain, if that was the real goal.
 
 Taking one or more [consequence level](consequences.md#stress--blood)
-generally means the Hero took Stress or Blood depending on 
+generally means the Hero took 
+[Stress or Blood](consequences.md#stress--blood) depending on 
 [Risk](#risk).  Gaining one or more [effect level](resolution.md#effect-levels)
 means the Hero overcomes the Challenge or fills a segment
 of a [progress clock](../tools/progress.md) and moves
@@ -218,15 +222,19 @@ Challenges are *Safe*, *Stressful* or *Bloody*.
 **Safe**:
     : Usually an entire challenge is not safe, but a certain 
     action might be.  A [flashback](../tools/flashbacks.md) or 
-    [maneuver](../tools/maneuvers.md) are often safe.
+    [assess action](../tools/modifiers.md#assess) are often safe.
     Safe challenges also might be challenges that aren't dangerous
     themselves, but how much time is taken on them is important.
 
-        Consequences for Safe challenges don't normally inflict stress or blood.
+        Consequences for Safe challenges don't normally inflict 
+        [stress or blood](consequences.md#stress--blood).
         Effectively the consequences only have a 
         [narrative](narration.md) impact. 
         The Hero's failure to bribe the guard might not have caused any 
-        stress, but that guard might recognize the Hero later on. 
+        stress, but that guard might recognize the Hero later on. Or the 
+        guard may attack and now the Heroes are faced with a Bloody challenge.
+        
+        Complex challenges are rarely safe. 
     
 **Stressful**:
     : This is the default risk for non-violent encounters.  Consequences in 
@@ -238,7 +246,10 @@ Challenges are *Safe*, *Stressful* or *Bloody*.
         These tend to be social, intellectual and some forms of spiritual
         challenges.  Attempting, and failing, to push your agenda at the 
         Royal Academy only rarely results in blood being spilt, but 
-        its damage is just as real.  
+        its damage is just as real. 
+        
+        See [](../tools/social.md) for a discussion about what non-violent
+        challenges are safe and which are stressful.
         
 **Bloody**
     : This is the default risk for violent encounters.  If you take a 

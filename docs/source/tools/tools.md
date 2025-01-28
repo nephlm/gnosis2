@@ -8,8 +8,10 @@ will probably feel more narrative.
 
 The rest of the text assumes they are in play, some of them
 such as currency are heavily used, but if your group doesn't 
-feel the need to limit how often facts and quests are created 
-or Edges used, then it's a system that can be dropped.  
+feel the need to limit how often [facts](../world_creation/facts.md) 
+and [quests](../hero_creation/quests.md) are created 
+or [Edges](../hero_creation/edges.md) used, 
+then it's a system that can be dropped.  
 
 
 
@@ -18,10 +20,10 @@ or Edges used, then it's a system that can be dropped.
 :hidden: true
 :caption: Contents:
 
-currency.md
-props.md
-maneuvers.md
 scenes.md
+social.md
+currency.md
 progress.md
+modifiers.md
 flashbacks.md
 ```

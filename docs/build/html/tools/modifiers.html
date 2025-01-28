@@ -3,10 +3,10 @@
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="viewport" content="width=device-width, initial-scale=1" />
-<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Version 2.0.0b0 Changelog" href="../changelog.html" /><link rel="prev" title="Modifiers" href="modifiers.html" />
+<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Flashbacks" href="flashbacks.html" /><link rel="prev" title="Progress Clocks" href="progress.html" />
 
     <!-- Generated with Sphinx 8.1.3 and Furo 2024.08.06 -->
-        <title>Flashbacks - Gnosis</title>
+        <title>Modifiers - Gnosis</title>
       <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=a746c00c" />
     <link rel="stylesheet" type="text/css" href="../_static/styles/furo.css?v=354aac6f" />
     <link rel="stylesheet" type="text/css" href="../_static/tabs.css?v=4c969af8" />
@@ -244,8 +244,8 @@
 <li class="toctree-l2"><a class="reference internal" href="social.html">Social Challenges</a></li>
 <li class="toctree-l2"><a class="reference internal" href="currency.html">Currencies</a></li>
 <li class="toctree-l2"><a class="reference internal" href="progress.html">Progress Clocks</a></li>
-<li class="toctree-l2"><a class="reference internal" href="modifiers.html">Modifiers</a></li>
-<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Flashbacks</a></li>
+<li class="toctree-l2 current current-page"><a class="current reference internal" href="#">Modifiers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="flashbacks.html">Flashbacks</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../changelog.html">Version 2.0.0b0 Changelog</a></li>
@@ -269,7 +269,7 @@
         </a>
         <div class="content-icon-container">
           <div class="view-this-page">
-  <a class="muted-link" href="../_sources/tools/flashbacks.md.txt" title="View this page">
+  <a class="muted-link" href="../_sources/tools/modifiers.md.txt" title="View this page">
     <svg><use href="#svg-eye"></use></svg>
     <span class="visually-hidden">View this page</span>
   </a>
@@ -289,64 +289,269 @@
           </label>
         </div>
         <article role="main" id="furo-main-content">
-          <section id="flashbacks">
-<h1>Flashbacks<a class="headerlink" href="#flashbacks" title="Link to this heading">¶</a></h1>
-<p>If your table is the sort that will get bogged down in
-planning something to death –perhaps you have an engineer
-or two playing– then the flashback mechanic is your
-get out of planning hell free card.</p>
-<p>Flashbacks are simply a special form of <a class="reference internal" href="modifiers.html#maneuver"><span class="std std-ref">Maneuver</span></a> that
-allows the Hero to take advantage of the planning they did
-quietly off-screen, only when it becomes relevant, rather
-than spending time doing planning that may not apply.</p>
-<p>Flashbacks tend to be more narrative while Maneuvers are more
-mechanical.  Maneuvers tend to be taking an action,
-that gives a mechanical advantage,
-while Flashbacks tend to be more likely to change the
-narrative situation.  This may lead to lead to
-exploitable <a class="reference internal" href="modifiers.html#circumstances"><span class="std std-ref">circumstances</span></a>
-that can be exploited, but the link is less direct.</p>
-<section id="approach">
-<h2>Approach<a class="headerlink" href="#approach" title="Link to this heading">¶</a></h2>
-<p>If the group chooses to forego the planning session, they
-instead choose a general approach: hit them fast and hard,
-sneak in over the roofs, or con their way in.</p>
-<p>Each Hero makes an Attribute Roll, putting together an
-appropriate strategy for their Hero.  Any planning or
-intel related <a class="reference internal" href="../hero_creation/boons/boons.html"><span class="std std-doc">Boons</span></a>
-can be freely shared.</p>
-<p>The Pain Pool should be appropriate for how well defended
-target is, but it should be on the low side, the expectation
-is that the Hero will get at least a success against a
-target of equal threat.</p>
-<p>Successes give one free flashback, critical successes grant
-two.  Even with no successes the Hero can still pay a
-<abbr title="The Currency spent by Heroes to power Edges and similar benefits.">Favor</abbr> and do a flashback, as can a Hero that has
-already used their free flashbacks.</p>
+          <section id="modifiers">
+<h1>Modifiers<a class="headerlink" href="#modifiers" title="Link to this heading">¶</a></h1>
+<p>Sometimes (often) players want to build more advantage than just
+their Hero’s <a class="reference internal" href="../hero_creation/boons/boons.html"><span class="std std-doc">Boons</span></a>
+would provide.  In Gnosis, this generally
+means gaining access to a Boon they normally don’t have access to.
+There are a few variations on this, but they all adhere to
+fairly similar rules.</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#working-together">Working Together</a> -
+Two or more Heroes work together and pool Boons.</p></li>
+<li><p><a class="reference internal" href="#maneuver">Maneuver</a> -
+Take an action to prepare or provide advantage.</p></li>
+<li><p><a class="reference internal" href="#assess">Assess</a> -
+Discover or notice something about the situation and use it for advantage.</p></li>
+<li><p><a class="reference internal" href="#props">Prop</a> -
+Gear that has been found, bought or stolen,
+that a Hero has not bought as a Boon.</p></li>
+<li><p><a class="reference internal" href="#circumstances">Circumstances</a> -
+Exploiting environmental factors beyond the Hero’s control.</p></li>
+</ul>
+<p>Conceptually Working Together, Maneuvers and Assess
+are grouped together as they both
+cost actions and only affect a single roll, while props and circumstances are
+free to exploit once during a scene.  To exploit any of them other than
+Working Together additional times during a scene requires spending a Favor
+to activate it.</p>
+<section id="working-together">
+<h2>Working Together<a class="headerlink" href="#working-together" title="Link to this heading">¶</a></h2>
+<p>Whenever two Heroes are working with the same
+<a class="reference internal" href="../play/challenge.html#intent"><span class="std std-ref">Intent</span></a>, they can pool resources.  Just as a Hero
+can add a <a class="reference internal" href="../hero_creation/boons/kith.html#companion"><span class="std std-ref">Companion</span></a> to their <a class="reference internal" href="../play/challenge.html#strategy"><span class="std std-ref">Strategy</span></a>, they may also add another Hero.</p>
+<p>In practice this means that any <a class="reference internal" href="../hero_creation/boons/boons.html"><span class="std std-doc">Boons</span></a>
+that any of the Heroes working together have access to may be used to build a
+<abbr title="The set of Boons the player chooses to use for an attribute roll.">Strategy</abbr>.  It uses the <a class="reference internal" href="../play/play.html#exploration-action"><span class="std std-ref">action</span></a> of all
+Heroes contributing the Strategy.</p>
+<p>Only one player rolls dice using the attribute dice of their Hero, which player
+rolls is up to the players to decide among themselves.</p>
+<p>Any <a class="reference internal" href="../play/consequences.html"><span class="std std-doc">Consequences</span></a> are evenly distributed among the
+Heroes that were working together.  Any question about how to divvy up
+Consequences is determined by the <a class="reference internal" href="../play/narration.html"><span class="std std-doc">Narration</span></a> that
+resulted from the challenge.</p>
+<blockquote>
+<div><p>Two junior Heroes work together to try and take down a hunter-killer android.
+The two decide that Alvin is going to get the android’s attention while Beth
+shoots it in the head from cover.  Alvin  contributes <em>Bright Clothing</em> to
+Possibility and <em>Subdermal Armor</em> to Power, while Beth adds <em>Headshot</em> to Precision.</p>
+<p>The players decide that Alvin will roll the dice.  Narratively, if they fail
+and there is one Consequence Alvin will take it
+since he’s the bait, but if they
+critically fail and there are two consequences, the android returned
+fire on Beth as well and both end up taking a consequence, in this case a
+point of Blood.</p>
+</div></blockquote>
 </section>
-<section id="use">
-<h2>Use<a class="headerlink" href="#use" title="Link to this heading">¶</a></h2>
-<p>Flashbacks aren’t usually used in the middle of a challenge,
-but something that is done before the dice come out.
-After using one of their free flashbacks or spending a
-Favor the player narrates what their Hero did to prepare
-for this situation.</p>
-<p>A flashback is not time travel, if something has been described
-in the present, it can’t be undone by a flashback.  If a guard
-has been described as watching the door, a flashback won’t let
-your Hero have killed him the night before, but they could have
-gotten them drunk into the wee hours of the morning, so the guard
-is hung over, though it might have been wiser to hire someone
-to do that.</p>
-<p>A flashback may, and probably does, entail a simple challenge.
-Anything less than that, probably doesn’t require a flashback,
-and anything more, probably can’t be done in a flashback.</p>
-<p>Major plot points are beyond the scope of a flashback.  The
-Hero can’t kill the major villain or steal the McGuffin, but
-they can make those things easier in the present.</p>
-<p>The guiding principle remains to make stories together, so
-a flashback that doesn’t make the story better, probably shouldn’t
-be allowed.</p>
+<section id="maneuver">
+<h2>Maneuver<a class="headerlink" href="#maneuver" title="Link to this heading">¶</a></h2>
+<p>The character spends their action and does something make a more
+advantageous environment.</p>
+<p>The Hero makes an unopposed Attribute Roll, the result of the roll
+determines the Tier of the <a class="reference internal" href="#circumstances">Circumstance</a> that can
+be created.  The roll is not made against the Pain Pool, so is usually
+easier, but it isn’t guaranteed to be a <em>safe</em> roll, it could still
+fail and result in <a class="reference internal" href="../play/consequences.html#stress-blood"><span class="std std-ref">Stress or Blood</span></a>.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head text-center"><p>Result</p></th>
+<th class="head text-center"><p>Tier</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-center"><p>16+</p></td>
+<td class="text-center"><p>1</p></td>
+</tr>
+<tr class="row-odd"><td class="text-center"><p>20+</p></td>
+<td class="text-center"><p>2</p></td>
+</tr>
+<tr class="row-even"><td class="text-center"><p>24+</p></td>
+<td class="text-center"><p>3</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>The <a class="reference internal" href="../play/challenge.html#strategy"><span class="std std-ref">Strategy</span></a> can be anything that could change
+the environment in some way.</p>
+<blockquote>
+<div><p>A gunfight broke out down the block, a Hero decides to jump into a car
+and pull it across the road so it can be used as cover.  They use their
+<em>Heavy Wrench</em>, <em>Ace Driver</em> and <em>Mechanical Aptitude</em> for Power, Precision and
+Possibility respectively to smash a window, get the car started and pull
+it across the road.</p>
+<p>They roll a 21, so the resulting <em>Road Block</em> circumstance is Tier 2.</p>
+</div></blockquote>
+<p>As per normal Circumstance rules it can be used once, either by the Hero
+that created it, or by another Hero.  The Hero can choose to spend a
+<a class="reference internal" href="currency.html#favor"><span class="std std-ref">Favor</span></a> instead of an action to create the Circumstance,
+if they do that, they may use the Circumstance any number of times,
+just as if they had spent the Favor on a pre-existing Circumstance.</p>
+</section>
+<section id="assess">
+<h2>Assess<a class="headerlink" href="#assess" title="Link to this heading">¶</a></h2>
+<p>Mechanically Assess is identical to <a class="reference internal" href="#maneuver"><span class="std std-ref">Maneuver</span></a>, the only difference is
+rather than creating and exploitable environmental circumstance, they know
+something about their adversary that they can exploit.</p>
+<p>This may be something about their equipment, personality, tactics, etc.
+Whichever it is, the Hero can use it themselves or, if they can communicate,
+let one of their allies use the information.</p>
+<div class="table-wrapper colwidths-auto docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head text-center"><p>Result</p></th>
+<th class="head text-center"><p>Tier</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-center"><p>16+</p></td>
+<td class="text-center"><p>1</p></td>
+</tr>
+<tr class="row-odd"><td class="text-center"><p>20+</p></td>
+<td class="text-center"><p>2</p></td>
+</tr>
+<tr class="row-even"><td class="text-center"><p>24+</p></td>
+<td class="text-center"><p>3</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Like any other Circumstance, it can be used once for free, to use it again,
+requires spending a Favor.
+Same rules about spending Favor to re-use the created Circumstance from
+Maneuvers apply.</p>
+<blockquote>
+<div><p>A technician Hero, who is hiding in cover
+as far from the attacking power armor as he
+can be, makes an Assess action to know something about the powerarmor worn by
+the attackers.  He rolls <em>Doctor of Mechanical Engineering</em>, <em>Powerarmor Repair</em>
+and <em>Encyclopedic Memory</em> and rolls a 22, so if he can communicate with his
+allies he can tell them about the Tier 2 <em>Weak Left Knee Actuator</em> that they
+could use.</p>
+</div></blockquote>
+</section>
+<section id="props">
+<h2>Props<a class="headerlink" href="#props" title="Link to this heading">¶</a></h2>
+<p>Props are gear/equipment that a Hero acquired without paying <abbr title="Experience Points.">xp</abbr>.
+It is the
+GM’s sworn duty to destroy or remove these Props
+from the Hero’s control.</p>
+<p>Usually Props are equipment looted, scavenged
+or bought with money that is not <a class="reference internal" href="../hero_creation/boons/gear.html#kit-gear"><span class="std std-ref">Kit Gear</span></a>.
+Props have a tier and can be used as Boon once during a scene for
+free. Subsequent uses require activating the Prop with
+<a class="reference internal" href="currency.html#favor"><span class="std std-ref">Favor</span></a>.  One Favor will activate the Prop for the
+whole scene.</p>
+<p>If the player can narrative justify it, a Hero can sacrifice a Prop
+to soak a single point of
+<a class="reference internal" href="../play/consequences.html#stress-blood"><span class="std std-ref">Stress or Blood</span></a>, and
+the prop is destroyed by being sacrificed.  Heroes that sacrifice a
+Prop recover a point of <a class="reference internal" href="currency.html#favor"><span class="std std-ref">Favor</span></a>.</p>
+<p>A Prop can be converted to a <a class="reference internal" href="../hero_creation/boons/gear.html"><span class="std std-doc">Gear</span></a> Boon
+by spending xp on it, or into Kit Gear by removing its tier.</p>
+<p>A Prop can have any of the normal
+<a class="reference internal" href="#circumstance-modifiers">cirucmstance modifiers</a>.</p>
+</section>
+<section id="circumstances">
+<h2>Circumstances<a class="headerlink" href="#circumstances" title="Link to this heading">¶</a></h2>
+<p>Circumstances are anything that gives a Hero an advantage,
+such as darkness, performance enhancing drugs,
+castle walls, etc.</p>
+<p>Generally Circumstances can be exploited once without cost, to
+continue to use them requires spending a Favor.  A single Favor
+will activate Circumstances for the Scene without further cost.</p>
+<p>Circumstances have tiers like <a class="reference internal" href="../hero_creation/boons/boons.html"><span class="std std-doc">Boons</span></a>,
+and are added to <a class="reference internal" href="../play/challenge.html#strategy"><span class="std std-ref">Strategies</span></a> like
+any other Boon.</p>
+<section id="circumstance-modifiers">
+<h3>Circumstance Modifiers<a class="headerlink" href="#circumstance-modifiers" title="Link to this heading">¶</a></h3>
+<p>The GM may put special modifiers on some Circumstances
+if they behaved differently than the general rules described above:</p>
+<ul class="simple">
+<li><p>Slow Burn — Every use degrades them one
+tier, such as <em>Weak Cover</em>.</p></li>
+<li><p>One Shot — One use, and they are gone, like a <em>Car Dangling From A Crane</em>.
+These Circumstances can’t be activated with Favor.</p></li>
+<li><p>Session — Only usable once per session,
+such as <em>Industrial Capacitor</em>.</p></li>
+</ul>
+<p>There are other possibilities, these are just some examples of possible
+modifiers.</p>
+</section>
+<section id="its-all-circumstances">
+<h3>It’s all Circumstances<a class="headerlink" href="#its-all-circumstances" title="Link to this heading">¶</a></h3>
+<p><a class="reference internal" href="#working-together"><span class="std std-ref">Working Together</span></a>, <a class="reference internal" href="#maneuver"><span class="std std-ref">Maneuver</span></a>, <a class="reference internal" href="#assess"><span class="std std-ref">Assess</span></a> and <a class="reference internal" href="#props"><span class="std std-ref">Props</span></a>
+are all just special cases of <a class="reference internal" href="#circumstances"><span class="std std-ref">Circumstances</span></a>.  They all
+may have special conditions on what it takes to use one and
+how long they are usable for, but fundamentally they all have:</p>
+<ul class="simple">
+<li><p>A creation method or cost</p></li>
+<li><p>Conditions necessary to use them</p></li>
+</ul>
+<p>They all have a tier
+and may be used as if they were Boons.
+They are all are usable once if the conditions are met, and if it
+makes narrative sense, a Hero can spend a Favor and use them unlimited
+number of times until the end of the scene.</p>
+<p>It’s all Circumstances, really.</p>
+<div class="table-wrapper docutils container">
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Type</p></th>
+<th class="head"><p>Creation Method/Cost</p></th>
+<th class="head"><p>Condition</p></th>
+<th class="head"><p>Examples</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Working Together</p></td>
+<td><p>2+ Heroes with the same Intent must spend their actions.</p></td>
+<td><p>Ephemeral: Just while the Heroes are working together.</p></td>
+<td><p>Flanking, Multiple engineers working together.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Maneuver</p></td>
+<td><p>Take an action and make a Maneuver roll.</p></td>
+<td><p>Scene: As long as whatever was done remains relevant.</p></td>
+<td><p>Aiming, Good shooting position, Close to Castle.</p></td>
+</tr>
+<tr class="row-even"><td><p>Assess</p></td>
+<td><p>Take an action and make an Assess roll.</p></td>
+<td><p>Scene: Until the known thing no longer applies.</p></td>
+<td><p>Dragon’s weak belly scale, a guard’s fondness for drink or a senator’s fear of snakes.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Prop</p></td>
+<td><p>Found, looted or bought gear that the Hero didn’t pay xp for.</p></td>
+<td><p>Until sacrificed, broken or lost.</p></td>
+<td><p>Sword looted from a dead enemy or a radio jammer bought at the spy store.</p></td>
+</tr>
+<tr class="row-even"><td><p>Circumstance</p></td>
+<td><p>Placed by the GM or Player spending Favor.</p></td>
+<td><p>Scene: As long as relevant to the action.</p></td>
+<td><p>Shadows to hide in, castle walls, high ground or patches of fire.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>If a player is hoping to get more dice to roll, it will likely fit into one of those categories, or something sufficiently similar that the GM can
+massage it into similar rules.</p>
+</section>
+</section>
+<section id="disadvantage">
+<h2>Disadvantage<a class="headerlink" href="#disadvantage" title="Link to this heading">¶</a></h2>
+<p>In the situation where a circumstance occurs which doesn’t seem endemic to
+the <a class="reference internal" href="../play/challenge.html#difficulty"><span class="std std-ref">Pain Pool</span></a> as a whole, nor that can
+be handled by <a class="reference internal" href="../play/challenge.html#effect"><span class="std std-ref">effect</span></a> the GM may inflict a level
+of disadvantage on a Hero.</p>
+<p>This functions exactly as if the Hero had received an additional
+<a class="reference internal" href="../play/consequences.html#wounds-and-trauma"><span class="std std-ref">Wound</span></a>,
+countering levels of advantage on a one-for-one basis.
+The only practical difference is the level of disadvantage is
+cleared when the circumstance no longer applies, rather than the
+Hero having to heal it.</p>
+<p>Circumstantial disadvantage is not a Wound, so
+<a class="reference internal" href="../hero_creation/edges.html"><span class="std std-doc">Edges</span></a> that affect Wounds would not
+impact these levels of disadvantage.</p>
 </section>
 </section>
 
@@ -355,23 +560,23 @@ be allowed.</p>
       <footer>
         
         <div class="related-pages">
-          <a class="next-page" href="../changelog.html">
+          <a class="next-page" href="flashbacks.html">
               <div class="page-info">
                 <div class="context">
                   <span>Next</span>
                 </div>
-                <div class="title">Version 2.0.0b0 Changelog</div>
+                <div class="title">Flashbacks</div>
               </div>
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
             </a>
-          <a class="prev-page" href="modifiers.html">
+          <a class="prev-page" href="progress.html">
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
               <div class="page-info">
                 <div class="context">
                   <span>Previous</span>
                 </div>
                 
-                <div class="title">Modifiers</div>
+                <div class="title">Progress Clocks</div>
                 
               </div>
             </a>
@@ -405,9 +610,17 @@ be allowed.</p>
         <div class="toc-tree-container">
           <div class="toc-tree">
             <ul>
-<li><a class="reference internal" href="#">Flashbacks</a><ul>
-<li><a class="reference internal" href="#approach">Approach</a></li>
-<li><a class="reference internal" href="#use">Use</a></li>
+<li><a class="reference internal" href="#">Modifiers</a><ul>
+<li><a class="reference internal" href="#working-together">Working Together</a></li>
+<li><a class="reference internal" href="#maneuver">Maneuver</a></li>
+<li><a class="reference internal" href="#assess">Assess</a></li>
+<li><a class="reference internal" href="#props">Props</a></li>
+<li><a class="reference internal" href="#circumstances">Circumstances</a><ul>
+<li><a class="reference internal" href="#circumstance-modifiers">Circumstance Modifiers</a></li>
+<li><a class="reference internal" href="#its-all-circumstances">It’s all Circumstances</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#disadvantage">Disadvantage</a></li>
 </ul>
 </li>
 </ul>

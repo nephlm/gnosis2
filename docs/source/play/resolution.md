@@ -8,8 +8,9 @@ the
 roll some dice.  
 
 This is a standard Attribute Roll which means the character will roll 
-dice with the level of advantage on each appropriate to the 
-chosen {{Boon}} to use for that attribute and sum the total.
+dice with the level of advantage on each attribute appropriate to the 
+chosen [Boon](../hero_creation/boons/boons.md) 
+to use for that attribute and sum the total.
 
 > A Hero trying to sneak into a castle with a 
 {{Strategy}} of tier 1 *Broken Window*

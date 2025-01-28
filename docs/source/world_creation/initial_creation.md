@@ -23,12 +23,13 @@ key Trouble.
 
 ## Setting Facts
 
-Each player has three pre-game {{Logos}} that must
+Each player has three pre-game 
+[Logos](../tools/currency.md#logos) that must
 be spent to establish [Facts](facts.md).
 
 None of the things the players decided about the setting
 are True yet.  First a player must spend their {{Logos}} and 
-accept the {{Price}}. Players may choose to make those {{Facts}}
+accept the [Price](facts.md#price). Players may choose to make those {{Facts}}
 real or create entirely different facts.
 
 Ideas that were generated during the pitch session may need
@@ -42,13 +43,13 @@ must be spent to establish Setting
 [Facts](facts.md) and one which
 may be spent on 
 {abbr}`Metaphysics (Facts that govern the breadth and function of magic or technology.)` or 
-{abbr}`Setting Facts (Facts that govern the existence and power of organizations and social structures.)`.
+{abbr}`Structural Facts (Facts that govern the existence and power of organizations and social structures.)`.
 
 If the GM chooses, they may claim their 3 tokens as well, but
 since they will be setting the price on all the player facts,
-if often is unnecessary. 
+it is often unnecessary. 
 
-Any pre-game {{Logos}} that is not spent is lost once this phase 
+Any pre-game {{Logos}} that is not spent is lost once this phase of
 world creation is done. 
 
 Any pitch facts that aren't paid for with Logos and a 
@@ -56,4 +57,5 @@ Any pitch facts that aren't paid for with Logos and a
 After Heroes are created player’s may spend Logos to establish 
 additional {{Facts}}.
 
-Once that's done, it's time to create some [Heroes](../hero_creation/character_creation.md).
+Once that's done, it's time to consider how the [Heroes](../hero_creation/character_creation.md) are related, if at all and how they as a group fit into
+the world just created.
