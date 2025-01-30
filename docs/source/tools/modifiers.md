@@ -7,6 +7,7 @@ means gaining access to a Boon they normally don't have access to.
 There are a few variations on this, but they all adhere to 
 fairly similar rules.
 
+
 * [Working Together](#working-together) - 
 Two or more Heroes work together and pool Boons.
 * [Maneuver](#maneuver) - 
@@ -19,6 +20,10 @@ that a Hero has not bought as a Boon.
 * [Circumstances](#circumstances) - 
 Exploiting environmental factors beyond the Hero's control.
 
+```{image} /_static/teamwork.jpg
+:width: 33%
+:align: right
+```
 
 Conceptually Working Together, Maneuvers and Assess 
 are grouped together as they both
@@ -126,6 +131,11 @@ allies he can tell them about the Tier 2 *Weak Left Knee Actuator* that they
 could use.
 
 
+```{image} /_static/prop.jpg
+:width: 33%
+:align: left
+```
+
 ## Props
 
 Props are gear/equipment that a Hero acquired without paying {{xp}}.
@@ -154,6 +164,11 @@ A Prop can have any of the normal
 
 
 ## Circumstances
+
+```{image} /_static/fire_hall.jpg
+:width: 33%
+:align: right
+```
 
 Circumstances are anything that gives a Hero an advantage, 
 such as darkness, performance enhancing drugs,

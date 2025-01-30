@@ -1,5 +1,7 @@
 # Challenges
 
+
+
 Gnosis leans into narrative play, and has little interest in 
 simulating each sword stroke or the position of each foot on the map.
 Instead, being concerned with the soul of every story, conflict.
@@ -8,6 +10,11 @@ Some conflicts are merely **obstacles**,
 they don't actively oppose the Heroes, they are 
 just in the way.  A storm when the Heroes are on a boat is an obstacle, it is 
 unconcerned with the Heroes success or failure, it's just in the way
+
+```{image} /_static/spaceship.jpg
+:width: 33%
+:align: right
+```
 
 **Conflicts** on the other hand are when thinking entities are at actual 
 cross purposes.  An art thief is in conflict with the Heroes protecting the 

@@ -94,6 +94,12 @@ Cons:
 more like a boardgame. 
 * Player skill doesn't have much of an impact on the outcome.
 
+
+```{image} /_static/social.jpg
+:width: 33%
+:align: right
+```
+
 ## Don't Roll Dice
 
 There are no rules used for social/mental challenges, and it is 
@@ -129,12 +135,17 @@ In this model the players roleplay out the social/mental until it's time for a
 resolution, at which point the dice are rolled with a Strategy and effectiveness informed by that roleplay with the final narration of that 
 outcome coming from the result of the die roll.  
 
+
 Pros:
 
 * Integrates both player and Hero skill.
 * Preserves the possibility for cool roleplay moments.
 * Integrates with the normal system well.
 
+```{image} /_static/guard.jpg
+:width: 33%
+:align: right
+```
 Cons:
 
 * The outcome may not flow from the roleplay in cases where the player and 

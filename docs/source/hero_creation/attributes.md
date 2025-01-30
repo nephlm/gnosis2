@@ -8,6 +8,12 @@ comparison to their other attributes.
 Your dominant attribute will have a profound effect
 on the narration of your Hero.
 
+
+```{image} ../_static/power.jpg
+:width: 33%
+:align: right
+```
+
 ## Power
 
 **Power** governs the application of solid unyielding

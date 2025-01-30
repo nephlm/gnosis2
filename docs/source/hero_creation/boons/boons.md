@@ -69,6 +69,11 @@ Rolling a d12 with a tier 2 Boon would cause the player to roll
 Players may not start with tier 3 Boons and even after play they take 
 work to acquire and usually only apply to narrow circumstances.
 
+
+```{image} /_static/talia.jpg
+:width: 33%
+:align: left
+```
 ## Maximum Tier vs Effective Tier
 
 The descriptions of Boons will discuss the criteria for a Boon being
@@ -87,6 +92,7 @@ potential.
 While *Excalibur* is a tier 3 gear, that's really its 
 maximum potential tier, while *Swords and Daggers* will 
 never exceed tier 1.  
+
 
 
 

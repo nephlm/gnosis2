@@ -98,6 +98,12 @@ In addition to High Concept and Trouble, there are
 other questions to consider while constructing the core
 of the Hero.  
 
+```{image} ../_static/mirror.jpg
+:width: 33%
+:align: left
+```
+
+
 ### What’s on the Surface?
 
 What does the Hero look like, what do they appear to be.

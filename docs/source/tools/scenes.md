@@ -47,6 +47,11 @@ plot progression or world building (preferably
 at least two of the three), then that scene 
 probably shouldn't be played out at the table. 
 
+```{image} /_static/scene.jpg
+:width: 33%
+:align: right
+```
+
 Allow the player's the agency to drive the action
 forward.
 

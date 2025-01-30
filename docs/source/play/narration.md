@@ -33,6 +33,12 @@ that the Hero may choose to use a different [Strategy](challenge.md#strategy).
 {.small}
 ## Narrative Authority
 
+```{image} /_static/narration.jpg
+:width: 33%
+:align: right
+```
+
+
 Who gets to say what happened?
 
 Traditionally this falls on the GM, but at a table where all the players trust

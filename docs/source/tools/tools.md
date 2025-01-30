@@ -1,5 +1,10 @@
 # Tools
 
+```{image} /_static/tools.jpg
+:width: 33%
+:align: right
+```
+
 Tools are the various systems that aren't as fundamental 
 as conflict and resolution, but the game will play
 very different without them.  These systems tend to add 

@@ -1,5 +1,11 @@
 # Play
 
+```{image} /_static/dragon.jpg
+:width: 33%
+:align: right
+```
+
+
 With a world and  a bunch of Heroes, at some point players are going to
 disagree about what happens in the imaginary world.  That's why the 
 Demiurges invented dice.  

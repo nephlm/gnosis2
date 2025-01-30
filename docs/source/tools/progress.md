@@ -32,7 +32,7 @@ by having a progress clock, it will take more than one
 exchange to take them out. These are often called 
 complex challenges.
 
-### Clock Sizes
+## Clock Sizes
 
 Progress clocks can have two or more sections only 
 limited by the number that can be told apart.  
@@ -46,7 +46,7 @@ consider if a progress clock less than three is desirable.
 A progress clock of three can't be overcome in a single
 action, while a two section clock could be.  
 
-### Uses
+## Uses
 
 Clocks generally fall into two categories:  Effort and countdown.
 Effort clocks are generally positive and fill while the 
@@ -76,7 +76,7 @@ Heroes failing fill the escape clock, while success
 fill the capture clock, whichever clock is filled 
 first dictates the outcome.
 
-### Examples
+## Examples
 
 
 >The Heroes may have decided to dig a tunnel under the 

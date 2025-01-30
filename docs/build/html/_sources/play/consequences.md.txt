@@ -6,18 +6,25 @@ the attempt.
 
 
 Consequences come in two forms: Stress and Blood.  Stress is mental
-or psychic trauma, while Blood is physical damage. 
+or psychic trauma, while Blood is physical damage. Whether it is Stress
+or Blood depends on if the [Challenge](challenge.md#risk) was stressful
+or bloody.
 
 Mechanically, Stress and Blood both have 3 segment progress clocks, 
-each time one of the clocks is
-filled, the character takes a Wound or a Trauma
-depending on which clock was filled and the filled clock is cleared.  
+once one of the clocks is
+filled, any additional consequences cause the 
+Hero to take a Wound or a Trauma
+depending on which clock was filled. 
 
-Any partially filled Stress or Blood Progress clocks are cleared at 
+Stress or Blood Progress clocks are cleared at 
 the end of the scene, while any actual Wounds or Trauma will
-remain until recovered. 
+remain until [recovered](#first-aid). 
 
 
+```{image} /_static/firstaid.jpg
+:width: 33%
+:align: right
+```
 ## Wounds and Trauma
 
 Each Wound and Trauma add a level of {{disadvantage}} to each
@@ -56,6 +63,8 @@ get out of their current predicament.
 The narrative effect of being taken out will depend on the situation
 and whether the challenge was eventually overcome by the Hero's 
 comrades or if the Hero is at the mercy of whatever took them out.
+
+
 
 ## First Aid
 

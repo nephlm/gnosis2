@@ -170,6 +170,11 @@ face of serious skepticism.
 * Stepping off the Path: The Hero reveals their true identity.
 * Complete the Path: Become that which the Hero pretends to be.
 
+```{image} /_static/love.jpg
+:width: 33%
+:align: right
+```
+
 {.small}
 ## Path of Love
 
@@ -216,12 +221,18 @@ put themselves at risk to protect their students.
 * Complete the Path: Graduate the Hero's
 students/underlings, and they go into the world prepared to face it.
 
+```{image} /_static/membership.jpg
+:width: 33%
+:align: right
+```
+
 {.small}
 ## Path of Membership
 
 The Hero is a member of an organization/tribe/etc and that 
 organization gives the Hero purpose and is part of their very 
 identity.
+
 
 * Walking the Path: Defend or support the interests of the
 organization at personal risk or cost.
@@ -286,6 +297,11 @@ story, or they risk their lives to take credit for an action.
 * Stepping off the Path: Give someone else credit for an action
 that would increase the Hero's renown.
 * Completing the Path: Achieve fame or Infamy.
+
+```{image} /_static/rebel.jpg
+:width: 33%
+:align: right
+```
 
 {.small}
 ## Path of the Revolutionary
@@ -365,6 +381,11 @@ a sacrifice to win their unrequited love's affection.
 
 A person/group/etc has wronged the Hero, and 
 they seek vengeance upon them.
+
+```{image} /_static/vow.jpg
+:width: 33%
+:align: right
+```
 
 * Walking the Path: The Hero strikes a serious blow against
 their enemies in the face of risk or consequences.

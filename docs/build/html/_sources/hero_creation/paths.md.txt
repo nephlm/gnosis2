@@ -23,6 +23,11 @@ paths that fit their own needs. Custom paths should
 force the Hero to interact with {{Creation}}, they should
 never be purely internal.
 
+```{image} ../_static/path.jpg
+:width: 33%
+:align: right
+```
+
 When a Hero performs an act in furtherance of one of 
 their paths they are considered to be **Walking the Path**.
 The first three times a Hero walks each of their paths in

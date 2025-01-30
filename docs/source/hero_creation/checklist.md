@@ -9,6 +9,11 @@ more information.
 [High Concept](character_creation.md#high-concept) and 
 [Trouble](character_creation.md#trouble).  
 
+```{image} /_static/checklist.jpg
+:width: 33%
+:align: right
+```
+
 {{checkbox}} Answer the 
 [Core Questions](character_creation.md#core-questions).
 

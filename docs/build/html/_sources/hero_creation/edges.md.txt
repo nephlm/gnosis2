@@ -26,6 +26,11 @@ appropriately limited in scope.
 **The Hero starts with one free edge and can purchase
 additional Edges for 5xp each.**
 
+```{image} /_static/forge.jpg
+:width: 33%
+:align: right
+```
+
 ## Using an Edge
 
 All Edges require the expenditure of one or more {{Favor}}
@@ -75,6 +80,8 @@ each attribute until they succeed, or choose not to engage with the challenge.
 If the Hero chooses not to engage, or succeeds at an attribute roll, their 
 advantage levels return to normal. 
 
+
+
 {.small}
 ### Boon Blueprints
 
@@ -105,6 +112,10 @@ Wound or Trauma (chosen when the Edge is purchased) that can't be
 recovered by [First Aid](../play/consequences.md#first-aid).
 
 
+```{image} /_static/edge_resources.jpg
+:width: 33%
+:align: left
+```
 
 {.small}
 ### Resource Blueprints

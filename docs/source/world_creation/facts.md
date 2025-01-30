@@ -209,6 +209,12 @@ is a negotiation with the goal of both sides to create
 the most interesting world to play in.
 
 
+
+```{image} ../_static/treasure.jpg
+:width: 33%
+:align: right
+```
+
 ## Reward
 
 The first three (3) times a Campaign Fact is used, 

@@ -34,6 +34,14 @@ Logos Uses:
 
 Logos Recovery:
 
+
+```{image} /_static/coins.jpg
+:width: 33%
+:align: right
+```
+
+
+
 * A Demiurge gains 
 one Logos at the beginning of each session. 
 * At the beginning of each session, the player with the 
@@ -75,6 +83,7 @@ Favor Uses:
 environmental detail, and if the GM and group think the detail seems likely, than it is part of hte scene.  However, if the detail doesn't seem likely, but still seems possible, the GM may say that inserting that detail into the environment will cost a Favor.
 
 Favor Recovery:
+
 
 * Each Hero starts each session with at least 8 Favor.
 * The first three times a [Fact](../world_creation/facts.md) 
