@@ -1,5 +1,12 @@
 # Introduction
 
+
+```{image} /_static/dragonwatch.jpg
+:width: 33%
+:align: right
+```
+
+
 Welcome to Gnosis, a narrative game of collaborative world 
 creation and epic stories.  In Gnosis, the GM, as well as all 
 other players, work together to craft stories for the enjoyment

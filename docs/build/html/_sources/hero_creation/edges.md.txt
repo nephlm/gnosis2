@@ -114,7 +114,7 @@ recovered by [First Aid](../play/consequences.md#first-aid).
 
 ```{image} /_static/edge_resources.jpg
 :width: 33%
-:align: left
+:align: right
 ```
 
 {.small}
