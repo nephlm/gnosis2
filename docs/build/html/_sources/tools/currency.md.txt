@@ -42,8 +42,6 @@ Logos Recovery:
 
 
 
-* A Demiurge gains 
-one Logos at the beginning of each session. 
 * At the beginning of each session, the player with the 
 least Logos, gains a Logos. 
 * The third time a [Fact](../world_creation/facts.md) 

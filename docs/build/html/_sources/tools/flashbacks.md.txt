@@ -5,6 +5,11 @@ planning something to death --perhaps you have an engineer
 or two playing-- then the flashback mechanic is your 
 get out of planning hell free card.  
 
+```{image} /_static/flashback.jpg
+:width: 33%
+:align: right
+```
+
 Flashbacks are simply a special form of [Maneuver](modifiers.md#maneuver) that 
 allows the Hero to take advantage of the planning they did 
 quietly off-screen, only when it becomes relevant, rather 
