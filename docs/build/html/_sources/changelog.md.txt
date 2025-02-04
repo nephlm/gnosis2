@@ -5,6 +5,7 @@
   * Credibility 
   * Abandoning Quests and disowning Facts to reclaim Logos.
   * Dice appendix
+  * Character sheet
 
 ## V1 to V2 Summary of Changes
 
