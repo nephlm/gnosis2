@@ -133,7 +133,31 @@ accomplished.
     by a specific individual.  Only one player can actually get Excalibur.
 *   - Group
     - Quests that took many sessions to accomplish.  
-    - Stop the Necromancer and his army of Undead from conquoring the land.
+    - Stop the Necromancer and his army of Undead from conquering the land.
     - All group members get a reward, even if they weren't present when the quest was actually completed. 
 ```
 
+## Abandoning a Quest
+
+Sometimes quests are overcome by events.  When the quest was created it
+was indeed the Hero's intent to follow it and complete the Quest, however
+since then new information has come to light and the Quest no longer 
+matches the Hero's goals.  
+
+> A player created a quest to destroy the Vampire's of Santa Fe, however
+it comes to light, that the Vampires would love to stop collecting all that 
+blood, they don't really need it for themselves, they need it to keep the 
+sleeping demon in their care, you know, asleep.
+
+Maybe the player creates a new Quest to find a way to banish the demon,
+maybe the player abandons the thread, in either case the Quest won't be 
+completed, and the player won't get the [Logos](../tools/currency.md#logos)
+they invested in the current quest back. 
+
+If a quest was created three or more sessions ago, and no actions 
+have been taken to pursue it in the current or previous session, 
+the player may abandon the quest.
+
+The Quest it erased as if it never existed, and the player gets their 
+Logos back.  This can be done at anytime during a session that meets 
+the criteria.  The Logos can be banked or spent immediately.  

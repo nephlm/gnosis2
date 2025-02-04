@@ -165,6 +165,9 @@ The Price should never invalidate the fact.  It should either
 be orthogonal to the fact or a **Yes, and...** sort of response
 to the fact that adds complexity to it. 
 
+Also see [](../tools/credibility.md) for how the table can keep 
+Facts from making the setting inconsistent.
+
 ### Balancing Scopes
 
 One thing to watch for is to ensure that the scopes of the 
@@ -260,3 +263,23 @@ The sorts of facts that break play expectations about the
 usual laws of physics, should probably be brought up during the 
 pitch session not several sessions into the game.
 
+## Disowned Facts
+
+Sometimes a Fact a player created doesn't end up front and 
+center in campaign, and a player needs the  
+[Logos](../tools/currency.md#logos) they invested in the Fact.
+
+If all the following are true, a Fact may be disowned:
+
+* The Fact has existed for three session.
+* The Fact hasn't come up in the current or previous session.
+* The Fact hasn't come up three times in play.
+
+Disowning a fact can happen at any time during a session that 
+meets the above criteria.  Once a fact has been disowned, it 
+acts forever more as if it was a GM Fact, and the player
+receives no more Favor if it were to come up in the future.
+
+In exchange for disowning the Fact, the player gets the 
+Logos they spent on it back.  The 
+Logos can be saved or spent immediately.  

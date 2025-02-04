@@ -31,4 +31,5 @@ currency.md
 progress.md
 modifiers.md
 flashbacks.md
+credibility.md
 ```

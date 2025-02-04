@@ -1,5 +1,10 @@
 # Version {{version}} Changelog
 
+## V2.0.0B1 - 2025-2-4
+
+  * Credibility 
+  * Abandoning Quests and disowning Facts to reclaim Logos.
+
 ## V1 to V2 Summary of Changes
 
 * New Sections
