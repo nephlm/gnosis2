@@ -49,6 +49,7 @@ crew.md
 hero_creation/character_creation.md
 play/play.md
 tools/tools.md
+appendix/appendix.md
 changelog.md
 ```
 
