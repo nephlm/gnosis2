@@ -27,7 +27,7 @@ could, until something happened that caused them not to be able to try again.
 
 A complex combat challenge is not anything like one swing of a sword, it is an
 involved back and forth involving attacks, blocks, feints, riposts, etc. 
-It comes to and end when something in the narration has sufficiently changed
+It comes to an end when something in the narration has sufficiently changed
 that the Hero may choose to use a different [Strategy](challenge.md#strategy).
 
 {.small}

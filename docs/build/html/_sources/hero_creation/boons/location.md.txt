@@ -32,9 +32,9 @@ have a Building of *U.S. Capital*.
 ## City / Common
 
 Max Tier: 1  
-Cost: 1xp/tier  
+Cost: 5xp/tier  
 Group Requirement: None  
-Group Cost: 1xp
+Group Cost: 5xp
 
 This Boon represents a large part of the campaign world (but not all of it), 
 or commonly available sorts of locations.  
@@ -80,11 +80,12 @@ such as coffee houses, schools or transit stations.
 ## Neighborhood / Rare
 
 Max Tier: 2  
-Cost: 1xp/tier  
+Cost: 5xp/tier  
 Group Requirement: Related City or Common Location  
-Group Cost: 1xp
+Group Cost: 5xp
 
-Like city the size of this Boon is dependent on the scope of the 
+Like City sized Locations, 
+the size of this Boon is dependent on the scope of the 
 campaign, in a story where the Heroes travel between 
 a dozen cities, this would be a city, for a city 
 based story, the Hero could probably cross it in 
@@ -127,9 +128,9 @@ or *Seattle Ley Lines*.
 ## Building
 
 Max Tier: 3  
-Cost: 1xp/tier  
+Cost: 5xp/tier  
 Group Requirement: Related Neighborhood or Rare Location  
-Group Cost: 1xp
+Group Cost: 5xp
 
 At this level, this is almost certainly a specific 
 building or set of buildings, even in the most 

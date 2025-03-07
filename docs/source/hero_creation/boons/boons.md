@@ -22,17 +22,18 @@ of the attribute roll, and has an
 appropriate die size based on that attribute.  
 
 Boons are not inherently tied to specific Attributes, 
-but some Boons have clear pre-dispositions.  *Strong Arm*
-is almost certainly going to be associated with Power, 
-while depending on circumstances a *Sniper Rifle* could 
-be used for the Power, Precision or Possibility die.
+but some Boons have clear pre-dispositions.  It is pretty easy
+to tell a story about how *Strong Arm* is used with Power, 
+it's trickier to tell a story of how it's used for Precision.
+Depending on circumstances,  a Boon like *Sniper Rifle* could 
+easily be used for the Power, Precision or Possibility die.
 
 Boons come in four types: [](talents.md), [](gear.md), 
 [](kith.md) and 
 [](location.md).
 
 
-In Gnosis *Excalibur* and an *Orbital Death Laser* are equally 
+In Gnosis, *Excalibur* and an *Orbital Death Laser* are equally 
 impactful in most games where they might appear.  They are 
 probably both tier 3 Boons in most games.  The key 
 question is how effective they are in helping Heroes overcome
@@ -104,7 +105,7 @@ but got in a fight anyway. Her player made an attribute roll
 which was a simply a d12+d10+d8 with no advantage.
 
 Later she acquired a tier 2 *Magical Dagger*, but she 
-only had 2xp so bought it as a regular *Dagger*.
+only had 10xp so bought it as a regular *Dagger*.
 
 > When she next gets into a fight her player uses her *Dagger* 
 with her Precision attribute which is her d12, 

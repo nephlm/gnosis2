@@ -50,7 +50,7 @@ Not all Paths have an obvious way they can be Completed.
 
 **The Hero starts the game with 
 one free path.  Additional paths can be acquired by 
-spending 1xp.**
+spending 5xp.**
 
 Sample Paths:
 

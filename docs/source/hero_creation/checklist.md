@@ -35,16 +35,16 @@ as a tier 1
 {{checkbox}} Select your Hero's free 
 [Edge](edges.md).
 
-{{checkbox}} The character starts with **5 xp** to spend.
+{{checkbox}} The character starts with **25xp** to spend.
 
-* [](edges.md) cost **5xp** each.
+* [](edges.md) cost **25xp** each.
 * Boons
-  * [](boons/talents.md) cost **3xp/tier** and *must* be grouped.
-  * [](boons/gear.md) cost **2xp/tier** and can be grouped.
-  * [Companions](boons/kith.md#companion) cost **2xp** per tier and can't be grouped.
-  * [Allies](boons/kith.md#ally) cost **1xp** per tier and can't be grouped.
-  * [Locations](boons/location.md) cost **1xp** per tier and can be grouped.
-* [](paths.md) cost **1 xp** each.
+  * [](boons/talents.md) cost **15xp/tier** and *must* be grouped.
+  * [](boons/gear.md) cost **10xp/tier** and can be grouped.
+  * [Companions](boons/kith.md#companion) cost **10xp** per tier and can't be grouped.
+  * [Allies](boons/kith.md#ally) cost **5xp** per tier and can't be grouped.
+  * [Locations](boons/location.md) cost **5xp** per tier and can be grouped.
+* [](paths.md) cost **5xp** each.
 
 {{checkbox}} Create the Hero's free
 [Quest](quests.md).
@@ -97,5 +97,5 @@ comfortable ant hill, what was it? This should be
 something that the Hero doesn’t have the luxury of
 ignoring. It doesn’t have to be explained or something
 that is tied deeply into the Hero it just has to be
-something to start the game off with a kick.
+something to start the game off with a banger.
 

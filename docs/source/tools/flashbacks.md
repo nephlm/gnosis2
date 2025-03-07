@@ -1,8 +1,8 @@
 # Flashbacks
 
 If your table is the sort that will get bogged down in 
-planning something to death --perhaps you have an engineer
-or two playing-- then the flashback mechanic is your 
+planning something to death-- perhaps you have an engineer
+or two playing --then the flashback mechanic is your 
 get out of planning hell free card.  
 
 ```{image} /_static/flashback.jpg

@@ -1,6 +1,11 @@
 # Version {{version}} Changelog
 
-## V2.0.0B1 - 2025-2-4
+## V2.0.1B0 - 2025-02-4
+
+* Minor proofreading pass.
+* Multiply all xp rewards and costs by 5.  Creates more xp granularity, but otherwise doesn't change anything. 
+
+## V2.0.0B1 - 2025-02-04
 
   * Credibility 
   * Abandoning Quests and disowning Facts to reclaim Logos.

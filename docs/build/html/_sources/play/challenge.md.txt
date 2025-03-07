@@ -122,7 +122,7 @@ With a proposed Strategy in place the GM should set a difficulty,
 this is likely done by setting the size of the Pain Pool, though 
 for some rolls the GM may choose to use a static difficulty. 
 
-Whichever the case, the number of dice, or number, should be shared 
+Whichever the case, the number of dice, or target number, should be shared 
 with the player.  Assuming the Hero is not incompetent in the 
 area of conflict they'll have some sense of the difficulty of what 
 they're trying to do.  
@@ -158,7 +158,8 @@ after that point and the reverse is true.
 
 Heroes using just their [Boons](../hero_creation/boons/boons.md) 
 can have at most three levels of advantage
-in each attribute pool, which is approximately equivalent to a 9 die 
+in each attribute pool, which is approximately 
+[equivalent](../appendix/dice.md) to a 9 die 
 Pain Pool (25.3 vs 25.5).  Even if they have all those Boons, by the nature
 of tier 3 Boons, they should only be able to bring that to bear under 
 limited circumstances. 

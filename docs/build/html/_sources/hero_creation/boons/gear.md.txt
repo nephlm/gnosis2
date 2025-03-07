@@ -43,7 +43,7 @@ gear group around.
 
 A xp starved Hero that acquires *Excalibur* during 
 the course of the game could first buy the tier 1 *Sword* for 
-2xp as the base of the gear group and work their way through
+10xp as the base of the gear group and work their way through
 *Magic Sword* at tier 2,  before being able to buy 
 *Excalibur* at tier 3. 
 
@@ -54,9 +54,9 @@ the course of the game could first buy the tier 1 *Sword* for
 ## Normal Gear
 
 Tier: 1  
-Group Cost: 2xp  
+Group Cost: 10xp  
 Group Requirements: None  
-Cost: 2xp
+Cost: 10xp
 
 This is common gear that the Hero can basically 
 get anywhere.  It's so common it probably doesn't 
@@ -80,9 +80,9 @@ identity.
 ## Rare Gear
 
 Tier: 1  
-Group Cost: 2xp  
+Group Cost: 10xp  
 Group Requirements: A Common Gear version of this item.  
-Cost: 4xp
+Cost: 20xp
 
 Rare gear is more specialized and harder to find. 
 A lot of utility gear that is hard to find and doesn't lend
@@ -102,15 +102,16 @@ or special skills to make or use effectively.
 * Masterwork Lockpicks
 * Sniper Rifle
 * Bag of Holding
+* Wizard's Staff
 ```
 
 {.small}
 ## Unique Gear
 
 Tier: 3  
-Group Cost: 2xp  
+Group Cost: 10xp  
 Group Requirements: A Rare Gear version of this item.  
-Cost: 6xp
+Cost: 30xp
 
 These are specific particular items.  They 
 have names and histories, possibly name and 
@@ -179,8 +180,8 @@ overcome challenges effectively.
 
 Kit Gear may also be actual Gear that the Hero doesn't
 yet have the XP to capitalize on.  If a Hero acquires
- *Excalibur*, but doesn't have the 6xp to buy it as 
-[](#rare-gear), or even the 2xp for [](#normal-gear) yet
+ *Excalibur*, but doesn't have the 30xp to buy it as 
+[](#rare-gear), or even the 10xp for [](#normal-gear) yet
 They might buy it as Kit Gear with the intent to upgrade it
 as xp becomes available. 
 

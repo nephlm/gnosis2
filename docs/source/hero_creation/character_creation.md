@@ -116,7 +116,7 @@ Hero as they became adults... or are they still a kid?
 
 ### What is the Hero’s Vice?
 
-What is the Hero’s weakness that drives him to make
+What is the Hero’s weakness that drives them to make
 poor decisions? Everyone has a blind spot that they
 may or may not be aware of. What is your Hero’s
 blind spot. 

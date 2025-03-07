@@ -43,7 +43,7 @@ Social combat is more likely to be satisfactorily resolved with
 
 Whenever challenges don't involve a physical component, things 
 get more abstract.  Social challenges occur when the approach to overcome
-he challenge is through talking and communication.  Persuasion or deception
+the challenge is through talking and communication.  Persuasion or deception
 is the hallmark of the social challenge.  
 
 Mental challenges tend to be more about solving an intellectual problem.  If 
@@ -59,7 +59,7 @@ player based on how well their Hero did at trying to analyze the
 challenge.
 
 It should give the player more or less information depending on how well they
-did, rather completely solving puzzles for the player.  This may be the 
+did, rather than completely solving puzzles for the player.  This may be the 
 more satisfying way of resolving this problem, making sure the Hero's skill
 impacts the challenge, but that the player's skill is still relevant.
 
@@ -70,7 +70,7 @@ impacts the challenge, but that the player's skill is still relevant.
 A social/mental challenge is simply a challenge like any other, no reason
 to overthink it.  We don't expect players to have the strength, 
 speed and stamina of their Heroes, so why do we expect them to have the 
-intelligence and charisma or those Heroes?  If a player wants to play a 
+intelligence and charisma of those Heroes?  If a player wants to play a 
 genius or charismatic cult leader, the resolution should allow the Hero to 
 use those skills, even if the player doesn't have those skills.
 
@@ -103,7 +103,7 @@ more like a boardgame.
 ## Don't Roll Dice
 
 There are no rules used for social/mental challenges, and it is 
-all done as pure roleplay as if challenge were part of 
+all done as pure roleplay as if the challenge were part of 
 [Exploration](../play/play.md#exploration--action).
 In this case the group improvs the conversation or situation and 
 an outcome is largely a matter of GM discretion.  Because of this, 
@@ -120,7 +120,7 @@ Cons:
 
 * Social/mental contests don't cause Stress.
 * Resolution is essentially GM Fiat.  
-* This causes social/mental Boons are not used in a mechanical way, which may 
+* This causes social/mental Boons not to be used in a mechanical way, which may 
 cause them to be shortchanged in many groups.
 * Hero Boons are not used, 
 so there is no natural way for a Hero's social or mental prowess to impact 
@@ -157,7 +157,7 @@ Hero have vastly different social/mental skills.
 ## Dice Determines Difficulty of Roleplay
 
 At the beginning of the challenge, it proceeds normally, with the player
-articulating and intent and Strategy and rolling dice.  Instead of proceeding
+articulating an intent and Strategy and rolling dice.  Instead of proceeding
 to narration, roleplay starts.  
 
 The result of the die roll changes the world.  Critical successes indicate a 

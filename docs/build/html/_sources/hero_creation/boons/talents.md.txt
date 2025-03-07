@@ -5,7 +5,7 @@
 :align: right
 ```
 
-Talents represent intrinsic parts of a character
+Talents represent intrinsic parts of a character,
 such as skills, aptitudes, inherent powers, etc.
 By their nature, these abilities can't normally 
 be taken away, even temporarily without significantly
@@ -29,7 +29,7 @@ specialization of that lower tier Talent.
 ## Broad Talent
 
 Tier: 1  
-Cost: 3xp  
+Cost: 15xp  
 Requirements: None
 
 
@@ -77,7 +77,7 @@ those things that *Fighting* wouldn't be able to.
 ## Common Talent
 
 Tier: 2  
-Cost: 3xp  
+Cost: 15xp  
 Requirements: Related tier 1 Talent
 
 Common Talents are narrower than Broad Talents, 
@@ -125,7 +125,7 @@ that's at least related if not clearly a superset.
 ## Master Talent
 
 Tier: 3  
-Cost: 3xp  
+Cost: 15xp  
 Requirements: Related tier 2 Talent, GM discussion
 
 

@@ -409,6 +409,3 @@ danger.
 * Completing the Path: Fulfil the vow.
 
 
-
-.
-

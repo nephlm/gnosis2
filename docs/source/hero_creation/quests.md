@@ -46,7 +46,7 @@ Pigs and Moles
 ## Rewards
 
 If the Hero is successful, they are rewarded.  This
-reward may many things, but importantly **Quests are the 
+reward may be many things, but importantly **Quests are the 
 only way for a Hero to gain {{xp}}**, which they can 
 spend on [Boons](boons/boons.md) and [Edges](edges).
 
@@ -57,8 +57,8 @@ spend on [Boons](boons/boons.md) and [Edges](edges).
 * Prop / contact / Kit Gear
 * a point of Favor
 * a point of Logos 
-* 1-2 xp for a specific Boon
-* 1-2 xp
+* 1-10 xp for a specific Boon
+* 1-10 xp
 * Combination of the above
 ```
 
@@ -158,6 +158,6 @@ If a quest was created three or more sessions ago, and no actions
 have been taken to pursue it in the current or previous session, 
 the player may abandon the quest.
 
-The Quest it erased as if it never existed, and the player gets their 
+The Quest is erased as if it never existed, and the player gets their 
 Logos back.  This can be done at anytime during a session that meets 
 the criteria.  The Logos can be banked or spent immediately.  

@@ -20,7 +20,7 @@ Many things are measured in scenes as if it were a measure of time.  Some
 [Progress Clocks](progress.md) have effects that last a scene or triggers
 that progress with scenes.  Some effects can only occur once per scene.
 
-So while scenes are primarily a mechanisms to focus narrative focus, they also 
+So while scenes are primarily a mechanisms to focus the narration, they also 
 serve a mechanical pacing element.  For this reason long infiltration missions
 or dungeon crawls will likely be broken up into multiple scenes.
 
@@ -41,7 +41,7 @@ and even some
 are telling story of what sort of scenes the 
 player wants to see.  
 
-If a scene isn't anticipated to do 
+If a scene isn't expected to do 
 character development, 
 plot progression or world building (preferably
 at least two of the three), then that scene 
@@ -56,7 +56,7 @@ Allow the player's the agency to drive the action
 forward.
 
 Become familiar with saying that after several 
-days the Heroes arrive at the distant town.  
+days the Heroes arrive at the distant town. 
 Gnosis isn't a game usually served by random 
 fights that don't progress the plot. 
 

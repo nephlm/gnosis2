@@ -26,10 +26,11 @@ Exploiting environmental factors beyond the Hero's control.
 ```
 
 Conceptually Working Together, Maneuvers and Assess 
-are grouped together as they both
+are grouped together as they all
 cost actions and only affect a single roll, while props and circumstances are
 free to exploit once during a scene.  To exploit any of them other than 
-Working Together additional times during a scene requires spending a Favor
+Working Together additional times during a scene requires spending a 
+[Favor](currency.md#favor)
 to activate it.
 
 ## Working Together
@@ -65,7 +66,7 @@ point of Blood.
 
 ## Maneuver
 
-The character spends their action and does something make a more 
+The character spends their action and does something to make a more 
 advantageous environment.  
 
 The Hero makes an unopposed Attribute Roll, the result of the roll

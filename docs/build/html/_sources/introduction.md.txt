@@ -58,7 +58,7 @@ the groups expectations.
 
 Gnosis is a game that leans toward an epic and heroic tone, but it works
 with any setting.  That setting is called Creation and in the central framing
-of the game, [Creation](world_creation/world_creation.md) is created by {{Demiurges}} to impress the Story, a 
+of the game, [Creation](world_creation/world_creation.md) is created by {{Demiurges}} to impress the Story, an 
 all encompassing perfect spiritual entity that created the Demiurges.
 
 This setting is defined by all the players, not just the GM, and evolves and 
@@ -88,9 +88,13 @@ as the players are.
 
 [Logos](tools/currency.md#logos) 
 is the Currency spent by the Demiurge to alter Creation
-and create Quests for their Heroes.  Demiurges recover a Logos
-at the beginning of each session, completions of Quests
+and create Quests for their Heroes.  Demiurges  Logos
+as their plans come to fruition within creation: The completions of Quests
 and after Facts appear in the Story a few times.
+
+Logos that gets "stuck," may be reclaimed by 
+[](hero_creation/quests.md#abandoning-a-quest) or 
+[Disowning a Fact](world_creation/facts.md#disowned-facts)
 
 ## Hero
 

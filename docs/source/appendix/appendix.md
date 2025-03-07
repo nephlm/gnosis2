@@ -7,4 +7,5 @@
 :hidden: 
 :caption: Contents:
 dice.md
+gm.md
 ```

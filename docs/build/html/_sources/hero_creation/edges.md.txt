@@ -24,7 +24,7 @@ with the group and GM and everyone should agree that it is
 appropriately limited in scope. 
 
 **The Hero starts with one free edge and can purchase
-additional Edges for 5xp each.**
+additional Edges for 25xp each.**
 
 ```{image} /_static/forge.jpg
 :width: 33%

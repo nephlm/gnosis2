@@ -35,7 +35,7 @@ Membership, friendship, or a flock of convenience is a
 two-way road.  Sometimes it's the Hero who is being called 
 on to render aid or help with some problem. 
 
-A Kith Boon is one of three levels:
+A Kith Boon is one of three types:
 
 * **Companion**: A person or group that travels with
 the Hero.
@@ -102,7 +102,7 @@ as a Maneuver to be able to use the Contact.
 {.small}
 ## Ally
 
-Cost: 1xp per tier  
+Cost: 5xp per tier  
 
 These are people who will normally answer the Hero's 
 call in most circumstances and will usually take time 
@@ -112,7 +112,7 @@ they are trying to do something worth doing.
 
 However, they do have their own lives and do something 
 for a living, probably something the involves deadlines, 
-so they aren't about to drop anything and follow the 
+so they aren't about to drop everything and follow the 
 Hero across the country, or possibly even the city,
 without a good reason. 
 
@@ -137,7 +137,7 @@ without a good reason.
 {.small}
 ## Companion
 
-* 2xp per level
+* 10xp per level
 
 Companions are almost always with the Hero.  When the Hero 
 decides to board a spaceship for Alpha Centauri, their

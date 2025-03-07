@@ -12,9 +12,10 @@ or bloody.
 
 Mechanically, Stress and Blood both have 3 segment progress clocks, 
 once one of the clocks is
-filled, any additional consequences cause the 
+filled, any additional consequences of that type cause the 
 Hero to take a Wound or a Trauma
 depending on which clock was filled. 
+Stress, Blood, Wounds and Trauma are all tracked separately.
 
 Stress or Blood Progress clocks are cleared at 
 the end of the scene, while any actual Wounds or Trauma will
@@ -41,13 +42,13 @@ Disadvantage applies to.
 In the case where there are no advantage dice to counter, 
 the player rolls an additional die, and chooses the lowest
 number instead of the highest.  Each additional level of 
-disadvantage adds another die the, still choosing the lowest
+disadvantage adds another die, still choosing the lowest
 roll.
 
 ## Taken Out
 
 A player can choose to have their Hero taken out at any time. 
-If a player makes that choice at end of the challenge, they
+If a player makes that choice then at end of the challenge, they
 are allowed to make two [](#first-aid) rolls, instead of the 
 normal one. 
 
@@ -68,7 +69,7 @@ comrades or if the Hero is at the mercy of whatever took them out.
 
 ## First Aid
 
-At the end of any scene a Hero took Wounds or Traumas the 
+At the end of any scene in which a Hero took Wounds or Traumas the 
 Hero may make a recovery roll to immediately treat the 
 Wounds or Trauma.
 
