@@ -4,3 +4,4 @@ myst-parser==4.0.0
 sphinx-inline-tabs==2023.4.21
 sphinx-autobuild==2024.10.3
 sphinx-design
+tiddlywiki-parser>=1.1.0

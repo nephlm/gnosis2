@@ -8,6 +8,15 @@ SPHINXBUILD   ?= sphinx-build
 SOURCEDIR     = source
 BUILDDIR      = build
 
+ROOT_DIR := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
+
+build:
+	cd $(ROOT_DIR)docs && make clean
+	sphinx-autobuild $(ROOT_DIR)docs/source/ $(ROOT_DIR)docs/build/html/
+
+clean:
+	rm -rf $(ROOT_DIR)docs/build/html/
+
 # Put it first so that "make" without argument is like "make help".
 help:
 	@$(SPHINXBUILD) -M help "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)

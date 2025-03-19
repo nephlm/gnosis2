@@ -51,6 +51,7 @@ play/play.md
 tools/tools.md
 charsheet.md
 appendix/appendix.md
+gods-reborn/index.md
 changelog.md
 ```
 

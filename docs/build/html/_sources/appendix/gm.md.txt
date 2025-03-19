@@ -15,11 +15,11 @@ One day I'll write a proper GM section, but for now this is just a bunch of link
 * [The Secret Life of Nodes](https://thealexandrian.net/wordpress/45263/roleplaying-games/the-secret-life-of-node)
 * [5 Node Mystery](https://thealexandrian.net/wordpress/37903/roleplaying-games/5-node-mystery)
 
-## Relationship Maps
+## Tools
 
-Relationship maps are basically a strict subset of Node Based Design, but it is what I have used for a long time. 
-
+* [Big List of RPG Plots](https://web.archive.org/web/20110902100434/http://www222.pair.com/sjohn/blueroom/plots.htm) - by S. John Ross, its original home seems to have fallen off the Internet and landed in the wayback machine, but it is also still available as a free [PDF from DriveThruRPG](https://www.drivethrurpg.com/en/product/202670/big-list-of-rpg-plots).
 * [Hexbones](https://web.archive.org/web/20190213074114/http://www.logrus.com/~moose/page1/files/hexbones.pdf) -  By [Rob Donghue](http://walkingmind.evilhat.com/2010/06/04/the-stranger-the-twins-and-the-scales/) - The pdf seems to only exist on the wayback machine now, but it is what I used for years to build complex relationships.
+    * Relationship maps are basically a strict subset of Node Based Design. 
 
 ## Railroading / Player Agency
 
