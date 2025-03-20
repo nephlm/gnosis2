@@ -10,6 +10,9 @@ SOURCEDIR     = $(ROOT_DIR)docs/source/
 BUILDDIR      = $(ROOT_DIR)docs/build/
 HTMLDIR	      = $(BUILDDIR)html
 
+GM_BOOK       = "https://nephlm.github.io/tw/gods-reborn.html"
+PLAYER_BOOK   = $(SOURCEDIR)_static/html/gods-reborn.html
+
 
 # Put it first so that "make" without argument is like "make help".
 help:
@@ -26,6 +29,9 @@ dev:
 
 clean:
 	rm -rf $(BUILDDIR)
+
+player-book:
+	python $(ROOT_DIR)make-wiki.py $(GM_BOOK) $(PLAYER_BOOK)
 
 
 publish:

@@ -52,6 +52,25 @@ def clean_wiki(wiki):
     return wiki, delete_list
 
 
+def remove_github(content):
+    """
+    Remove the github save values, so they can't use it to find the GM version.
+    No reason to tempt them.
+    """
+    # Define the regex pattern (handling multiline cases)
+    pattern = re.compile(
+        r'<div created="\d+" modified="\d+" title="\$:/GitHub/[\w-]+">\s*'
+        r"<pre>[^<]*</pre>\s*</div>",
+        re.DOTALL,
+    )
+
+    # print(re.findall(pattern, content))
+    # return content
+
+    # Remove matching patterns
+    return re.sub(pattern, "", content)
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("src", help="The tiddlywiki src.  May be a path or url.")
@@ -62,9 +81,10 @@ def main():
     wiki = tiddlywiki.TiddlyWiki(content)
     wiki, delete_list = clean_wiki(wiki)
     new_wiki = wiki.remake(delete_list)
+    new_wiki = remove_github(new_wiki)
     with open(args.dst, "w", encoding="utf8") as f:
         f.write(new_wiki)
-    print("Player wiki written")
+    print(f"Player wiki written to {args.dst}")
 
 
 if __name__ == "__main__":
