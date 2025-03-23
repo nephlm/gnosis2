@@ -80,6 +80,7 @@ def main():
     content = readers.read(args.src)
     wiki = tiddlywiki.TiddlyWiki(content)
     wiki, delete_list = clean_wiki(wiki)
+    print(len(wiki.tiddlers))
     new_wiki = wiki.remake(delete_list)
     new_wiki = remove_github(new_wiki)
     with open(args.dst, "w", encoding="utf8") as f:
