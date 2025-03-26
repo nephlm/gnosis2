@@ -35,7 +35,7 @@ player-book:
 
 
 publish:
-	# make player-book
+	make player-book
 	make build
 	git add $(ROOT_DIR)*
 	git commit -m "Publish new version."
