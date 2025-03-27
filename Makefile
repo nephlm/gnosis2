@@ -42,7 +42,7 @@ publish:
 	git push
 
 
-.PHONY: dev build clean help Makefile
+.PHONY: dev build clean help Makefile publish player-book
 
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
