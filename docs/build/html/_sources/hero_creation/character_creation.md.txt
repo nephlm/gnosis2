@@ -58,7 +58,6 @@ and what they *are* rolled together.
 The High Concept becomes a free tier 1 
 [Talent](boons/talents.md).
 
-## Trouble
 
 ```{sidebar} Sample Troubles
 
@@ -74,6 +73,7 @@ Scion of Prophesy
 Terrified Seer  
 ```
 
+## Trouble
 
 The Heroes are talented individuals with a lot of potential
 at the least, and probably power.  They could stay at home 

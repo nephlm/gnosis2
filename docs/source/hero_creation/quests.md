@@ -21,6 +21,29 @@ accomplish in the next session or two and
 to advance as a Hero. Some larger over-aching quests might 
 better be modeled as [Paths](paths.md).
 
+
+
+```{admonition} TASCy
+
+At least some Quests should be **TASCy**.
+
+**T**imely
+: A Quest should be able to be progressed within a session or two.
+
+**A**ctionable
+: The PCs should be able to actually do something to move the quest forward.
+
+**S**pecific
+: The Quest should give the GM enough information to prepare for the next session.
+
+**C**ompletable 
+: The Quest should be something that is actually capable of being completed.  
+
+
+
+```
+
+
 ```{admonition} Example Quests
 
 Hunting Scrap

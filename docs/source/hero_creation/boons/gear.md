@@ -35,7 +35,7 @@ For example the unique sword, Excalibur, can be
 purchased as Unique: Excalibur (tier 3), Rare: Magic
 Sword (tier 2) or Normal: Sword (tier 1). A character
 could buy a gear group which would include all three
-boons for 6 points. This gives the character extra
+boons for 30 points. This gives the character extra
 flexibility and allows them to be more effective when
 Excalibur isn’t present. However, an item like a
 portable hole requires more creativity to create a

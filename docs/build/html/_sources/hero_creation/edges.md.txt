@@ -290,8 +290,8 @@ limits normally associated with their use.
     the Hero can spend a Favor and increase it by one level. 
     From a tie to a success or from a success to a critical success.
 * **Weakness**
-    * **Description**:  The Hero's magic aura saps the strength from their enemies.
-    * **Mechanics**: The Hero may spend a Favor and the Pain Pool suffers 
+    * *Description*:  The Hero's magic aura saps the strength from their enemies.
+    * *Mechanics*: The Hero may spend a Favor and the Pain Pool suffers 
     a -1 penalty on its roll.
 ```
 

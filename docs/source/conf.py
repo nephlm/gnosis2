@@ -9,8 +9,8 @@
 project = "Gnosis 2"
 copyright = "2025, Nephlm"
 author = "Nephlm"
-version = "2.0"
-release = "2.0.1b0"
+version = "2.1"
+release = "2.1.1b0"
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration

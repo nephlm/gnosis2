@@ -20,8 +20,8 @@ mechanical.  Maneuvers tend to be taking an action,
 that gives a mechanical advantage, 
 while Flashbacks tend to be more likely to change the 
 narrative situation.  This may lead to lead to 
-exploitable [circumstances](modifiers.md#circumstances)
-that can be exploited, but the link is less direct.
+exploitable [circumstances](modifiers.md#circumstances), 
+but the link is less direct.
 
 ## Approach
 

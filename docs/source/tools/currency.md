@@ -18,7 +18,7 @@ success or the rewards.
 If you need a currency for 
 metagaming, world creation and similar concerns, that's Logos.
 
-Each Demiurge has a **maximum of six Logos**, and any additional
+Each Demiurge has a **maximum of 3 Logos**, and any additional
 Logos they gain are lost.  If the Demiurge gets a new Logos
 when they are at their max, 
 they can't "quickly" spend one to make space, it is lost. 
@@ -66,7 +66,7 @@ may make a [maneuver or assess](modifiers.md#maneuver)
 roll without taking an action to do so.
 
 
-Heroes may have a **maximum of 10 Favor** at any given time. Like 
+Heroes may have a **maximum of 3 Favor** at any given time. Like 
 Logos, Favor can't be "quickly" spent just as the Hero would go 
 over their maximum. 
 
@@ -78,12 +78,12 @@ Favor Uses:
 * Re-roll an Attribute Roll and accept the new value.
 * Use a [Modifier](modifiers.md) more than once during a scene.
 * Add environmental detail that seems unlikely.  A player can always suggest an 
-environmental detail, and if the GM and group think the detail seems likely, than it is part of hte scene.  However, if the detail doesn't seem likely, but still seems possible, the GM may say that inserting that detail into the environment will cost a Favor.
+environmental detail, and if the GM and group think the detail seems likely, than it is part of the scene.  However, if the detail doesn't seem likely, but still seems possible, the GM may say that inserting that detail into the environment will cost a Favor.
 
 Favor Recovery:
 
 
-* Each Hero starts each session with at least 8 Favor.
+* If at the start of a scene a Hero has 0 Favor, they gain one Favor.
 * The first three times a [Fact](../world_creation/facts.md) 
 comes up on play, the Hero gains a Favor.
 * The first three times a Hero walks each of their 
@@ -91,7 +91,6 @@ comes up on play, the Hero gains a Favor.
 a session, the Hero gains a Favor.
 * If a Hero chooses to step off a 
 [Paths](../hero_creation/paths.md) they receive three Favor.
-* If at the end of a scene a Hero has 0 Favor, they gain one Favor.
 * If a Hero suffers [Consequences](../play/consequences.md#stress--blood) 
 because of a Critical Failure, they gain a Favor.
 * If a Hero must make a Recovery Roll,

@@ -56,7 +56,7 @@ as a tier 1
 [Kit Gear](boons/gear.md#kit-gear).
 
 {{checkbox}} The Demiurge gains 3 Logos, and the
-Hero gains 10 Favor.  
+Hero gains 3 Favor.  
 
 {{checkbox}} Spend any Logos the player wishes to, or save it all for later.
 
@@ -73,7 +73,7 @@ What is it about the Hero defies explanation. Do
 they just keep coming no matter what kind of beating
 they took or do they have a simply uncanny situational
 awareness? What is it about the Hero that defines, not
-in what situation they is a badass, but how, in that
+in what situation they are a badass, but how, in that
 situation, they are a badass.
 
 Many people are good in a fight or debate, what we

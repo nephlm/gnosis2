@@ -48,7 +48,7 @@ roll.
 ## Taken Out
 
 A player can choose to have their Hero taken out at any time. 
-If a player makes that choice then at end of the challenge, they
+If a player makes that choice then at the end of the challenge, they
 are allowed to make two [](#first-aid) rolls, instead of the 
 normal one. 
 
@@ -110,7 +110,7 @@ make another recovery roll.
 | Visit medical professional | Wounds |
 | Visit a mental health professional | Trauma |
 | Spend time socializing in a safe space | Trauma |
-| Engage is emotional self-care | Trauma |
+| Engage in emotional self-care | Trauma |
 | Engage with an unhealthy coping vice | Trauma |
 | Something character specific | Trauma |
 

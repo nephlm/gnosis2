@@ -18,7 +18,7 @@ In the basic progress clock, wedges are often filled
 by successes or failures (or two wedges for criticals), 
 but the criteria to fill a wedge could be anything.
 
-An enchanter Hero could a have a progress clock tracking
+An enchanter Hero could have a progress clock tracking
 the downtime they've spent to make their 
 *Staff of Smashing Annoying People*, or they may be 
 filled each time the alien hive mind consumes a human 

@@ -1,5 +1,12 @@
 # Version {{version}} Changelog
 
+## v2.1B0 - 2026-03-24
+
+* Added From The Ashes Campaign
+* Added a section about Quests needing to be TASCy
+* Fixed Favor and Logos caps and recovery rates.
+* Minor proofreading changes.
+
 ## V2.0.1B0 - 2025-02-4
 
 * Minor proofreading pass.

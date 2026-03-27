@@ -10,8 +10,8 @@ SOURCEDIR     = $(ROOT_DIR)docs/source/
 BUILDDIR      = $(ROOT_DIR)docs/build/
 HTMLDIR	      = $(BUILDDIR)html
 
-GM_BOOK       = "https://nephlm.github.io/tw/gods-reborn.html"
-PLAYER_BOOK   = $(SOURCEDIR)_static/html/gods-reborn.html
+GM_BOOK       = "https://nephlm.github.io/tw/ash.html"
+PLAYER_BOOK   = $(SOURCEDIR)_static/html/ash.html
 
 
 # Put it first so that "make" without argument is like "make help".

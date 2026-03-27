@@ -52,6 +52,7 @@ tools/tools.md
 charsheet.md
 appendix/appendix.md
 gods-reborn/index.md
+from-the-ashes/index.md
 changelog.md
 ```
 

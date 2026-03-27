@@ -1,11 +1,11 @@
 # Credibility
 
-With everyone able to alter the game world, even with a cost and price
+With everyone able to alter the game world, even with a cost and price,
 there is often a temptation to go well beyond the campaign's 
 High Concept. This is actually fine as long as the table agrees to that
-expansion, but if not Credibility comes into the play.
+expansion, but if not, Credibility comes into play.
 
-When the campaign is twelve sessions into classic sword and sorcery
+When the campaign is twelve sessions into a classic sword and sorcery
 setting and someone spends a Logos and calls B-52 bombers in existence, 
 what do you do?
 
@@ -14,7 +14,7 @@ what do you do?
 happen.
 
 If the whole group aren't of one mind, see if the issue can be talked out, but
-if not honor the credibility check.  This effectively gives a veto to everyone
+if not, honor the credibility check.  This effectively gives a veto to everyone
 in the group.  In groups where people are acting in good faith and working
 together to build stories that everyone will enjoy, this is the right choice.
 

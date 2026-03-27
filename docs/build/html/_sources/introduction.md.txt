@@ -173,7 +173,6 @@ than they usually can.  Favor is flexible and can be used for a lot
 of effects, everything from powering [Edges](hero_creation/edges.md)
 to re-rolling dice and other effects.
 
-A Hero's starts each session with eight Favor, and there are various 
-things that allow a Hero to recover one or more Favor during the 
-Session.
+If at the start of a scene a Hero has no Favor, they gain one Favor, and there are various 
+other things that allow a Hero to recover one or more Favor during play.
 

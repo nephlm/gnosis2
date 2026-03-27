@@ -63,7 +63,7 @@ the Challenge should do anything.
 
 Since any attack includes
 risk of losing the engagement, depending on the nature of the 
-challenge they may not need to act that often since they will
+challenge, they may not need to act that often since they will
 automatically be delivering reprisals against the Heroes that 
 are attacking them.
 

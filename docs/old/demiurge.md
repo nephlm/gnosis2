@@ -41,8 +41,8 @@ during setting creation, they are lost.
 
 Once initial world creation is complete, each player's
 demiurge starts the campaign with six Logos.  
-Demiurges may have a maximum of six Logos, if they gain 
-more than six during play it is immediately lost and 
+Demiurges may have a maximum of three Logos, if they gain 
+more than three during play it is immediately lost and 
 can't be spent.
 
 Players

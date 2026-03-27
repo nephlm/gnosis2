@@ -1,6 +1,7 @@
 # Appendix
 
 * [](dice.md)
+* [](gm.md)
 
 ```{toctree}
 :maxdepth: 3
