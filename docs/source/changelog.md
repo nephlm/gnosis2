@@ -4,6 +4,7 @@
 
 * Added From The Ashes Campaign
 * Added a section about Quests needing to be TASCy
+* Added an Edge blueprint for converting dice into +1s. 
 * Fixed Favor and Logos caps and recovery rates.
 * Minor proofreading changes.
 

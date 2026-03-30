@@ -110,6 +110,7 @@ Hero may spend a Favor and ignore the effect of Wounds or Trauma
 scene.  At the end of the scene the Hero receives an additional 
 Wound or Trauma (chosen when the Edge is purchased) that can't be 
 recovered by [First Aid](../play/consequences.md#first-aid).
+* When using a specific boon, a Hero may spend a favor and sacrifice one or more dice provided by that boon.  Each die sacrificed adds +1 to the pool total up to the maximum the pool die can roll. 
 
 
 ```{image} /_static/edge_resources.jpg

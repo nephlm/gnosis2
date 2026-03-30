@@ -3,8 +3,10 @@
 High Concept:     *Superheroes fighting for the future of humanity in the ashes of an alien invasion*  
 Trouble:     *Aliens and Survival*
 
-Source Book: 
+* Source Book: 
 <a href="/_static/html/ash.html" target="_blank" rel="noopener noreferrer">From The Ashes</a>
+
+* [](sample.md)
 
 ---
 
@@ -96,11 +98,11 @@ Free Edges:
 
 * Focused Power
   * Color: The character can reach deep and tap the Changed power deep within them and unleash it with force normally beyond their reach.
-  * Rules: The character may pay a favor, and one boon related to their changed nature provides double the level of advantage then it normally does.
+  * Rules: The character may pay a favor, and one boon related to their changed nature provides double the level of advantage that it normally does *(e.g. a tier 2 power would provide 4 levels of advantage.)*.
   * Note: This is broader than most edges are allowed to be. 
 * Beyond Human
   * Color: The character's changed nature makes them no longer bound by human limits.
-  * Rules: The character may spend a favor and may convert any dice they have not yet rolled into +1 values.  
+  * Rules: The character may spend a favor and may convert any dice they have not yet rolled into +1 values up to the maximum the pool could roll.  
     * Special: If another favor has been spent on this roll, Beyond Human can be activated for free.
 
 ```{image} /_static/reserves.jpg
