@@ -145,3 +145,10 @@ If two Heroes wish to [work together](../tools/modifiers.md#working-together), u
 That still applies, but in the case where the character doesn't have a boon that is better, but does have an equal tier boon, they may lend that boon and it will add one additional level of advantage on top of whichever boon is being used for that pool.  
 
 Each pool may only benefit once in ths way, and the synergy between the boon lent and the rest of the [](../play/challenge.md#strategy) may be subject to closer scrutiny. 
+
+```{toctree}
+:maxdepth: 3
+:hidden: 
+:caption: Contents:
+sample.md
+```
