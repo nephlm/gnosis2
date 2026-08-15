@@ -146,6 +146,81 @@ That still applies, but in the case where the character doesn't have a boon that
 
 Each pool may only benefit once in ths way, and the synergy between the boon lent and the rest of the [](../play/challenge.md#strategy) may be subject to closer scrutiny. 
 
+---
+
+::::{grid} 2
+:gutter: 2
+
+:::{grid-item}
+
+
+Doc Blue (CORE2 team leader and healer)
+
+```{image} /_static/ashes/doc_blue.jpg
+:width: 200px
+:align: left
+```
+
+:::
+
+:::{grid-item}
+
+Des (CORE2 team member; solid darkness/gateways)
+
+```{image} /_static/ashes/des.jpg
+:width: 200px
+:align: left
+```
+
+
+:::
+
+:::{grid-item}
+
+Randy (Terrakinetic construction worker)
+
+```{image} /_static/ashes/randy.jpg
+:width: 200px
+:align: left
+```
+
+:::
+
+:::{grid-item}
+
+
+Luke (Material Molding Instrument Maker)
+
+```{image} /_static/ashes/luke.jpg
+:width: 200px
+:align: left
+```
+
+:::
+::::
+
+```{image} /_static/ashes/sephie.jpg
+:width: 1px
+```
+
+```{image} /_static/ashes/bug.jpg
+:width: 1px
+```
+
+```{image} /_static/ashes/cori.jpg
+:width: 1px
+```
+
+```{image} /_static/ashes/elle2.jpg
+:width: 1px
+```
+
+```{image} /_static/ashes/gina.jpg
+:width: 1px
+```
+
+
+
 ```{toctree}
 :maxdepth: 3
 :hidden: 
