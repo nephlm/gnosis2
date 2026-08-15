@@ -15,7 +15,11 @@ release = "2.1.1b0"
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ["myst_parser", "sphinx_inline_tabs", "sphinx_design"]
+extensions = [
+    "myst_parser",
+    "sphinx_inline_tabs",
+    "sphinx_design",
+]
 
 templates_path = ["_templates"]
 exclude_patterns = []

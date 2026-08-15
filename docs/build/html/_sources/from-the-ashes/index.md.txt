@@ -148,6 +148,10 @@ Each pool may only benefit once in ths way, and the synergy between the boon len
 
 ---
 
+## NPC Images
+
+
+More NPC, world and session details in the <a href="/_static/html/ash.html#Characters" target="_blank" rel="noopener noreferrer">Player Source Book</a>.
 ::::{grid} 2
 :gutter: 2
 
@@ -212,6 +216,7 @@ Luke (Material Molding Instrument Maker)
 
 :::
 ::::
+
 
 
 
