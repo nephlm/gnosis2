@@ -165,6 +165,20 @@ Doc Blue (CORE2 team leader and healer)
 
 :::{grid-item}
 
+Mya (13 year old animal kin and way to the Enchanted Forest)
+
+```{image} /_static/ashes/Mya1.jpg
+:width: 200px
+:align: left
+```
+
+
+:::
+
+
+
+:::{grid-item}
+
 Des (CORE2 team member; solid darkness/gateways)
 
 ```{image} /_static/ashes/des.jpg
@@ -199,25 +213,7 @@ Luke (Material Molding Instrument Maker)
 :::
 ::::
 
-```{image} /_static/ashes/sephie.jpg
-:width: 1px
-```
 
-```{image} /_static/ashes/bug.jpg
-:width: 1px
-```
-
-```{image} /_static/ashes/cori.jpg
-:width: 1px
-```
-
-```{image} /_static/ashes/elle2.jpg
-:width: 1px
-```
-
-```{image} /_static/ashes/gina.jpg
-:width: 1px
-```
 
 
 
