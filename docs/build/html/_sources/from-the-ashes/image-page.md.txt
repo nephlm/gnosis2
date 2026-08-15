@@ -19,5 +19,5 @@ orphan: true
 ```{image} /_static/ashes/gina.jpg
 ```
 
-```{image} /_static/ashes/merideth.jpg
+```{image} /_static/ashes/merideth2.jpg
 ```
