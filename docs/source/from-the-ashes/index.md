@@ -152,6 +152,11 @@ Each pool may only benefit once in ths way, and the synergy between the boon len
 
 
 More NPC, world and session details in the <a href="/_static/html/ash.html#Characters" target="_blank" rel="noopener noreferrer">Player Source Book</a>.
+
+### CORE2
+
+<a href="/_static/html/ash.html#CORE2" target="_blank" rel="noopener noreferrer">CORE2</a> members (plus Mya).
+
 ::::{grid} 2
 :gutter: 2
 
@@ -185,21 +190,96 @@ Mya (13 year old animal kin and way to the Enchanted Forest)
 
 Des (CORE2 team member; solid darkness/gateways)
 
-```{image} /_static/ashes/des.jpg
+```{image} /_static/ashes/des2.jpg
 :width: 200px
 :align: left
 ```
+:::
 
+:::{grid-item}
+
+Sephie (CORE2 team member; Water maker)
+
+```{image} /_static/ashes/sephie2.jpg
+:width: 200px
+```
+:::
+
+:::{grid-item}
+
+Rachel (CORE2 team member; Water maker)
+
+```{image} /_static/ashes/rachel.jpg
+:width: 200px
+```
+:::
+
+:::{grid-item}
+
+David Exeter (CORE2 team member; Generator)
+
+```{image} /_static/ashes/david.jpg
+:width: 200px
+```
+:::
+
+
+::::
+
+### Survivors
+
+Changed <a href="/_static/html/ash.html#Survivors" target="_blank" rel="noopener noreferrer">survivors</a> of the Forest Glen metro.
+
+
+::::{grid} 2
+:gutter: 2
+
+:::{grid-item}
+
+Corienne Villa (Material purification)
+
+```{image} /_static/ashes/cori.jpg
+:width: 200px
+```
 
 :::
 
 :::{grid-item}
 
-Randy (Terrakinetic construction worker)
+Elle (Underwater operations)
 
-```{image} /_static/ashes/randy.jpg
+```{image} /_static/ashes/elle2.jpg
 :width: 200px
-:align: left
+```
+
+:::
+
+:::{grid-item}
+
+Gina Croft (Light Creation)
+
+```{image} /_static/ashes/gina.jpg
+:width: 200px
+```
+
+:::
+
+:::{grid-item}
+
+Heidi Barret-White (Can create cloth from nearly any solid)
+
+```{image} /_static/ashes/heidi.jpg
+:width: 200px
+```
+
+:::
+
+:::{grid-item}
+
+Kevin O'Connel (360 degree "X-Ray" vision.)
+
+```{image} /_static/ashes/kevin.jpg
+:width: 200px
 ```
 
 :::
@@ -207,7 +287,7 @@ Randy (Terrakinetic construction worker)
 :::{grid-item}
 
 
-Luke (Material Molding Instrument Maker)
+Luke Mendoza (Material Molding Instrument Maker)
 
 ```{image} /_static/ashes/luke.jpg
 :width: 200px
@@ -215,10 +295,72 @@ Luke (Material Molding Instrument Maker)
 ```
 
 :::
+
+
+
+:::{grid-item}
+
+Neil Corbould (Speed reading and perfect recall)
+
+```{image} /_static/ashes/neil.jpg
+:width: 200px
+:align: left
+```
+
+:::
+
+
+
+:::{grid-item}
+
+Randy Torres (Terrakinetic construction worker)
+
+```{image} /_static/ashes/randy.jpg
+:width: 200px
+```
+
+:::
+
+:::{grid-item}
+
+Zachery Schiff (Fungi genetic engineering)
+
+```{image} /_static/ashes/zachery.jpg
+:width: 200px
+```
+
+:::
+
 ::::
 
 
+### Others
 
+Others that don't have their own category yet. 
+
+::::{grid} 2
+:gutter: 2
+
+:::{grid-item}
+
+Merideth Mordue 
+
+```{image} /_static/ashes/merideth2.jpg
+:width: 200px
+```
+:::
+
+:::{grid-item}
+
+Bug Thing (1-2 inches)
+
+```{image} /_static/ashes/bug.jpg
+:width: 200px
+```
+
+
+:::
+::::
 
 
 
