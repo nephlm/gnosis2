@@ -12,6 +12,7 @@ orphan: true
 
 ```{image} /_static/ashes/sastha2.jpg
 ```
+
 ```{image} /_static/ashes/sastha3.jpg
 ```
 
