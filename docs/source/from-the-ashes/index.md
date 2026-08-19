@@ -148,6 +148,66 @@ Each pool may only benefit once in ths way, and the synergy between the boon len
 
 ---
 
+## Player Images
+
+::::{grid} 2
+:gutter: 2
+
+:::{grid-item}
+Josia (Jim)
+
+```{image} /_static/ashes/no_image.jpg
+:width: 200px
+```
+:::
+
+:::{grid-item}
+Lavina (Heath)
+
+```{image} /_static/ashes/levina1.jpg
+:width: 200px
+```
+:::
+
+:::{grid-item}
+Morgan (Johnathan)
+
+```{image} /_static/ashes/no_image.jpg
+:width: 200px
+```
+:::
+
+:::{grid-item}
+
+
+Sastha (Chris)
+
+```{image} /_static/ashes/sastha1.jpg
+:width: 200px
+```
+:::
+
+
+:::{grid-item}
+Sequ (Charles)
+
+```{image} /_static/ashes/sequ.jpg
+:width: 200px
+```
+:::
+
+:::{grid-item}
+Skye (Jess)
+
+```{image} /_static/ashes/no_image.jpg
+:width: 200px
+```
+:::
+
+
+
+::::
+
 ## NPC Images
 
 
