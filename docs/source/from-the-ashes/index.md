@@ -258,7 +258,7 @@ Des (CORE2 team member; solid darkness/gateways)
 
 :::{grid-item}
 
-Sephie (CORE2 team member; Water maker)
+Sephie (CORE2 team member; Darkness and plant growth)
 
 ```{image} /_static/ashes/sephie2.jpg
 :width: 200px
@@ -409,6 +409,17 @@ Merideth Mordue
 :width: 200px
 ```
 :::
+
+
+:::{grid-item}
+
+Charity Soule (Skye's aunt)
+
+```{image} /_static/ashes/charity.jpg
+:width: 200px
+```
+:::
+
 
 :::{grid-item}
 
